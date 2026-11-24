@@ -1,5 +1,5 @@
 /* Service Worker — Offline-First App Shell + Stale-While-Revalidate Data */
-const CACHE_NAME = 'voyageos-cache-v1';
+const CACHE_NAME = 'voyageos-cache-v2';
 const CORE_ASSETS = [
   './',
   './index.html',

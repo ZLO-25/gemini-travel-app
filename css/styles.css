@@ -734,18 +734,32 @@ h3 { font-size: 1rem; margin: 0 0 8px; font-weight: 700; }
 }
 .voyage-pin-label {
   position: absolute;
-  left: calc(100% + 5px);
+  left: calc(100% + 6px);
   top: 50%;
   transform: translateY(-50%);
   white-space: nowrap;
-  background: rgba(15, 23, 42, 0.86);
+  background: rgba(15, 23, 42, 0.88);
   color: #f8fafc;
   font-size: 11px;
   font-weight: 600;
   padding: 2px 7px;
   border-radius: 6px;
   pointer-events: none;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.28);
+  transition: opacity 0.15s ease;
+}
+.voyage-pin-wrap.hover-label .voyage-pin-label {
+  opacity: 0;
+}
+.voyage-pin-wrap.hover-label:hover .voyage-pin-label,
+.map-zoomed-in .voyage-pin-wrap.hover-label .voyage-pin-label {
+  opacity: 1;
+}
+.leaflet-control-layers {
+  border-radius: 10px !important;
+  border: 1px solid rgba(15, 23, 42, 0.15) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.18) !important;
+  font-size: 12px !important;
 }
 
 .map-floating-pill {

@@ -1,19 +1,21 @@
 /**
- * Universal Interactive Map + Day Route + Integrated 2-Point Distance/Drive-Time Engine
- * Works for ANY trip with geo-coordinates (Leaflet + Carto Voyager tiles + Offline SVG Vector Fallback)
+ * Universal Interactive Map + Day Route + 2-Point Measure + Step-by-Step Rehearsal Flyover Engine
+ * Supports mounting in Map Studio, Desktop Split-Screen Itinerary, and Rehearsal Player!
  */
 (function (global) {
   'use strict';
 
   var leafletPromise = null;
   var mapInstance = null;
+  var currentHostId = null;
   var markersLayer = null;
   var routesLayer = null;
 
   var uiState = {
-    mode: 'itinerary', // 'itinerary' | 'measure'
+    mode: 'itinerary', // 'itinerary' | 'measure' | 'rehearse'
     dayFilter: 'all',  // 'all' or day.id
     selectedPlaceId: null,
+    rehearsePrevPlaceId: null,
     measureFrom: null,
     measureTo: null,
     clickStep: 0       // 0 -> set From, 1 -> set To
@@ -56,6 +58,7 @@
     if (mapInstance) {
       try { mapInstance.remove(); } catch (e) {}
       mapInstance = null;
+      currentHostId = null;
       markersLayer = null;
       routesLayer = null;
     }
@@ -81,10 +84,6 @@
     return 2 * R * Math.asin(Math.sqrt(h));
   }
 
-  /**
-   * Compute realistic distance & travel time between any two places in ANY trip!
-   * Checks trip.routeSegments first, then falls back to Haversine road estimation.
-   */
   function calcBetween(trip, fromId, toId) {
     var a = placeById(trip, fromId);
     var b = placeById(trip, toId);
@@ -111,7 +110,6 @@
       };
     }
 
-    // Check if either endpoint is an offshore island requiring ferry
     var regA = String(a.region || '');
     var regB = String(b.region || '');
     var isIslandCross = (regA.indexOf('離島') >= 0) !== (regB.indexOf('離島') >= 0);
@@ -148,7 +146,7 @@
       mode: hasExpressway ? '建議走高速公路' : '一般道路 / 叫車',
       note: roadKm > 30
         ? '長距離跨區移動，尖峰時段建議多預留 15–20 分鐘緩衝。'
-        : '距離適中，可直接點擊下方「Google 路線導航」查看即時路況。',
+        : '距離適中，可直接點擊「Google 路線導航」查看即時路況。',
       a: a,
       b: b
     };
@@ -212,9 +210,6 @@
     return '#0ea5e9';
   }
 
-  /**
-   * Render Offline Vector SVG Fallback when airplane mode / Leaflet CDN unavailable
-   */
   function renderOfflineVectorFallback(container, trip, onPinTap) {
     var geos = geoPlacesOf(trip);
     if (!geos.length) {
@@ -252,6 +247,19 @@
             '<text x="0" y="3" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="700">' + info.km + 'km · ' + fmtMins(info.expMin) + '</text></g>';
         }
       }
+    } else if (uiState.mode === 'rehearse' && uiState.rehearsePrevPlaceId && uiState.selectedPlaceId && uiState.rehearsePrevPlaceId !== uiState.selectedPlaceId) {
+      var ra = placeById(trip, uiState.rehearsePrevPlaceId);
+      var rb = placeById(trip, uiState.selectedPlaceId);
+      if (ra && rb) {
+        var rca = proj(ra), rcb = proj(rb);
+        var rInfo = calcBetween(trip, ra.id, rb.id);
+        linesSvg += '<line x1="' + rca.x + '" y1="' + rca.y + '" x2="' + rcb.x + '" y2="' + rcb.y + '" stroke="#10b981" stroke-width="4" stroke-dasharray="8 5" />';
+        if (rInfo) {
+          var rmx = (rca.x + rcb.x) / 2, rmy = (rca.y + rcb.y) / 2;
+          linesSvg += '<g transform="translate(' + rmx + ',' + rmy + ')"><rect x="-70" y="-13" width="140" height="24" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>' +
+            '<text x="0" y="3" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="700">' + rInfo.km + 'km · ' + fmtMins(rInfo.expMin) + '</text></g>';
+        }
+      }
     } else if (dayStops.length >= 2) {
       for (var i = 0; i < dayStops.length - 1; i++) {
         var s1 = proj(placeById(trip, dayStops[i]));
@@ -264,11 +272,12 @@
       var pt = proj(p);
       var isFrom = uiState.mode === 'measure' && uiState.measureFrom === p.id;
       var isTo = uiState.mode === 'measure' && uiState.measureTo === p.id;
+      var isCur = uiState.selectedPlaceId === p.id;
       var dayIdx = dayStops.indexOf(p.id);
-      var dim = (uiState.mode === 'itinerary' && uiState.dayFilter !== 'all' && dayIdx < 0);
-      var fill = isFrom ? '#10b981' : (isTo ? '#f43f5e' : (dayIdx >= 0 ? '#0ea5e9' : categoryColor(p.category)));
-      var r = (isFrom || isTo || dayIdx >= 0 || uiState.selectedPlaceId === p.id) ? 11 : 7.5;
-      var txt = isFrom ? '起' : (isTo ? '終' : (dayIdx >= 0 ? String(dayIdx + 1) : ''));
+      var dim = (uiState.mode === 'itinerary' && uiState.dayFilter !== 'all' && dayIdx < 0 && !isCur);
+      var fill = isFrom ? '#10b981' : (isTo ? '#f43f5e' : (isCur ? '#f59e0b' : (dayIdx >= 0 ? '#0ea5e9' : categoryColor(p.category))));
+      var r = (isFrom || isTo || isCur || dayIdx >= 0) ? 11 : 7.5;
+      var txt = isFrom ? '起' : (isTo ? '終' : (dayIdx >= 0 ? String(dayIdx + 1) : (isCur ? '★' : '')));
       var shortName = String(p.name || '').split('（')[0].split('・')[0].slice(0, 10);
       return '<g transform="translate(' + pt.x + ',' + pt.y + ')" opacity="' + (dim ? '0.28' : '1') + '" style="cursor:pointer" data-svg-pin="' + p.id + '">' +
         '<circle cx="0" cy="0" r="' + r + '" fill="' + fill + '" stroke="#ffffff" stroke-width="2"/>' +
@@ -281,14 +290,16 @@
       '<div class="offline-map-banner">✈️ 離線座標地圖模式（連網後自動載入街道地圖）</div>' +
       '<svg viewBox="0 0 ' + W + ' ' + H + '" class="offline-svg-map">' + linesSvg + pinsSvg + '</svg>';
 
-    container.querySelectorAll('[data-svg-pin]').forEach(function (g) {
-      g.addEventListener('click', function () {
-        onPinTap(g.getAttribute('data-svg-pin'));
+    if (onPinTap) {
+      container.querySelectorAll('[data-svg-pin]').forEach(function (g) {
+        g.addEventListener('click', function () {
+          onPinTap(g.getAttribute('data-svg-pin'));
+        });
       });
-    });
+    }
   }
 
-  function paintLeafletOverlays(trip, onPinTap, autoFit) {
+  function paintLeafletOverlays(trip, onPinTap, autoFit, flyRehearse) {
     if (!mapInstance || !global.L) return;
     var L = global.L;
     if (markersLayer) markersLayer.clearLayers();
@@ -313,7 +324,7 @@
         L.polyline([llA, llB], {
           color: '#0ea5e9',
           weight: 5,
-          opacity: 0.9,
+          opacity: 0.92,
           dashArray: '10 7'
         }).addTo(routesLayer);
 
@@ -324,13 +335,43 @@
           var badgeIcon = L.divIcon({
             className: 'map-floating-pill-wrap',
             html: '<div class="map-floating-pill">' + (info.isFerry ? '⛴️ ' : '🚗 ') + info.km + ' km · ' + fmtMins(info.expMin) + '</div>',
-            iconSize: [150, 28],
-            iconAnchor: [75, 14]
+            iconSize: [154, 28],
+            iconAnchor: [77, 14]
           });
           L.marker([midLat, midLng], { icon: badgeIcon, interactive: false }).addTo(routesLayer);
         }
       } else if (a) {
         focusBounds.push([Number(a.lat), Number(a.lng)]);
+      }
+    } else if (uiState.mode === 'rehearse') {
+      // Draw faint day route + bright active leg!
+      if (dayStops.length >= 2) {
+        var dPts = dayStops.map(function (id) {
+          var p = placeById(trip, id);
+          return [Number(p.lat), Number(p.lng)];
+        });
+        L.polyline(dPts, { color: '#64748b', weight: 3, opacity: 0.45, dashArray: '5 5' }).addTo(routesLayer);
+      }
+      var prevP = uiState.rehearsePrevPlaceId ? placeById(trip, uiState.rehearsePrevPlaceId) : null;
+      var curP = uiState.selectedPlaceId ? placeById(trip, uiState.selectedPlaceId) : null;
+      if (prevP && curP && prevP.id !== curP.id) {
+        var rA = [Number(prevP.lat), Number(prevP.lng)];
+        var rB = [Number(curP.lat), Number(curP.lng)];
+        focusBounds.push(rA, rB);
+        L.polyline([rA, rB], { color: '#10b981', weight: 5, opacity: 0.95, dashArray: '10 6' }).addTo(routesLayer);
+        var legInfo = calcBetween(trip, prevP.id, curP.id);
+        if (legInfo) {
+          var mLat = (rA[0] + rB[0]) / 2, mLng = (rA[1] + rB[1]) / 2;
+          var rBadge = L.divIcon({
+            className: 'map-floating-pill-wrap',
+            html: '<div class="map-floating-pill" style="border-color:#10b981">' + (legInfo.isFerry ? '⛴️ ' : '🚗 ') + legInfo.km + ' km · ' + fmtMins(legInfo.expMin) + '</div>',
+            iconSize: [154, 28],
+            iconAnchor: [77, 14]
+          });
+          L.marker([mLat, mLng], { icon: rBadge, interactive: false }).addTo(routesLayer);
+        }
+      } else if (curP) {
+        focusBounds.push([Number(curP.lat), Number(curP.lng)]);
       }
     } else if (uiState.dayFilter !== 'all' && dayStops.length) {
       var dayLatLngs = dayStops.map(function (id) {
@@ -359,9 +400,10 @@
     geos.forEach(function (p) {
       var isFrom = uiState.mode === 'measure' && uiState.measureFrom === p.id;
       var isTo = uiState.mode === 'measure' && uiState.measureTo === p.id;
-      var dayIdx = uiState.mode === 'itinerary' ? dayStops.indexOf(p.id) : -1;
+      var isRehearsePrev = uiState.mode === 'rehearse' && uiState.rehearsePrevPlaceId === p.id && uiState.selectedPlaceId !== p.id;
+      var dayIdx = (uiState.mode === 'itinerary' || uiState.mode === 'rehearse') ? dayStops.indexOf(p.id) : -1;
       var isSelected = uiState.selectedPlaceId === p.id;
-      var isDim = (uiState.mode === 'itinerary' && uiState.dayFilter !== 'all' && dayIdx < 0 && !isSelected);
+      var isDim = ((uiState.mode === 'itinerary' || uiState.mode === 'rehearse') && uiState.dayFilter !== 'all' && dayIdx < 0 && !isSelected && !isRehearsePrev);
 
       var bg = categoryColor(p.category);
       var label = '';
@@ -372,15 +414,21 @@
         bg = '#10b981'; label = '起'; size = 34; extraCls = ' is-endpoint';
       } else if (isTo) {
         bg = '#f43f5e'; label = '終'; size = 34; extraCls = ' is-endpoint';
+      } else if (uiState.mode === 'rehearse' && isSelected) {
+        bg = '#f59e0b'; label = dayIdx >= 0 ? String(dayIdx + 1) : '★'; size = 36; extraCls = ' is-endpoint';
+      } else if (isRehearsePrev) {
+        bg = '#10b981'; label = '前'; size = 28;
       } else if (dayIdx >= 0) {
-        bg = '#0ea5e9'; label = String(dayIdx + 1); size = 30; extraCls = ' is-daystop';
+        bg = isSelected ? '#f59e0b' : '#0ea5e9'; label = String(dayIdx + 1); size = isSelected ? 34 : 30; extraCls = isSelected ? ' is-endpoint' : ' is-daystop';
       } else if (isSelected) {
-        size = 32; extraCls = ' is-selected';
+        bg = '#f59e0b'; size = 34; label = '★'; extraCls = ' is-endpoint';
       }
 
+      var isHighlighted = isFrom || isTo || isSelected || dayIdx >= 0;
+      var showStaticLabel = isHighlighted || geos.length <= 8;
       var shortTitle = String(p.name || '').split('（')[0].split('・')[0];
       var icon = L.divIcon({
-        className: 'voyage-pin-wrap' + (isDim ? ' is-dim' : ''),
+        className: 'voyage-pin-wrap' + (isDim ? ' is-dim' : '') + (showStaticLabel ? ' show-label' : ' hover-label'),
         html: '<div class="voyage-pin' + extraCls + '" style="background:' + bg + ';width:' + size + 'px;height:' + size + 'px">' +
               (label || '•') + '</div>' +
               (!isDim ? '<span class="voyage-pin-label">' + shortTitle + '</span>' : ''),
@@ -390,15 +438,21 @@
 
       var m = L.marker([Number(p.lat), Number(p.lng)], {
         icon: icon,
-        zIndexOffset: (isFrom || isTo) ? 1000 : (isSelected || dayIdx >= 0 ? 600 : 0)
+        zIndexOffset: (isFrom || isTo || isSelected) ? 1000 : (dayIdx >= 0 ? 600 : 0)
       }).addTo(markersLayer);
 
-      m.on('click', function () {
-        onPinTap(p.id);
-      });
+      if (onPinTap) {
+        m.on('click', function () { onPinTap(p.id); });
+      }
     });
 
-    if (autoFit) {
+    if (flyRehearse && focusBounds.length) {
+      if (focusBounds.length === 1) {
+        mapInstance.flyTo(focusBounds[0], 13, { duration: 0.85 });
+      } else {
+        mapInstance.flyToBounds(L.latLngBounds(focusBounds).pad(0.28), { duration: 0.9, maxZoom: 13 });
+      }
+    } else if (autoFit) {
       var targetPts = focusBounds.length ? focusBounds : geos.map(function (p) { return [Number(p.lat), Number(p.lng)]; });
       if (targetPts.length === 1) {
         mapInstance.setView(targetPts[0], 13, { animate: true });
@@ -416,7 +470,7 @@
 
     var geos = geoPlacesOf(trip);
     if (!geos.length) {
-      destroyMap();
+      if (currentHostId === containerId) destroyMap();
       el.innerHTML = '<div class="empty-box">尚未設定具有座標的地點，新增地點時填入經緯度即可啟用互動地圖與兩點測距！</div>';
       return;
     }
@@ -424,22 +478,44 @@
     loadLeaflet().then(function (L) {
       var host = document.getElementById(containerId);
       if (!host) return;
-      if (!mapInstance || mapInstance.getContainer() !== host) {
+      if (!mapInstance || currentHostId !== containerId || mapInstance.getContainer() !== host) {
         destroyMap();
         host.innerHTML = '';
+        currentHostId = containerId;
         mapInstance = L.map(host, {
           zoomControl: true,
           scrollWheelZoom: true
         });
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        var osmLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
           maxZoom: 19,
-          subdomains: 'abcd',
-          attribution: '&copy; OpenStreetMap &copy; CARTO'
-        }).addTo(mapInstance);
-        paintLeafletOverlays(trip, onPinTap, true);
-        setTimeout(function () { try { mapInstance.invalidateSize(); } catch (e) {} }, 100);
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        });
+        var esriStreetLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+          maxZoom: 19,
+          attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap'
+        });
+        var esriSatLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+          maxZoom: 19,
+          attribution: 'Tiles &copy; Esri'
+        });
+        osmLayer.addTo(mapInstance);
+        L.control.layers({
+          '🗺️ 標準街道 (OSM)': osmLayer,
+          '🌿 清爽地圖 (Esri)': esriStreetLayer,
+          '🛰️ 衛星空拍 (Esri)': esriSatLayer
+        }, null, { position: 'topright' }).addTo(mapInstance);
+
+        var syncZoomCls = function () {
+          if (!mapInstance) return;
+          host.classList.toggle('map-zoomed-in', mapInstance.getZoom() >= 12);
+        };
+        mapInstance.on('zoomend', syncZoomCls);
+        paintLeafletOverlays(trip, onPinTap, true, false);
+        syncZoomCls();
+        setTimeout(function () { try { mapInstance.invalidateSize(); syncZoomCls(); } catch (e) {} }, 120);
       } else {
-        paintLeafletOverlays(trip, onPinTap, !!opts.autoFit);
+        try { mapInstance.invalidateSize(); } catch (e) {}
+        paintLeafletOverlays(trip, onPinTap, !!opts.autoFit, !!opts.flyRehearse);
       }
     }).catch(function () {
       destroyMap();
@@ -451,7 +527,7 @@
     uiState.selectedPlaceId = placeId;
     var p = placeById(trip, placeId);
     if (mapInstance && p && p.lat != null && p.lng != null) {
-      mapInstance.setView([Number(p.lat), Number(p.lng)], Math.max(mapInstance.getZoom(), 13), { animate: true });
+      mapInstance.flyTo([Number(p.lat), Number(p.lng)], Math.max(mapInstance.getZoom(), 13), { duration: 0.65 });
     }
   }
 
