@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "defaultTripId": "trip_okinawa_2027",
+  "updatedAt": "2026-11-24T23:30:00+08:00",
+  "trips": [
+    {
+      "id": "trip_okinawa_2027",
+      "file": "data/trips/trip_okinawa_2027.json",
+      "title": "2027 4/2-4/10 沖繩情侶自駕",
+      "destination": "日本 · 沖繩本島＋慶良間諸島",
+      "coverEmoji": "🌺",
+      "startDate": "2027-04-02",
+      "endDate": "2027-04-10"
+    },
+    {
+      "id": "trip_danang_2026",
+      "file": "data/trips/trip_danang_2026.json",
+      "title": "2026 11/5-11/10 峴港",
+      "destination": "越南 · 峴港（Da Nang）",
+      "coverEmoji": "🇻🇳",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-10"
+    }
+  ]
+}

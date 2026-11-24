@@ -1,0 +1,30 @@
+{
+  "name": "VoyageOS · 通用旅遊助手",
+  "short_name": "旅遊助手",
+  "description": "多行程通用旅遊 PWA：互動地圖測距、行程拖曳、旅伴分帳、待辦打包與 AI 行程匯入，支援離線使用",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

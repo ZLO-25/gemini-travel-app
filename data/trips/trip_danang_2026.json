@@ -1,0 +1,3834 @@
+{
+  "id": "trip_danang_2026",
+  "title": "2026 11/5-11/10 峴港",
+  "destination": "越南 · 峴港（Da Nang）",
+  "startDate": "2026-11-05",
+  "endDate": "2026-11-10",
+  "goals": [
+    "會安訂做樂福鞋：11/6 已下單付清，11/8 14:00 飯店試鞋",
+    "✅ Vibram 五指鞋：11/6 試穿，決定不買",
+    "✅ 五行山地獄洞：11/7 已去",
+    "✅ 帝王洗頭：11/6 已去（實付 700,000₫）",
+    "✅ 除疤膏：11/6 買 Dermatix Ultra 15g，310,000₫",
+    "好好放鬆（按摩、除黑頭、吃好吃的）",
+    "❌ 識別證皮套：鞋店不做，回台找 Pinkoi"
+  ],
+  "deadlines": [
+    {
+      "id": "dl_lounge_khh",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "label": "小港貴賓室預約截止",
+      "date": "2026-10-28",
+      "note": "滙豐 LoungeKey；已完成"
+    },
+    {
+      "id": "dl_hotel_free_cancel",
+      "updatedAt": "2026-10-31T12:05:00+08:00",
+      "userEdited": false,
+      "label": "Royal Lotus 免費取消截止（已過）",
+      "date": "2026-10-30",
+      "note": "越南時間 10/30 23:59 已過，訂房維持不變"
+    },
+    {
+      "id": "dl_return_transfer",
+      "updatedAt": "2026-10-29T11:50:00+08:00",
+      "userEdited": false,
+      "label": "回程接送預約（已完成）",
+      "date": "2026-11-02",
+      "note": "已訂 D3953684（全鋒）"
+    },
+    {
+      "id": "dl_dad_lounge",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "label": "峴港貴賓室預約截止",
+      "date": "2026-11-02",
+      "note": "已有 LoungeKey QR，確認據點即可"
+    },
+    {
+      "id": "dl_checkin",
+      "updatedAt": "2026-11-04T08:45:00+08:00",
+      "userEdited": false,
+      "label": "去程報到（小港櫃台）",
+      "date": "2026-11-05",
+      "note": "14:50 前到小港；Trip.com 查不到線上報到"
+    },
+    {
+      "id": "dl_depart",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "label": "出發日",
+      "date": "2026-11-05",
+      "note": "IT585 高雄 17:20"
+    },
+    {
+      "id": "dl_return",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "label": "回程日",
+      "date": "2026-11-10",
+      "note": "IT552 約 23:15 抵桃園"
+    },
+    {
+      "id": "dl_prearrival",
+      "updatedAt": "2026-11-04T08:45:00+08:00",
+      "userEdited": false,
+      "label": "越南線上入境申報（已完成）",
+      "date": "2026-11-04",
+      "note": "11/3 提交成功，GIUU4TXX"
+    }
+  ],
+  "todoGroups": [
+    {
+      "id": "tg_now",
+      "name": "還要做",
+      "updatedAt": "2026-11-04T08:45:00+08:00",
+      "items": [
+        {
+          "id": "td_esim_setup",
+          "updatedAt": "2026-11-07T22:00:34+07:00",
+          "userEdited": true,
+          "text": "eSIM：出發前確認已安裝（落地後切行動數據）",
+          "done": true,
+          "due": "11/5 前",
+          "note": "KKday Vinaphone，訂單 26KK259044234；台灣先安裝顯示「啟動失敗」正常、不要刪除",
+          "priority": "high"
+        },
+        {
+          "id": "td_baggage",
+          "updatedAt": "2026-11-11T11:30:00+07:00",
+          "userEdited": true,
+          "text": "回程託運 15kg：最後沒有加購（11/11 確認）",
+          "done": true,
+          "due": "起飛前 4 小時",
+          "note": "花費已刪除預期 NT$1,000",
+          "priority": "high"
+        },
+        {
+          "id": "td_print_visa",
+          "updatedAt": "2026-11-07T22:00:34+07:00",
+          "userEdited": true,
+          "text": "印 e-Visa 紙本＋手機存檔；入境申報、貴賓室 QR 截圖存相簿",
+          "done": true,
+          "due": "11/4",
+          "note": "",
+          "priority": "high",
+          "pinMig": "p1102"
+        },
+        {
+          "id": "td_meds",
+          "updatedAt": "2026-11-08T00:20:00+07:00",
+          "userEdited": false,
+          "text": "常備藥（腸胃／止痛／感冒＋OK繃）",
+          "done": true,
+          "due": "11/4",
+          "note": "出發前項目，已不適用",
+          "priority": "high",
+          "pinMig": "p1102"
+        },
+        {
+          "id": "td_checkin",
+          "updatedAt": "2026-11-07T22:00:34+07:00",
+          "userEdited": true,
+          "text": "去程 IT585 報到：預設小港櫃台",
+          "done": true,
+          "due": "11/5 14:50 前",
+          "note": "11/4 確認 Trip.com 查不到線上報到；櫃台約起飛前 2.5 小時開～45 分前截止；想自選座位要先付費選位（TWD 299 起）"
+        },
+        {
+          "id": "td_offline_maps",
+          "updatedAt": "2026-11-08T00:20:00+07:00",
+          "userEdited": false,
+          "text": "離線地圖＋飯店地址進 Grab",
+          "done": true,
+          "due": "",
+          "note": "出發前項目，已不適用"
+        },
+        {
+          "id": "td_live_schedule",
+          "updatedAt": "2026-11-08T00:20:00+07:00",
+          "userEdited": false,
+          "text": "查看 BLENDS、Waves 演出表",
+          "done": true,
+          "due": "",
+          "note": "出發前項目，已不適用"
+        },
+        {
+          "id": "td_pack",
+          "updatedAt": "2026-11-07T22:00:34+07:00",
+          "userEdited": true,
+          "text": "打包",
+          "done": true,
+          "due": "",
+          "note": ""
+        },
+        {
+          "id": "td_passport_check",
+          "updatedAt": "2026-11-08T00:20:00+07:00",
+          "userEdited": false,
+          "text": "核對護照資料與訂位一致",
+          "done": true,
+          "due": "",
+          "note": "出發前項目，已不適用"
+        },
+        {
+          "id": "td_weather",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "看颱風／淹水資訊",
+          "done": false,
+          "due": "",
+          "note": "搜尋 Hội An ngập"
+        }
+      ]
+    },
+    {
+      "id": "tg_onsite",
+      "name": "旅途中",
+      "updatedAt": "2026-11-06T07:50:00+07:00",
+      "items": [
+        {
+          "id": "td_hotel_email",
+          "updatedAt": "2026-11-09T21:05:00+07:00",
+          "userEdited": false,
+          "text": "11/10 12:00 退房 → 行李寄放櫃台到 13:45（做臉完回來拿，之後從博物館直接去機場）",
+          "done": false,
+          "due": "11/10 12:00",
+          "note": "",
+          "priority": "high"
+        },
+        {
+          "id": "td_log_expenses",
+          "updatedAt": "2026-11-06T07:50:00+07:00",
+          "userEdited": false,
+          "text": "蒐集／整理花費",
+          "done": false,
+          "due": "每日",
+          "note": "每日把現金、Grab 等沒有信件的花費記進 App；信箱收據由排程每天 10:00（台北）補上",
+          "priority": "normal",
+          "details": {
+            "title": "蒐集／整理花費（每日）",
+            "summary": "旅途中現金、Grab、小額消費常常沒有郵件收據。每天晚上把這些記進 App「花費」；兩個 Gmail 的刷卡／訂單信由排程「峴港旅遊花費每日整理」每天 10:00（台北時間）自動補上 Notion。",
+            "tips": [
+              "優先記：現金餐飲、Grab、門票、按摩小費、市場購物",
+              "已有 Gmail 收據的項目可等 10:00 排程，不必重複手打",
+              "記完可先勾選；隔天再打開繼續記"
+            ]
+          }
+        },
+        {
+          "id": "td_buy_onsite",
+          "updatedAt": "2026-11-07T07:05:00+08:00",
+          "userEdited": false,
+          "text": "買除疤膏✅、五指鞋不買✅、樂福鞋已下單（11/8 試鞋）；識別證皮套改回台",
+          "done": false,
+          "due": "",
+          "note": "",
+          "details": {
+            "title": "除疤膏（Dermatix Ultra／Contractubex）",
+            "summary": "首選 Dermatix Ultra 7g（約 VND 210,000／NT$250）；備案 Contractubex 10g（約 VND 164,500）。Long Châu 65 Nguyễn Văn Thoại（跟 Royal Lotus 同一條路）。",
+            "tips": [
+              "買哪一款：凸起偏硬癢痛 → Dermatix Ultra（矽膠）；新疤深紅/褐 → 兩款可、Contractubex 較便宜；不確定 → Dermatix Ultra 7g",
+              "哪裡買：Long Châu 65 Nguyễn Văn Thoại；連鎖藥局（Long Châu／Pharmacity／An Khang）較可靠；營業約 06:00–23:00（以現場為準）",
+              "驗貨：外盒封膜完整 → 管身鋁箔封口完好 → 盒上越南文標籤或登記號（Contractubex 10g：VN-23121-22）→ 批號效期與管身一致 → 要收據並拍盒子與批號",
+              "使用：傷口完全癒合才能擦；先手臂內側測試；疤痕怕曬白天防曬；Dermatix 至少約 2 個月才見效",
+              "台灣對照：倍舒痕 Dermatix 7g 約 NT$945（momo），越南約 NT$250 划算很多"
+            ],
+            "warnings": [
+              "不要買：會安古城、韓市場、夜市、Grab 代買（仿冒／保存風險）",
+              "痘疤凹洞型兩款效果有限",
+              "店內價格以現場為準"
+            ],
+            "images": [
+              {
+                "src": "assets/details/dermatix-ultra-7g.webp",
+                "alt": "Dermatix Ultra 7g 外盒與軟管",
+                "caption": "Dermatix Ultra 7g（來源：Long Châu 商品圖）"
+              },
+              {
+                "src": "assets/details/contractubex-10g.webp",
+                "alt": "Contractubex 10g 外盒",
+                "caption": "Contractubex 10g（來源：Long Châu 商品圖）"
+              }
+            ],
+            "links": [
+              {
+                "label": "Long Châu 比較文",
+                "url": "https://nhathuoclongchau.com.vn/bai-viet/so-sanh-kem-tri-seo-contractubex-va-dermatix-cai-nao-tot-hon-49098.html"
+              },
+              {
+                "label": "Pharmacity Dermatix Ultra 7g",
+                "url": "https://www.pharmacity.vn/gel-tri-seo-dermatix-ultra-7g.html"
+              },
+              {
+                "label": "Long Châu 店（65 Nguyễn Văn Thoại）",
+                "url": "https://nhathuoclongchau.com.vn/he-thong-cua-hang/65-nguyen-van-thoai-p-an-hai-dong-q-son-tra-tp-da-nang"
+              }
+            ]
+          }
+        },
+        {
+          "id": "td_checkin_back",
+          "updatedAt": "2026-11-10T11:20:00+07:00",
+          "userEdited": false,
+          "text": "回程 IT552：11/8 越南 19:50（台灣 20:50）起試線上報到",
+          "done": false,
+          "due": "11/8",
+          "note": "不行就機場櫃台；11/9 Trip.com 來信：自動報到失敗 → 到機場櫃台辦理"
+        },
+        {
+          "id": "td_lounge_back",
+          "updatedAt": "2026-11-11T11:30:00+07:00",
+          "userEdited": false,
+          "done": true,
+          "due": "11/10",
+          "text": "確認回程貴賓室權益：去程用掉哪張卡／哪張 LoungeKey QR",
+          "note": "11/11 確認：Vanda 用滙豐、CIP Orchid 用 U.First；去程南苑＋Home Kitchen 各用哪張卡仍未確認"
+        }
+      ]
+    },
+    {
+      "id": "tg_done",
+      "name": "已完成",
+      "updatedAt": "2026-11-04T08:45:00+08:00",
+      "items": [
+        {
+          "id": "td_prearrival",
+          "updatedAt": "2026-11-04T08:45:00+08:00",
+          "userEdited": false,
+          "text": "越南線上入境申報（Pre-Arrival）",
+          "done": true,
+          "due": "11/3–11/4",
+          "note": "11/3 21:40 提交成功，編號 GIUU4TXX；QR 截圖存相簿",
+          "details": {
+            "title": "越南線上入境申報（Pre-Arrival）",
+            "summary": "免費。只有官方網址是 prearrival.immigration.gov.vn，收費的都是代辦。峴港是否強制各來源說法不一，免費又快，當作要填。",
+            "tips": [
+              "11/5 越南時間 19:00 抵達 → 台灣時間 11/2 20:00 窗口開啟",
+              "填完截圖存 QR code 和確認碼（手機相簿，機場可能沒網路）",
+              "備妥：護照照片檔、航班 IT585、Royal Lotus 住址、離境日 11/10"
+            ],
+            "warnings": [
+              "電子簽證不能取代這個申報，兩個都要",
+              "只認官方網址，不要用收費代辦"
+            ],
+            "images": [],
+            "links": [
+              {
+                "label": "官方入境申報網站（免費）",
+                "url": "http://prearrival.immigration.gov.vn"
+              }
+            ]
+          }
+        },
+        {
+          "id": "td_visa_confirm",
+          "updatedAt": "2026-11-04T08:45:00+08:00",
+          "userEdited": false,
+          "text": "電子簽證核准（10/23 確認）",
+          "done": true,
+          "due": "",
+          "note": "單次入境、11/5–11/24、Tourist"
+        },
+        {
+          "id": "td_visa",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "越南電子簽證（已核准；印紙本＋手機存檔）",
+          "done": true,
+          "due": "",
+          "note": "效期 11/5–11/24；單次入境 Tourist"
+        },
+        {
+          "id": "td_hotel_only",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "確認住宿只剩 Royal Lotus",
+          "done": true,
+          "due": "",
+          "note": "其他 3 間已取消無扣款"
+        },
+        {
+          "id": "td_card_confirm",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "確認機票用滙豐旅人無限卡付款",
+          "done": true,
+          "due": "",
+          "note": "接送／貴賓室資格"
+        },
+        {
+          "id": "td_insurance",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "投保旅平險（富邦 C方案）",
+          "done": true,
+          "due": "",
+          "note": "NT$985；交易序號 576109368868；電子保單已寄到"
+        },
+        {
+          "id": "td_transfer_out",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "台中→小港接送（肯驛 U.First）",
+          "done": true,
+          "due": "",
+          "note": "訂單 F15528953；11/5 09:00 西屯上車"
+        },
+        {
+          "id": "td_transfer_back",
+          "updatedAt": "2026-10-29T11:50:00+08:00",
+          "userEdited": false,
+          "text": "預約 11/10 桃園→台中接送（全鋒）",
+          "done": true,
+          "due": "建議 11/2 前",
+          "note": "已訂 D3953684；夜間加成 NT$200 已付（匯豐••6401）"
+        },
+        {
+          "id": "td_lounge",
+          "updatedAt": "2026-10-29T12:25:00+08:00",
+          "userEdited": false,
+          "text": "貴賓室 QR code（LoungeKey）",
+          "done": true,
+          "due": "",
+          "note": "已收到 2 張；記得截圖存手機",
+          "details": {
+            "title": "LoungeKey 貴賓室 QR（滙豐旅人無限卡）",
+            "summary": "2 張單次 LoungeKey Pass（HSBC-0087983-1／-2），Mr. ZHONG LIN OU，效期 2026/10/24–2027/1/24。QR 圖片存在你的 Google Drive（登入才看得到），App 是公開網站所以不放 QR 圖。",
+            "tips": [
+              "第 1 張：參考號末4碼 ••3522（HSBC-0087983-1）",
+              "第 2 張：參考號末4碼 ••0503（HSBC-0087983-2）",
+              "依 Notion 規劃：11/5 小港南苑用國泰 U.First 權益（出示卡，不用 QR）；11/10 峴港 CIP Orchid 用 LoungeKey QR",
+              "出發前把兩張 QR 從 Drive 存到手機相簿（機場可能沒網路）",
+              "櫃台掃不到 QR 時，請對方手動輸入信上的完整參考號碼",
+              "姓名要跟登機證一致；每張限本人一次，不能帶同行者"
+            ],
+            "warnings": [
+              "銀行事後會審核資格，不符合會收 NT$1,050（機票已用旅人卡刷，應符合）",
+              "用前先查 LoungeKey 據點，確認小港／峴港國際線貴賓室在名單內"
+            ],
+            "images": [],
+            "links": [
+              {
+                "label": "第 1 張 QR（Google Drive）",
+                "url": "https://drive.google.com/file/d/1foX5uEQbetRpvgIcSAN-7myMZmrURVBS/view?usp=drivesdk"
+              },
+              {
+                "label": "第 2 張 QR（Google Drive）",
+                "url": "https://drive.google.com/file/d/1qnU_VdvVcHgPrLb_N_e0rMHsWq1RxMqA/view?usp=drivesdk"
+              },
+              {
+                "label": "原信：第 1 張（Gmail）",
+                "url": "https://mail.google.com/mail/u/0/#all/1a17088840c58e85"
+              },
+              {
+                "label": "原信：第 2 張（Gmail）",
+                "url": "https://mail.google.com/mail/u/0/#all/1a1708bbf24a464a"
+              },
+              {
+                "label": "LoungeKey 據點查詢",
+                "url": "https://loungefinder.loungekey.com/zh-hk/apg-vip/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "td_esim",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "越南 eSIM（KKday）",
+          "done": true,
+          "due": "",
+          "note": "訂單 26KK259044234；可先裝好"
+        },
+        {
+          "id": "td_mofa",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "外交部出國登錄（網頁）",
+          "done": true,
+          "due": "",
+          "note": "峴港 11/5–11/10"
+        },
+        {
+          "id": "td_line_mofa",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "LINE 出國登錄（月月抽資格）",
+          "done": true,
+          "due": "",
+          "note": ""
+        },
+        {
+          "id": "td_flow_stock",
+          "updatedAt": "2026-11-07T07:05:00+08:00",
+          "userEdited": false,
+          "text": "問 Flow Store 五指鞋現貨 — ✅ 11/6 已試穿，決定不買",
+          "done": true,
+          "due": "",
+          "note": "11/6 已去，沒買",
+          "details": {
+            "title": "Vibram 五指鞋（KSO EVO）",
+            "summary": "主要目的：練足弓、健身。首選 KSO EVO（VND 3,599,000 ≈ NT$4,300），Flow Store（越南獨家經銷）正品；鞋底不到 5 mm，走路＋室內訓練都能穿。以重訓為主改選 Graspifier；重訓量大且預算夠可選 Groundsplay。",
+            "tips": [
+              "為什麼選走路也能穿的款：練足弓靠每天累積的穿著時間（走路、站著、在家），只在健身時穿太少；KSO EVO 兩種場合都能用",
+              "型號對照（官網價，男款 EU 40–46）：\nKSO EVO ⭐首選｜3,599,000｜走路、室內訓練、入門\nGraspifier｜3,499,000｜重訓、功能性訓練（分段鞋底）\nGroundsplay｜4,899,000｜深蹲硬舉高強度（2026 新款，4.5 mm、綁帶）\nV-Run／Spidr Walk／Trailope｜4,899,000–4,999,000｜跑步／戶外越野，現在不需要",
+              "試穿 1：先赤腳在店裡走 1–2 分鐘，讓腳放鬆（整體約 30–45 分鐘）",
+              "試穿 2：不穿襪子試（除非打算配五趾襪）",
+              "試穿 3：鬆開魔鬼氈／鞋帶，腳跟先放好，用手指把每根腳趾送進趾套；一格只放一趾，小趾最容易跑錯格",
+              "試穿 4 合腳標準：最長腳趾剛好碰到趾套前端或差一點；腳趾不彎不擠，像第二層皮膚。腳會滑動＝太大（起水泡）；趾套前還有空間＝小一號；腳趾被擠彎＝大一號",
+              "試穿 5 動作測試：硬地走 5 分鐘、深蹲 10 下、弓箭步、提踵、單腳站 30 秒（兩腳）、快速轉身；看後跟滑不滑、腳背綁帶壓不壓、縫線磨不磨",
+              "試穿 6：兩款都試；同款至少試兩個尺寸；不同款尺寸可能不同",
+              "試穿 7：問店家退換規則（官網收到 7 天內可換）、退稅、有沒有折扣",
+              "導入 第 1–2 週：每天 15–30 分鐘走路或在家穿；健身先做低重量動作",
+              "導入 第 3–4 週：每隔幾天增加 10–15 分鐘",
+              "導入 1 個月後：感覺穩定才短距離慢跑（從 1 km 開始）",
+              "11/1 剛跑完 29K：旅途中只穿短時間，不要穿去長時間逛街",
+              "清洗：冷水手洗或洗衣機輕柔模式，自然風乾；不要烘乾、不要曬太陽",
+              "店家 Flow Store：268 Dương Đình Nghệ, An Hải（離 Royal Lotus ~2.5 km，Grab 約 8 分）；週一至六 09:00–20:30、週日公休；電話 +84 878 268 468；先問現貨尺寸（有 45 號以上）；一雙超過 200 萬越盾可退稅，結帳前問「có hoàn thuế VAT không?」"
+            ],
+            "warnings": [
+              "腳背、腳跟或阿基里斯腱痛到隔天還在 → 退回上一階段；腳背持續痛要特別小心（可能是壓力性骨折警訊）",
+              "平常穿穩定鞋、扁平足或容易內倒 → 導入要更慢",
+              "週日公休；價格以店內為準；只買授權通路（Flow Store），慎防仿品"
+            ],
+            "images": [
+              {
+                "src": "assets/details/vibram-flow-mens-lineup.webp",
+                "alt": "Flow Store Vibram 男款選擇",
+                "caption": "Flow Store 男款選擇（官網價 2026/10）"
+              },
+              {
+                "src": "assets/details/vibram-kso-evo-product.webp",
+                "alt": "Vibram KSO EVO 產品圖",
+                "caption": "KSO EVO（首選）"
+              },
+              {
+                "src": "assets/details/vibram-alt-models.webp",
+                "alt": "Vibram 其他型號",
+                "caption": "其他型號"
+              },
+              {
+                "src": "assets/details/vibram-kso-evo.webp",
+                "alt": "Vibram FiveFingers KSO EVO 參考卡",
+                "caption": "參考卡（非實品照片）· Flow Store 峴港"
+              }
+            ],
+            "links": [
+              {
+                "label": "Flow Store 官網",
+                "url": "https://flowstore.com.vn"
+              },
+              {
+                "label": "Vibram 尺寸／試穿指南",
+                "url": "https://www.vibram.com/cn/en/sizing-guide-navigation/fitting-guide.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "td_loafer_spec",
+          "updatedAt": "2026-11-07T07:05:00+08:00",
+          "userEdited": false,
+          "text": "樂福鞋規格／量腳／下單 — ✅ 11/6 已下單（11/8 14:00 試鞋）",
+          "done": true,
+          "due": "",
+          "note": "最終規格（10/31）：深咖啡便士樂福＋薄雷根底；確認圖卡在購物→訂做樂福鞋；現場先比 Friendly 與 Be Bi"
+        },
+        {
+          "id": "td_vnd_grab",
+          "updatedAt": "2026-11-07T07:05:00+08:00",
+          "userEdited": false,
+          "text": "換越南盾＋Grab 綁卡 — ✅ 11/5–11/6 已換匯、Grab 可用",
+          "done": true,
+          "due": "",
+          "note": "五行山只收現金"
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_flight_out",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "type": "flight",
+      "title": "去程 Tigerair IT585",
+      "detail": "高雄 KHH 17:20 → 峴港 DAD 19:00｜2026-11-05｜已付 TWD 6,355（去回合計，見花費）",
+      "ref": "Trip.com 1616334893071825",
+      "status": "confirmed",
+      "note": ""
+    },
+    {
+      "id": "bk_flight_back",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "type": "flight",
+      "title": "回程 Tigerair IT552",
+      "detail": "峴港 DAD 19:50 → 桃園 T1 23:15｜2026-11-10",
+      "ref": "PNR：N6D5RP／R5JVRS",
+      "status": "confirmed",
+      "note": "回程託運沒加購"
+    },
+    {
+      "id": "bk_baggage",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": true,
+      "type": "other",
+      "title": "回程託運 15kg",
+      "detail": "虎航官網管理預訂加購（約 NT$1,000）",
+      "ref": "PNR：N6D5RP／R5JVRS",
+      "status": "cancelled",
+      "note": "最後沒有加購（Ryan 11/11 確認）"
+    },
+    {
+      "id": "bk_hotel",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "type": "hotel",
+      "title": "Royal Lotus Hotel Danang",
+      "detail": "入住 2026-11-05～11/10｜高級雙人房含早餐｜已付 TWD 5,890",
+      "ref": "Booking.com",
+      "status": "confirmed",
+      "note": "約 20:00 抵達；晚退房需求待信；10/30 越南時間前可免費取消"
+    },
+    {
+      "id": "bk_transfer_out",
+      "updatedAt": "2026-10-29T13:05:00+08:00",
+      "userEdited": false,
+      "type": "transfer",
+      "title": "去程接送 台中→小港",
+      "detail": "肯驛 U.First｜11/5 09:00 台中西屯國安一路51之8號 → 高雄小港機場（IT585 17:20）｜高級轎車",
+      "ref": "F15528953",
+      "status": "confirmed",
+      "note": "國泰長榮極致無限卡權益免費；驗證碼 3881；詳情 https://68666.tw/ZxEK ；改時間 11/4 前打 04-2206-1608",
+      "details": {
+        "title": "去程接送 肯驛 F15528953",
+        "summary": "11/5 09:00 台中西屯國安一路51之8號上車 → 高雄小港機場（IT585 17:20 → DAD）｜高級轎車、1 人 1 件行李｜國泰長榮極致無限卡權益，免費。",
+        "tips": [
+          "肯驛驗證碼：3881（查看預約詳情頁用）",
+          "中途先到高雄市區找朋友＋丹丹漢堡，14:50 前到小港報到",
+          "改時間：11/4 前打 04-2206-1608（需提前 ≥24h）",
+          "客服 04-3602-3330"
+        ],
+        "warnings": [
+          "不足 24h 取消仍算用掉 1 次"
+        ],
+        "images": [],
+        "links": [
+          {
+            "label": "肯驛預約詳情 F15528953（驗證碼 3881）",
+            "url": "https://68666.tw/ZxEK"
+          },
+          {
+            "label": "U.First 預約入口",
+            "url": "https://www.youfirst.com.tw/Cathaybank/AirPort/index.aspx"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bk_transfer_back",
+      "updatedAt": "2026-10-29T13:05:00+08:00",
+      "userEdited": false,
+      "type": "transfer",
+      "title": "回程接送 桃園→台中",
+      "detail": "全鋒｜IT552 桃園T1 23:15 → 台中西屯國安一路51號之8（6樓1）｜四人座",
+      "ref": "D3953684",
+      "status": "confirmed",
+      "note": "匯豐旅人無限 V-LIMO 權益免車資；夜間加成 NT$200 已付。司機依實際落地時間，免費等候90分，之後 NT$300/時；延誤≥4小時視同取消退款。改/取消需24小時前撥 0800-860-929；帶身分證與卡。10/29 12:15 已收到確認簡訊（服務頁 https://www.tms.tw/D33D3C ，驗證碼：0096；T-Life https://www.tms.tw/T-Life ）",
+      "details": {
+        "title": "回程接送 全鋒 D3953684",
+        "summary": "11/10 IT552 桃園 T1 23:15 落地 → 台中西屯國安一路51號之8（6樓1）｜四人座、1 人 1 件行李｜車資權益免費，夜間加成 NT$200 已付（滙豐••6401）。10/29 12:15 已收到全鋒確認簡訊。",
+        "tips": [
+          "司機依實際落地時間到；落地後免費等 90 分，之後 NT$300/時",
+          "接機前約 1 小時會簡訊司機與車號",
+          "全鋒驗證碼：0096（服務頁 tms.tw/D33D3C 用）",
+          "改／取消需 24 小時前撥 0800-860-929；帶身分證與滙豐旅人卡"
+        ],
+        "warnings": [
+          "延誤 ≥4 小時視同取消並退款，需自行改搭"
+        ],
+        "images": [],
+        "links": [
+          {
+            "label": "全鋒服務頁 D3953684（驗證碼 0096）",
+            "url": "https://www.tms.tw/D33D3C"
+          },
+          {
+            "label": "全鋒 T-Life（LINE 官方帳號）",
+            "url": "https://www.tms.tw/T-Life"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bk_insurance",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "type": "insurance",
+      "title": "富邦旅平險＋不便險 C方案",
+      "detail": "11/5–11/10｜身故／失能 600萬｜快捷理賠 IT585／IT552",
+      "ref": "576109368868",
+      "status": "confirmed",
+      "note": "保費 NT$985；電子保單已寄到"
+    },
+    {
+      "id": "bk_visa",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "type": "visa",
+      "title": "越南 e-Visa",
+      "detail": "單次入境｜效期 11/5–11/24｜Tourist｜已核准",
+      "ref": "",
+      "status": "confirmed",
+      "note": "記得印 1–2 份紙本"
+    },
+    {
+      "id": "bk_esim",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "type": "esim",
+      "title": "越南 eSIM（KKday Vinaphone）",
+      "detail": "每日 6GB｜11/5 起用",
+      "ref": "26KK259044234",
+      "status": "confirmed",
+      "note": "可台灣先安裝；落地切數據"
+    },
+    {
+      "id": "bk_lounge",
+      "updatedAt": "2026-10-29T12:25:00+08:00",
+      "userEdited": false,
+      "type": "lounge",
+      "title": "機場貴賓室 LoungeKey",
+      "detail": "2 張單次 QR（••3522／••0503）｜效期至 2027/1/24",
+      "ref": "HSBC-0087983-1／-2",
+      "status": "confirmed",
+      "note": "QR 已存 Google Drive（點 ℹ️ 看連結）；出發前存到手機相簿",
+      "details": {
+        "title": "LoungeKey 貴賓室 QR（滙豐旅人無限卡）",
+        "summary": "2 張單次 LoungeKey Pass（HSBC-0087983-1／-2），Mr. ZHONG LIN OU，效期 2026/10/24–2027/1/24。QR 圖片存在你的 Google Drive（登入才看得到），App 是公開網站所以不放 QR 圖。",
+        "tips": [
+          "第 1 張：參考號末4碼 ••3522（HSBC-0087983-1）",
+          "第 2 張：參考號末4碼 ••0503（HSBC-0087983-2）",
+          "依 Notion 規劃：11/5 小港南苑用國泰 U.First 權益（出示卡，不用 QR）；11/10 峴港 CIP Orchid 用 LoungeKey QR",
+          "出發前把兩張 QR 從 Drive 存到手機相簿（機場可能沒網路）",
+          "櫃台掃不到 QR 時，請對方手動輸入信上的完整參考號碼",
+          "姓名要跟登機證一致；每張限本人一次，不能帶同行者"
+        ],
+        "warnings": [
+          "銀行事後會審核資格，不符合會收 NT$1,050（機票已用旅人卡刷，應符合）",
+          "用前先查 LoungeKey 據點，確認小港／峴港國際線貴賓室在名單內"
+        ],
+        "images": [],
+        "links": [
+          {
+            "label": "第 1 張 QR（Google Drive）",
+            "url": "https://drive.google.com/file/d/1foX5uEQbetRpvgIcSAN-7myMZmrURVBS/view?usp=drivesdk"
+          },
+          {
+            "label": "第 2 張 QR（Google Drive）",
+            "url": "https://drive.google.com/file/d/1qnU_VdvVcHgPrLb_N_e0rMHsWq1RxMqA/view?usp=drivesdk"
+          },
+          {
+            "label": "原信：第 1 張（Gmail）",
+            "url": "https://mail.google.com/mail/u/0/#all/1a17088840c58e85"
+          },
+          {
+            "label": "原信：第 2 張（Gmail）",
+            "url": "https://mail.google.com/mail/u/0/#all/1a1708bbf24a464a"
+          },
+          {
+            "label": "LoungeKey 據點查詢",
+            "url": "https://loungefinder.loungekey.com/zh-hk/apg-vip/"
+          }
+        ]
+      }
+    }
+  ],
+  "days": [
+    {
+      "id": "day_20261105",
+      "date": "2026-11-05",
+      "title": "高雄＋抵達峴港",
+      "updatedAt": "2026-10-28T13:16:00+08:00",
+      "blocks": [
+        {
+          "id": "bl_1105_1",
+          "updatedAt": "2026-10-29T13:05:00+08:00",
+          "userEdited": false,
+          "time": "09:00",
+          "text": "肯驛接送台中→高雄市區找朋友＋丹丹漢堡（訂單 F15528953）",
+          "place": "高雄市區",
+          "details": {
+            "title": "去程接送 肯驛 F15528953",
+            "summary": "11/5 09:00 台中西屯國安一路51之8號上車 → 高雄小港機場（IT585 17:20 → DAD）｜高級轎車、1 人 1 件行李｜國泰長榮極致無限卡權益，免費。",
+            "tips": [
+              "肯驛驗證碼：3881（查看預約詳情頁用）",
+              "中途先到高雄市區找朋友＋丹丹漢堡，14:50 前到小港報到",
+              "改時間：11/4 前打 04-2206-1608（需提前 ≥24h）",
+              "客服 04-3602-3330"
+            ],
+            "warnings": [
+              "不足 24h 取消仍算用掉 1 次"
+            ],
+            "images": [],
+            "links": [
+              {
+                "label": "肯驛預約詳情 F15528953（驗證碼 3881）",
+                "url": "https://68666.tw/ZxEK"
+              },
+              {
+                "label": "U.First 預約入口",
+                "url": "https://www.youfirst.com.tw/Cathaybank/AirPort/index.aspx"
+              }
+            ]
+          }
+        },
+        {
+          "id": "bl_1105_4",
+          "updatedAt": "2026-11-04T08:45:00+08:00",
+          "userEdited": false,
+          "time": "14:50",
+          "text": "14:50 前到小港 → 櫃台報到 → 南苑貴賓室（國泰卡）→ IT585 17:20 起飛",
+          "place": "小港機場"
+        },
+        {
+          "id": "bl_1105_2",
+          "updatedAt": "2026-11-04T08:45:00+08:00",
+          "userEdited": false,
+          "time": "19:00",
+          "text": "峴港落地 → 入境出示護照＋e-Visa＋入境申報 QR → 數據切 eSIM → Grab 到 Royal Lotus（約 6 km／15–20 分）→ 按摩",
+          "place": "Royal Lotus",
+          "placeId": "pl_royal_lotus"
+        },
+        {
+          "id": "bl_1105_3",
+          "updatedAt": "2026-10-28T13:40:00+08:00",
+          "userEdited": false,
+          "time": "晚（擇日）",
+          "text": "附近海鮮（Bé Mặn／Năm Đảnh）；順路 Long Châu 買除疤膏",
+          "place": "",
+          "details": {
+            "title": "除疤膏（Dermatix Ultra／Contractubex）",
+            "summary": "首選 Dermatix Ultra 7g（約 VND 210,000／NT$250）；備案 Contractubex 10g（約 VND 164,500）。Long Châu 65 Nguyễn Văn Thoại（跟 Royal Lotus 同一條路）。",
+            "tips": [
+              "買哪一款：凸起偏硬癢痛 → Dermatix Ultra（矽膠）；新疤深紅/褐 → 兩款可、Contractubex 較便宜；不確定 → Dermatix Ultra 7g",
+              "哪裡買：Long Châu 65 Nguyễn Văn Thoại；連鎖藥局（Long Châu／Pharmacity／An Khang）較可靠；營業約 06:00–23:00（以現場為準）",
+              "驗貨：外盒封膜完整 → 管身鋁箔封口完好 → 盒上越南文標籤或登記號（Contractubex 10g：VN-23121-22）→ 批號效期與管身一致 → 要收據並拍盒子與批號",
+              "使用：傷口完全癒合才能擦；先手臂內側測試；疤痕怕曬白天防曬；Dermatix 至少約 2 個月才見效",
+              "台灣對照：倍舒痕 Dermatix 7g 約 NT$945（momo），越南約 NT$250 划算很多"
+            ],
+            "warnings": [
+              "不要買：會安古城、韓市場、夜市、Grab 代買（仿冒／保存風險）",
+              "痘疤凹洞型兩款效果有限",
+              "店內價格以現場為準"
+            ],
+            "images": [
+              {
+                "src": "assets/details/dermatix-ultra-7g.webp",
+                "alt": "Dermatix Ultra 7g 外盒與軟管",
+                "caption": "Dermatix Ultra 7g（來源：Long Châu 商品圖）"
+              },
+              {
+                "src": "assets/details/contractubex-10g.webp",
+                "alt": "Contractubex 10g 外盒",
+                "caption": "Contractubex 10g（來源：Long Châu 商品圖）"
+              }
+            ],
+            "links": [
+              {
+                "label": "Long Châu 比較文",
+                "url": "https://nhathuoclongchau.com.vn/bai-viet/so-sanh-kem-tri-seo-contractubex-va-dermatix-cai-nao-tot-hon-49098.html"
+              },
+              {
+                "label": "Pharmacity Dermatix Ultra 7g",
+                "url": "https://www.pharmacity.vn/gel-tri-seo-dermatix-ultra-7g.html"
+              },
+              {
+                "label": "Long Châu 店（65 Nguyễn Văn Thoại）",
+                "url": "https://nhathuoclongchau.com.vn/he-thong-cua-hang/65-nguyen-van-thoai-p-an-hai-dong-q-son-tra-tp-da-nang"
+              }
+            ]
+          },
+          "placeId": "pl_long_chau"
+        }
+      ]
+    },
+    {
+      "id": "day_20261106",
+      "date": "2026-11-06",
+      "title": "★ 任務日：帝王洗頭 → 會安做鞋 → Flow Store → 晚餐",
+      "updatedAt": "2026-11-06T07:45:00+07:00",
+      "blocks": [
+        {
+          "id": "bl_1106_rain",
+          "updatedAt": "2026-11-06T00:30:00+07:00",
+          "userEdited": false,
+          "time": "08:00",
+          "text": "早餐 → 想睡就回房睡到 09:30。帶：確認卡、穿卻爾西靴＋隱形襪、現金（越盾＋美金）、折價券、員工證、雨衣",
+          "place": "峴港"
+        },
+        {
+          "id": "bl_1106_1",
+          "updatedAt": "2026-11-06T00:20:00+07:00",
+          "userEdited": false,
+          "time": "10:00",
+          "text": "Luxury Barber 帝王洗頭（408 Võ Nguyên Giáp；每天 08:00–22:00；LUX 約 90 分，帶 40 萬折價券）→ 11:45 直接 Grab 去會安（約 35–40 分）",
+          "place": "Luxury Barber",
+          "placeId": "pl_friendly_shoe"
+        },
+        {
+          "id": "bl_1106_2",
+          "updatedAt": "2026-11-06T19:58:00+07:00",
+          "userEdited": false,
+          "time": "12:30",
+          "text": "會安午餐 → 13:15 Friendly Shoe Shop（18 Trần Phú，每天 09:00–20:30）問價 → 13:45 Be Bi Leather（104 Trần Phú）問價：總價、皮料、縫線鞋底、能否 11/8（或 11/9）送飯店試穿 → 14:15 選一家下單（識別證皮套店家不做）",
+          "place": "會安",
+          "placeId": "pl_friendly_shoe"
+        },
+        {
+          "id": "it_buy_slippers",
+          "updatedAt": "2026-11-06T07:45:00+07:00",
+          "userEdited": false,
+          "time": "15:00",
+          "text": "買拖鞋（會安順路；市場／路邊店都可）",
+          "place": "會安",
+          "placeId": "pl_friendly_shoe"
+        },
+        {
+          "id": "bl_1106_3",
+          "updatedAt": "2026-11-06T00:30:00+07:00",
+          "userEdited": false,
+          "time": "15:30",
+          "text": "古城散步、咖啡；16:00 打電話訂晚餐（Sushimaru／Yen 訂 19:30）→ 17:15 Grab 直接設 Flow Store（約 40–50 分；濱海路下雨請走內陸）",
+          "place": "會安古城",
+          "placeId": "pl_friendly_shoe"
+        },
+        {
+          "id": "bl_1106_4",
+          "updatedAt": "2026-11-06T19:55:00+07:00",
+          "userEdited": false,
+          "time": "18:15",
+          "text": "Flow Store 試穿五指鞋 ✅ 已去過，決定不買",
+          "place": "Flow Store",
+          "placeId": "pl_flow"
+        },
+        {
+          "id": "bl_1106_5",
+          "updatedAt": "2026-11-06T00:15:00+07:00",
+          "userEdited": false,
+          "time": "19:15",
+          "text": "晚餐三選一：Mộc Quán Seafood（26 Tô Hiến Thành，每天 10:30–22:30，離 Flow Store 近）／Yen Yakiniku 燒肉 buffet（Hòa Cường；平日 17:00–22:30；19:00 後常客滿，+84 903 559 447）／Sushimaru 鮨まる 壽司（Thái Phiên, Hải Châu；每天 17:00–22:00；吧台 9 位，先打 +84 787 530 546）",
+          "placeId": "pl_flow"
+        },
+        {
+          "id": "bl_1106_massage",
+          "updatedAt": "2026-11-06T00:40:00+07:00",
+          "userEdited": false,
+          "time": "21:00",
+          "text": "💆 按摩：Herbal Spa（201 Dương Đình Nghệ，跟 Flow Store 同條路；每天 09:00–22:30；四手 60 分約 68 萬）；太累改飯店同條街 Charm Spa Grand",
+          "placeId": "pl_flow"
+        },
+        {
+          "id": "bl_1106_6",
+          "updatedAt": "2026-11-06T00:30:00+07:00",
+          "userEdited": false,
+          "time": "備案",
+          "text": "19:45 前到不了 Flow Store → 直接吃晚餐，五指鞋改 11/7；會安淹水 → 洗頭後先去 Flow Store，會安改 11/7",
+          "placeId": "pl_friendly_shoe"
+        }
+      ]
+    },
+    {
+      "id": "day_20261107",
+      "date": "2026-11-07",
+      "title": "五行山 → Vincom Plaza →（選配）漢市場 → 按摩 → Live bar",
+      "updatedAt": "2026-11-07T22:35:37+07:00",
+      "blocks": [
+        {
+          "id": "bl_1107_1",
+          "updatedAt": "2026-11-06T19:40:00+07:00",
+          "userEdited": false,
+          "time": "08:45",
+          "text": "Grab 目的地設「Động Âm Phủ」→ 五行山（07:00–17:30，只收現金）：地獄洞（另買 2 萬）→ 電梯上水山 → 玄空洞（9–11 點有光束）；穿包頭鞋",
+          "place": "",
+          "placeId": "pl_marble"
+        },
+        {
+          "id": "bl_1107_2",
+          "updatedAt": "2026-11-06T19:40:00+07:00",
+          "userEdited": false,
+          "time": "11:45",
+          "text": "Grab → Vincom Plaza（910A Ngô Quyền；週六 09:30–22:00；約 20–25 分）→ 頂樓美食街午餐 → Guardian（防曬）、Miniso（免洗拖鞋）、2 樓 WinMart（伴手禮）",
+          "place": "Flow Store",
+          "details": {
+            "title": "Vibram 五指鞋（KSO EVO）",
+            "summary": "主要目的：練足弓、健身。首選 KSO EVO（VND 3,599,000 ≈ NT$4,300），Flow Store（越南獨家經銷）正品；鞋底不到 5 mm，走路＋室內訓練都能穿。以重訓為主改選 Graspifier；重訓量大且預算夠可選 Groundsplay。",
+            "tips": [
+              "為什麼選走路也能穿的款：練足弓靠每天累積的穿著時間（走路、站著、在家），只在健身時穿太少；KSO EVO 兩種場合都能用",
+              "型號對照（官網價，男款 EU 40–46）：\nKSO EVO ⭐首選｜3,599,000｜走路、室內訓練、入門\nGraspifier｜3,499,000｜重訓、功能性訓練（分段鞋底）\nGroundsplay｜4,899,000｜深蹲硬舉高強度（2026 新款，4.5 mm、綁帶）\nV-Run／Spidr Walk／Trailope｜4,899,000–4,999,000｜跑步／戶外越野，現在不需要",
+              "試穿 1：先赤腳在店裡走 1–2 分鐘，讓腳放鬆（整體約 30–45 分鐘）",
+              "試穿 2：不穿襪子試（除非打算配五趾襪）",
+              "試穿 3：鬆開魔鬼氈／鞋帶，腳跟先放好，用手指把每根腳趾送進趾套；一格只放一趾，小趾最容易跑錯格",
+              "試穿 4 合腳標準：最長腳趾剛好碰到趾套前端或差一點；腳趾不彎不擠，像第二層皮膚。腳會滑動＝太大（起水泡）；趾套前還有空間＝小一號；腳趾被擠彎＝大一號",
+              "試穿 5 動作測試：硬地走 5 分鐘、深蹲 10 下、弓箭步、提踵、單腳站 30 秒（兩腳）、快速轉身；看後跟滑不滑、腳背綁帶壓不壓、縫線磨不磨",
+              "試穿 6：兩款都試；同款至少試兩個尺寸；不同款尺寸可能不同",
+              "試穿 7：問店家退換規則（官網收到 7 天內可換）、退稅、有沒有折扣",
+              "導入 第 1–2 週：每天 15–30 分鐘走路或在家穿；健身先做低重量動作",
+              "導入 第 3–4 週：每隔幾天增加 10–15 分鐘",
+              "導入 1 個月後：感覺穩定才短距離慢跑（從 1 km 開始）",
+              "11/1 剛跑完 29K：旅途中只穿短時間，不要穿去長時間逛街",
+              "清洗：冷水手洗或洗衣機輕柔模式，自然風乾；不要烘乾、不要曬太陽",
+              "店家 Flow Store：268 Dương Đình Nghệ, An Hải（離 Royal Lotus ~2.5 km，Grab 約 8 分）；週一至六 09:00–20:30、週日公休；電話 +84 878 268 468；先問現貨尺寸（有 45 號以上）；一雙超過 200 萬越盾可退稅，結帳前問「có hoàn thuế VAT không?」"
+            ],
+            "warnings": [
+              "腳背、腳跟或阿基里斯腱痛到隔天還在 → 退回上一階段；腳背持續痛要特別小心（可能是壓力性骨折警訊）",
+              "平常穿穩定鞋、扁平足或容易內倒 → 導入要更慢",
+              "週日公休；價格以店內為準；只買授權通路（Flow Store），慎防仿品"
+            ],
+            "images": [
+              {
+                "src": "assets/details/vibram-flow-mens-lineup.webp",
+                "alt": "Flow Store Vibram 男款選擇",
+                "caption": "Flow Store 男款選擇（官網價 2026/10）"
+              },
+              {
+                "src": "assets/details/vibram-kso-evo-product.webp",
+                "alt": "Vibram KSO EVO 產品圖",
+                "caption": "KSO EVO（首選）"
+              },
+              {
+                "src": "assets/details/vibram-alt-models.webp",
+                "alt": "Vibram 其他型號",
+                "caption": "其他型號"
+              },
+              {
+                "src": "assets/details/vibram-kso-evo.webp",
+                "alt": "Vibram FiveFingers KSO EVO 參考卡",
+                "caption": "參考卡（非實品照片）· Flow Store 峴港"
+              }
+            ],
+            "links": [
+              {
+                "label": "Flow Store 官網",
+                "url": "https://flowstore.com.vn"
+              },
+              {
+                "label": "Vibram 尺寸／試穿指南",
+                "url": "https://www.vibram.com/cn/en/sizing-guide-navigation/fitting-guide.html"
+              }
+            ]
+          },
+          "placeId": "pl_flow"
+        },
+        {
+          "id": "bl_1107_4",
+          "updatedAt": "2026-11-06T19:40:00+07:00",
+          "userEdited": false,
+          "time": "14:30",
+          "text": "（選配）過龍橋去漢市場 2 樓買包（119 Trần Phú；06:00–19:00；Grab 約 8 分）；先比 2–3 攤再殺價；名牌包多半非正品",
+          "placeId": "pl_han_market"
+        },
+        {
+          "id": "bl_1107_5",
+          "updatedAt": "2026-11-06T19:55:00+07:00",
+          "userEdited": false,
+          "time": "15:30",
+          "text": "回飯店休息"
+        },
+        {
+          "id": "bl_1107_3",
+          "updatedAt": "2026-11-07T22:35:37+07:00",
+          "userEdited": true,
+          "time": "18:00",
+          "text": "💆 按摩（未去）（Charm Spa Grand 或 Herbal Spa）→ 19:30 晚餐 → 20:30 An Thuong live bar（週六最熱鬧）；先按摩再喝酒",
+          "place": "An Thuong",
+          "note": "未去：Ryan 確認11/7沒有按摩",
+          "placeId": "pl_herbal_spa"
+        }
+      ],
+      "userEdited": true
+    },
+    {
+      "id": "day_20261108",
+      "date": "2026-11-08",
+      "title": "09:15漢市場 → 11:00健身 → 14:00試鞋 → 按摩（選）→ 18:00晚餐未定 → bar（選）",
+      "updatedAt": "2026-11-08T11:10:00+07:00",
+      "blocks": [
+        {
+          "id": "bl_1108_2",
+          "updatedAt": "2026-11-08T11:10:00+07:00",
+          "userEdited": true,
+          "time": "早餐",
+          "text": "飯店早餐後 09:15 出發去漢市場（原「10:00 先健身」計畫已改成市場在前）",
+          "place": "Royal Lotus",
+          "placeId": "pl_royal_lotus"
+        },
+        {
+          "id": "bl_1108_han_grab",
+          "updatedAt": "2026-11-08T11:10:00+07:00",
+          "userEdited": true,
+          "time": "09:15",
+          "text": "🚕 Grab → 漢市場（Chợ Hàn，119 Trần Phú），估5–6km／15–20分，雨天留更多時間",
+          "place": "韓市場",
+          "placeId": "pl_han_market"
+        },
+        {
+          "id": "bl_1108_han_shop",
+          "updatedAt": "2026-11-08T11:10:00+07:00",
+          "userEdited": true,
+          "time": "09:30–10:45",
+          "text": "🛍️ 漢市場買伴手禮（早上攤位最齊，中午前買完，避開12–14點午休）；每天06:00–19:00，各攤不同。伴手禮可先寄放健身房置物櫃；買完估重量，決定要不要加購回程託運。已實付 VND 1,460,000（約 NT$1,832）。地圖：https://www.google.com/maps/search/?api=1&query=Ch%E1%BB%A3+H%C3%A0n+Da+Nang",
+          "place": "韓市場",
+          "placeId": "pl_han_market"
+        },
+        {
+          "id": "bl_1108_gym",
+          "updatedAt": "2026-11-08T11:10:00+07:00",
+          "userEdited": true,
+          "time": "10:45–12:30",
+          "text": "🚕 Grab 過河約15分 → 11:00 🏋️ Mobifit360 Gym & Fitness（4–6 Hồ Xuân Hương）健身＋淋浴；單次160k（約NT$201，05:00–16:00時段價），含毛巾／置物櫃／淋浴，不含桑拿冰浴。https://maps.app.goo.gl/Vhs1kJ59cMTJLAet9",
+          "place": "Mobifit360 Gym & Fitness"
+        },
+        {
+          "id": "bl_1108_han_return",
+          "updatedAt": "2026-11-08T11:10:00+07:00",
+          "userEdited": true,
+          "time": "12:30",
+          "text": "🚕 Grab 回 Royal Lotus（5–8分）放伴手禮、簡單午餐；13:45前回大廳等14:00試鞋",
+          "place": "Royal Lotus",
+          "placeId": "pl_royal_lotus"
+        },
+        {
+          "id": "bl_1108_fitting",
+          "updatedAt": "2026-11-08T21:40:00+07:00",
+          "userEdited": false,
+          "time": "14:00",
+          "text": "✅ 11/8 已試穿：做工不錯但太長，店家帶回修改，11/9 14:00 再來"
+        },
+        {
+          "id": "bl_1108_1",
+          "updatedAt": "2026-11-09T13:58:00+07:00",
+          "userEdited": true,
+          "time": "15:30–17:00",
+          "text": "✅ 💆 已去 Charm Spa Grand 按摩（31 Nguyễn Văn Thoại），刷卡 VND 1,208,000（帳單商家名 YOKO LOUNGE 99）",
+          "place": "Charm Spa Grand",
+          "placeId": "pl_charm_spa"
+        },
+        {
+          "id": "bl_1108_3",
+          "updatedAt": "2026-11-08T11:10:00+07:00",
+          "userEdited": true,
+          "time": "18:00",
+          "text": "晚餐未定（Yen Yakiniku 行程已取消、餐費已移除；訂位取消結果待店家確認）。Sushi-Bê不去、CHAR替代取消。",
+          "place": "",
+          "placeId": "pl_yen_yakiniku"
+        },
+        {
+          "id": "bl_1108_bar",
+          "updatedAt": "2026-11-08T11:10:00+07:00",
+          "userEdited": true,
+          "time": "20:00",
+          "text": "🍸 bar（考慮中）：An Thuong 區；今晚冷空氣南下雨變大，選室內 BLENDS Social Bar（open mic）比頂樓 Waves Rooftop 適合；週日營業時間未確認，出發前查 Google 地圖。一個人：飲料不離手、回程叫 Grab；明天豪雨，不要喝太晚。",
+          "place": "BLENDS Social Bar",
+          "placeId": "pl_blends"
+        },
+        {
+          "id": "bl_1108_massage",
+          "updatedAt": "2026-11-08T11:10:00+07:00",
+          "userEdited": false,
+          "time": "21:00",
+          "text": "（已取消）21:00 按摩取消，改成試鞋後 15:30 按摩（考慮中）",
+          "placeId": "pl_royal_lotus"
+        }
+      ],
+      "userEdited": true
+    },
+    {
+      "id": "day_20261109",
+      "date": "2026-11-09",
+      "title": "留白（預報大雨）",
+      "updatedAt": "2026-11-07T22:00:34+07:00",
+      "blocks": [
+        {
+          "id": "bl_1109_rain",
+          "updatedAt": "2026-11-09T12:05:00+07:00",
+          "userEdited": false,
+          "time": "提醒",
+          "text": "🚨 峴港市政府 11/8 晚啟動防災應變；11/9–11/10 晚預報 150–250 mm（局部 >500 mm）→ 今天不去會安、不去海邊河邊，留在飯店附近",
+          "place": "峴港",
+          "placeId": "pl_friendly_shoe"
+        },
+        {
+          "id": "bl_1109_fitting",
+          "updatedAt": "2026-11-08T21:40:00+07:00",
+          "userEdited": false,
+          "time": "14:00",
+          "text": "⏰ 鞋店再來飯店試鞋（11/8 太長、帶回修改）：檢查最長腳趾前約 0.5–1 cm、後跟只浮幾 mm；問清楚是改短／換楦還是只加鞋墊",
+          "placeId": "pl_royal_lotus"
+        },
+        {
+          "id": "bl_1109_1",
+          "updatedAt": "2026-11-07T22:00:34+07:00",
+          "userEdited": true,
+          "time": "白天",
+          "text": "室內自由活動，午餐留白（All Seasons已於11/7吃過）；樂福鞋最晚今天白天取鞋，不要拖到晚上",
+          "place": ""
+        },
+        {
+          "id": "bl_1109_2",
+          "updatedAt": "2026-11-08T11:10:00+07:00",
+          "userEdited": true,
+          "time": "彈性",
+          "text": "伴手禮已在 11/8 上午漢市場買好；11/9 僅作漏買補貨備案，大雨改去 Lotte Mart（室內）",
+          "place": "",
+          "placeId": "pl_han_market"
+        },
+        {
+          "id": "bl_1109_massage",
+          "updatedAt": "2026-11-06T00:40:00+07:00",
+          "userEdited": false,
+          "time": "20:00",
+          "text": "💆 按摩：大雨就去飯店同條街 Charm Spa Grand；最後一晚可做 90 分",
+          "placeId": "pl_charm_spa"
+        }
+      ],
+      "userEdited": true
+    },
+    {
+      "id": "day_20261110",
+      "date": "2026-11-10",
+      "title": "跑步 → 12:00 退房 → 做臉 → 拿行李 → 占婆博物館 → 直接去機場",
+      "updatedAt": "2026-11-09T21:05:00+07:00",
+      "blocks": [
+        {
+          "id": "bl_1110_run",
+          "time": "07:30–09:45",
+          "text": "🍳 早餐（多吃碳水，跑前 45 分吃完）→ 08:15 飯店健身房跑步機慢跑 80 分 → 洗澡、刮鬍子",
+          "place": "Royal Lotus",
+          "updatedAt": "2026-11-09T21:05:00+07:00",
+          "userEdited": true,
+          "placeId": "pl_royal_lotus"
+        },
+        {
+          "id": "bl_1110_nap",
+          "time": "10:00–11:00",
+          "text": "😴 回房睡一下（設 11:00 鬧鐘）",
+          "place": "Royal Lotus",
+          "updatedAt": "2026-11-09T21:05:00+07:00",
+          "userEdited": true,
+          "placeId": "pl_royal_lotus"
+        },
+        {
+          "id": "bl_1110_pack",
+          "time": "11:00–11:55",
+          "text": "🧳 打包、秤重（手提＋個人物品上限 10 kg）→ 超重就線上加購 15kg（約 NT$1,000，線上截止 15:50）；順便試 IT552 線上報到",
+          "place": "Royal Lotus",
+          "updatedAt": "2026-11-09T21:05:00+07:00",
+          "userEdited": true,
+          "placeId": "pl_royal_lotus"
+        },
+        {
+          "id": "bl_1110_checkout",
+          "time": "12:00",
+          "text": "🏨 退房 → 行李寄放櫃台到 13:45。英文：Can I leave my luggage here until 1:45pm?",
+          "place": "Royal Lotus",
+          "updatedAt": "2026-11-09T21:05:00+07:00",
+          "userEdited": true,
+          "placeId": "pl_royal_lotus"
+        },
+        {
+          "id": "bl_1110_facial",
+          "time": "12:15–13:30",
+          "text": "❌ 沒去做臉（取消）",
+          "place": "Oani Spa",
+          "updatedAt": "2026-11-10T12:40:00+07:00",
+          "userEdited": true
+        },
+        {
+          "id": "bl_1110_bag",
+          "time": "13:40",
+          "text": "🏨 退房後直接拿行李 → GrabCar 去占婆雕刻博物館",
+          "place": "Royal Lotus",
+          "updatedAt": "2026-11-10T12:40:00+07:00",
+          "userEdited": true,
+          "placeId": "pl_royal_lotus"
+        },
+        {
+          "id": "bl_1110_museum",
+          "time": "14:00–15:25",
+          "text": "✅ 🏛️ 占婆雕刻博物館（門票現金 60,000）｜https://www.google.com/maps/search/?api=1&query=Da%20Nang%20Museum%20of%20Cham%20Sculpture&query_place_id=ChIJLWoAs80ZQjERLKHDYD-ZymI",
+          "place": "占婆雕刻博物館",
+          "updatedAt": "2026-11-10T12:40:00+07:00",
+          "userEdited": true
+        },
+        {
+          "id": "bl_1110_2",
+          "updatedAt": "2026-11-09T21:05:00+07:00",
+          "userEdited": false,
+          "time": "15:30",
+          "text": "🚕 從博物館叫 GrabCar 直接去峴港機場（約 3–4 km、10–15 分；豪雨叫不到就在 2 Tháng 9 大路攔綠色 Xanh SM 計程車）→ 16:00 前到 → 櫃台報到（不能線上報到就排隊）→ 託運 → 貴賓室吃晚餐（Vanda／CIP Orchid）→ 19:50 IT552；出發前查航班動態",
+          "place": "峴港機場",
+          "details": {
+            "title": "LoungeKey 貴賓室 QR（滙豐旅人無限卡）",
+            "summary": "2 張單次 LoungeKey Pass（HSBC-0087983-1／-2），Mr. ZHONG LIN OU，效期 2026/10/24–2027/1/24。QR 圖片存在你的 Google Drive（登入才看得到），App 是公開網站所以不放 QR 圖。",
+            "tips": [
+              "第 1 張：參考號末4碼 ••3522（HSBC-0087983-1）",
+              "第 2 張：參考號末4碼 ••0503（HSBC-0087983-2）",
+              "依 Notion 規劃：11/5 小港南苑用國泰 U.First 權益（出示卡，不用 QR）；11/10 峴港 CIP Orchid 用 LoungeKey QR",
+              "出發前把兩張 QR 從 Drive 存到手機相簿（機場可能沒網路）",
+              "櫃台掃不到 QR 時，請對方手動輸入信上的完整參考號碼",
+              "姓名要跟登機證一致；每張限本人一次，不能帶同行者"
+            ],
+            "warnings": [
+              "銀行事後會審核資格，不符合會收 NT$1,050（機票已用旅人卡刷，應符合）",
+              "用前先查 LoungeKey 據點，確認小港／峴港國際線貴賓室在名單內"
+            ],
+            "images": [],
+            "links": [
+              {
+                "label": "第 1 張 QR（Google Drive）",
+                "url": "https://drive.google.com/file/d/1foX5uEQbetRpvgIcSAN-7myMZmrURVBS/view?usp=drivesdk"
+              },
+              {
+                "label": "第 2 張 QR（Google Drive）",
+                "url": "https://drive.google.com/file/d/1qnU_VdvVcHgPrLb_N_e0rMHsWq1RxMqA/view?usp=drivesdk"
+              },
+              {
+                "label": "原信：第 1 張（Gmail）",
+                "url": "https://mail.google.com/mail/u/0/#all/1a17088840c58e85"
+              },
+              {
+                "label": "原信：第 2 張（Gmail）",
+                "url": "https://mail.google.com/mail/u/0/#all/1a1708bbf24a464a"
+              },
+              {
+                "label": "LoungeKey 據點查詢",
+                "url": "https://loungefinder.loungekey.com/zh-hk/apg-vip/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "bl_1110_3",
+          "updatedAt": "2026-10-29T13:05:00+08:00",
+          "userEdited": false,
+          "time": "23:15",
+          "text": "桃園落地 → 全鋒接機回台中 D3953684（司機依實際落地、免費等90分；前1小時簡訊司機資料；帶身分證＋匯豐卡）",
+          "place": "桃園 T1",
+          "details": {
+            "title": "回程接送 全鋒 D3953684",
+            "summary": "11/10 IT552 桃園 T1 23:15 落地 → 台中西屯國安一路51號之8（6樓1）｜四人座、1 人 1 件行李｜車資權益免費，夜間加成 NT$200 已付（滙豐••6401）。10/29 12:15 已收到全鋒確認簡訊。",
+            "tips": [
+              "司機依實際落地時間到；落地後免費等 90 分，之後 NT$300/時",
+              "接機前約 1 小時會簡訊司機與車號",
+              "全鋒驗證碼：0096（服務頁 tms.tw/D33D3C 用）",
+              "改／取消需 24 小時前撥 0800-860-929；帶身分證與滙豐旅人卡"
+            ],
+            "warnings": [
+              "延誤 ≥4 小時視同取消並退款，需自行改搭"
+            ],
+            "images": [],
+            "links": [
+              {
+                "label": "全鋒服務頁 D3953684（驗證碼 0096）",
+                "url": "https://www.tms.tw/D33D3C"
+              },
+              {
+                "label": "全鋒 T-Life（LINE 官方帳號）",
+                "url": "https://www.tms.tw/T-Life"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "pl_royal_lotus",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "name": "Royal Lotus Hotel Danang",
+      "category": "住宿",
+      "note": "120A Nguyễn Văn Thoại；美溪約 5 分；泳池／健身房／早餐",
+      "url": "",
+      "mapsUrl": "",
+      "lat": 16.0548,
+      "lng": 108.2435,
+      "region": "美溪海灘區"
+    },
+    {
+      "id": "pl_marble",
+      "updatedAt": "2026-11-06T07:05:00+08:00",
+      "userEdited": false,
+      "name": "五行山 Marble Mountains＋地獄洞",
+      "category": "景點",
+      "note": "只收現金；地獄洞另票；07:00–17:30；改排 11/7 上午",
+      "url": "",
+      "mapsUrl": "",
+      "lat": 16.0039,
+      "lng": 108.2635,
+      "region": "五行山區"
+    },
+    {
+      "id": "pl_friendly_shoe",
+      "updatedAt": "2026-11-06T07:05:00+08:00",
+      "userEdited": false,
+      "name": "Friendly Shoe Shop（會安）",
+      "category": "購物",
+      "note": "18 Trần Phú；每天 09:00–20:30；與 Be Bi 比價後再下單；縫線底、6 個月不滿意可退",
+      "url": "",
+      "mapsUrl": "",
+      "details": {
+        "title": "會安訂做樂福鞋（第一雙・休閒）",
+        "summary": "Ryan 的第一雙樂福鞋，以日常休閒為主（牛仔褲、亞麻寬褲、短褲＋oversized 襯衫），要年輕乾淨、不要老派厚圓頭。Friendly／會安訂做通常可選皮底或橡膠底——請明確指定「薄型橡膠底／gum／city sole」（比厚膠底輕、仍防滑），並選中等修身、線條乾淨的深棕便士樂福。下單約 1–1.5 小時，旅期內試穿取鞋。",
+        "tips": [
+          "📋 店家確認圖卡（英文＋越南文、中文＋越南文各 2 張，見下方前四張）：最新規格＝深咖啡色光面小牛皮便士樂福＋薄雷根底（深咖啡或黑，不要厚底）、縫線鞋底、杏仁頭、全皮內裡、跟高 2–2.5 cm；當天直接給店家看",
+          "薄膠底：跟店家說要「薄型橡膠底／gum sole／city rubber」（低側緣、不要登山鞋那種厚 lug）；比全皮底更耐濕、比厚膠底更輕。若店內只有厚膠底，可問能否做薄一點或改 city sole／半膠組合底",
+          "雷根底（Vibram 類波紋厚膠底）＝休閒、美式復古、較年輕有份量；優點防滑耐走、適合峴港會安多走路與雨天；缺點較不正式、鞋型顯厚重；若要兼顧正式可選薄雷根底或與先前薄膠底版本比較（見下方雷根底示意圖）",
+          "休閒（非西裝）首推：深咖啡或黑色便士樂福（penny loafer）＋中等厚度雷根底，穿搭牛仔褲、卡其褲、短褲都好搭（見下方「休閒穿搭 10 款（AI 生成）」）",
+          "參考款（Ryan IG 參考圖）：黑色亮面 box-calf 便士樂福＋厚雷根底、對比車線、棕色內裡——休閒很適合；深藍色版本更柔和、配白／米／灰／淺牛仔／橄欖綠特別好看（見下方「黑色 8 款」「深藍色 8 款」）",
+          "會安訂做（含 Friendly）一般可選皮底、橡膠底或組合；下單前請店家拿出底樣確認厚度與車縫（優先車縫／縫底，避免只貼膠）",
+          "年輕不老氣：避免過圓、過厚、過長的「老派」鞋頭；選中等修身、略收尖但不尖頭的杏仁頭、apron 線條乾淨、車線少而整齊",
+          "顏色：深巧克力棕仍最百搭；可問有無再深一點、接近黑的巧克力／espresso；同色系皮帶更好搭",
+          "楦與內裡：第一雙休閒可選軟一點／輕內裡（或問有無較薄 lining），穿起來不要又硬又厚",
+          "穿搭參考：窄管牛仔褲＋隱形襪；亞麻寬褲＋樂福；oversized 襯衫＋短褲＋樂福（見下方年輕向示意圖）",
+          "跟師傅說清楚：深棕便士、薄橡膠底、中等修身休閒楦、日常走路——可秀手機裡「現代薄底」示意圖，並說不要老派厚圓頭",
+          "出發前：決定規格、量腳（雙腳）、剪趾甲、拍腳／現有鞋內底照片",
+          "新鞋磨合：先室內短時間穿、隱形襪／no-show socks；熱點貼防水膠布",
+          "Trần Phú 淹水時改其他分店；11/6 早上可查 Hội An ngập",
+          "留足試穿與修改時間；最晚 11/9 取鞋付尾款",
+          "訂鞋時順便問小皮件：識別證皮套（深色牛皮＋紅線）能否同店做"
+        ],
+        "warnings": [
+          "雨季可能改店／延誤，別拖到最後一天才下單",
+          "第一雙勿追過尖／過硬正裝楦，也不要默認厚膠登山底——明確說「薄」",
+          "圖為示意（非店內實品／無品牌授權），實際皮料、楦頭與底厚以店內為準"
+        ],
+        "images": [
+          {
+            "src": "assets/details/loafer-order-card-1.webp",
+            "alt": "訂做樂福鞋店家確認圖卡（英文＋越南文）第 1 張",
+            "caption": "店家確認圖卡 1/2（EN／VI）｜規格：深咖啡便士樂福＋薄雷根底"
+          },
+          {
+            "src": "assets/details/loafer-order-card-2.webp",
+            "alt": "訂做樂福鞋店家確認圖卡（英文＋越南文）第 2 張",
+            "caption": "店家確認圖卡 2/2（EN／VI）｜合腳、時程、付款、交貨檢查"
+          },
+          {
+            "src": "assets/details/loafer-order-card-1-zh.webp",
+            "alt": "訂做樂福鞋店家確認圖卡（繁體中文＋越南文）第 1 張",
+            "caption": "店家確認圖卡 1/2（中文／越南文）｜規格：深咖啡便士樂福＋薄雷根底"
+          },
+          {
+            "src": "assets/details/loafer-order-card-2-zh.webp",
+            "alt": "訂做樂福鞋店家確認圖卡（繁體中文＋越南文）第 2 張",
+            "caption": "店家確認圖卡 2/2（中文／越南文）｜合腳、時程、付款、交貨檢查"
+          },
+          {
+            "src": "assets/details/loafer-penny-brown-side.webp",
+            "alt": "深棕便士樂福側視示意",
+            "caption": "側視｜深棕便士樂福（示意圖・非實品）"
+          },
+          {
+            "src": "assets/details/loafer-penny-brown-top.webp",
+            "alt": "深棕便士樂福俯視示意",
+            "caption": "俯視｜中等圓頭、penny 帶（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-penny-brown-threequarter.webp",
+            "alt": "深棕便士樂福三分之四角度示意",
+            "caption": "3/4 角｜橡膠底側緣可見（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-rubber-sole.webp",
+            "alt": "樂福鞋橡膠大底示意",
+            "caption": "橡膠大底｜第一雙優先（好走、耐濕）示意圖"
+          },
+          {
+            "src": "assets/details/loafer-penny-strap-detail.webp",
+            "alt": "便士帶細節特寫示意",
+            "caption": "Penny 帶細節｜跟師傅對款用（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-jeans.webp",
+            "alt": "牛仔褲搭配深棕樂福鞋示意",
+            "caption": "休閒穿搭｜牛仔褲＋隱形襪（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-chinos.webp",
+            "alt": "卡其褲搭配深棕樂福鞋示意",
+            "caption": "休閒穿搭｜卡其／chino＋棉質襯衫（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-shorts.webp",
+            "alt": "亞麻短褲搭配深棕樂福鞋示意",
+            "caption": "夏日休閒｜亞麻短褲＋短袖（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-thin-sole-closeup.webp",
+            "alt": "薄型橡膠大底特寫示意",
+            "caption": "薄膠底特寫｜city／gum 大底（示意圖・跟店家對底樣）"
+          },
+          {
+            "src": "assets/details/loafer-thin-sole-edge.webp",
+            "alt": "薄型橡膠底側緣厚度示意",
+            "caption": "薄底側緣｜低側緣、不要厚 lug（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-thin-sole-profile.webp",
+            "alt": "薄底便士樂福側輪廓示意",
+            "caption": "側輪廓｜薄底＋便士樂福（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-modern-sleek-brown.webp",
+            "alt": "現代修身深棕便士樂福示意",
+            "caption": "現代款｜略收尖杏仁頭、線條乾淨（示意圖・較不老氣）"
+          },
+          {
+            "src": "assets/details/loafer-modern-soft-casual.webp",
+            "alt": "軟休閒感深棕便士樂福示意",
+            "caption": "軟休閒感｜輕內裡氛圍、日常好穿（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-young-jeans.webp",
+            "alt": "窄管牛仔褲搭配樂福鞋年輕穿搭示意",
+            "caption": "年輕穿搭｜窄管牛仔褲＋薄底樂福（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-young-linen.webp",
+            "alt": "亞麻寬褲搭配樂福鞋示意",
+            "caption": "年輕穿搭｜亞麻寬褲＋樂福（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-young-shorts.webp",
+            "alt": "oversized襯衫短褲搭配樂福鞋示意",
+            "caption": "年輕穿搭｜oversized 襯衫＋短褲＋樂福（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-lug-sole-product.webp",
+            "alt": "深巧克力棕便士樂福＋黑色雷根厚膠底示意",
+            "caption": "雷根底樂福鞋示意（AI 生成）"
+          },
+          {
+            "src": "assets/details/loafer-lug-sole-outfit.webp",
+            "alt": "白亞麻襯衫、米色卡其褲搭配棕色雷根底樂福鞋，會安街景",
+            "caption": "雷根底穿搭示意（AI 生成）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-01.webp",
+            "alt": "樂福鞋休閒穿搭示意：白 T＋淺色牛仔褲",
+            "caption": "休閒穿搭 10 款（AI 生成）｜1. 白 T＋淺色牛仔褲"
+          },
+          {
+            "src": "assets/details/loafer-outfit-02.webp",
+            "alt": "樂福鞋休閒穿搭示意：Polo＋卡其短褲（海邊）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜2. Polo＋卡其短褲（海邊）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-03.webp",
+            "alt": "樂福鞋休閒穿搭示意：全黑＋白襪（黑鞋）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜3. 全黑＋白襪（黑鞋）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-04.webp",
+            "alt": "樂福鞋休閒穿搭示意：軍綠襯衫外套＋原色牛仔",
+            "caption": "休閒穿搭 10 款（AI 生成）｜4. 軍綠襯衫外套＋原色牛仔"
+          },
+          {
+            "src": "assets/details/loafer-outfit-05.webp",
+            "alt": "樂福鞋休閒穿搭示意：針織 Polo＋灰打褶褲（會安）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜5. 針織 Polo＋灰打褶褲（會安）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-06.webp",
+            "alt": "樂福鞋休閒穿搭示意：牛津襯衫＋白褲",
+            "caption": "休閒穿搭 10 款（AI 生成）｜6. 牛津襯衫＋白褲"
+          },
+          {
+            "src": "assets/details/loafer-outfit-07.webp",
+            "alt": "樂福鞋休閒穿搭示意：帽 T＋牛仔外套（雨天，黑鞋）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜7. 帽 T＋牛仔外套（雨天，黑鞋）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-08.webp",
+            "alt": "樂福鞋休閒穿搭示意：條紋上衣＋卡其褲",
+            "caption": "休閒穿搭 10 款（AI 生成）｜8. 條紋上衣＋卡其褲"
+          },
+          {
+            "src": "assets/details/loafer-outfit-09.webp",
+            "alt": "樂福鞋休閒穿搭示意：古巴領印花襯衫＋亞麻褲（度假）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜9. 古巴領印花襯衫＋亞麻褲（度假）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-10.webp",
+            "alt": "樂福鞋休閒穿搭示意：黑毛衣＋深灰牛仔（夜晚）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜10. 黑毛衣＋深灰牛仔（夜晚）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-01.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：白 T＋淺色牛仔褲（峴港海濱）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜1. 白 T＋淺色牛仔褲（峴港海濱）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-02.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：深藍 Polo＋卡其短褲（會安老街）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜2. 深藍 Polo＋卡其短褲（會安老街）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-03.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：淺藍牛津襯衫＋白褲（咖啡店）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜3. 淺藍牛津襯衫＋白褲（咖啡店）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-04.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：軍綠襯衫外套＋原色牛仔（龍橋）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜4. 軍綠襯衫外套＋原色牛仔（龍橋）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-05.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：灰帽 T＋牛仔外套＋黑褲（雨天）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜5. 灰帽 T＋牛仔外套＋黑褲（雨天）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-06.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：黑毛衣＋深灰牛仔（會安夜晚）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜6. 黑毛衣＋深灰牛仔（會安夜晚）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-07.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：古巴領印花襯衫＋亞麻褲（秋盆河黃昏）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜7. 古巴領印花襯衫＋亞麻褲（秋盆河黃昏）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-08.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：條紋長袖上衣＋卡其褲（峴港街頭）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜8. 條紋長袖上衣＋卡其褲（峴港街頭）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-01.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：白亞麻襯衫＋米色亞麻褲（海濱）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜1. 白亞麻襯衫＋米色亞麻褲（海濱）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-02.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：白 T＋淺色牛仔褲＋白襪（會安老街）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜2. 白 T＋淺色牛仔褲＋白襪（會安老街）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-03.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：灰針織 Polo＋灰打褶褲（咖啡店）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜3. 灰針織 Polo＋灰打褶褲（咖啡店）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-04.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：橄欖綠襯衫外套＋米色卡其褲（韓江邊）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜4. 橄欖綠襯衫外套＋米色卡其褲（韓江邊）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-05.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：白 Polo＋卡其短褲（海灘咖啡）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜5. 白 Polo＋卡其短褲（海灘咖啡）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-06.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：燕麥色毛衣＋淺色牛仔（會安雨天）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜6. 燕麥色毛衣＋淺色牛仔（會安雨天）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-07.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：淺灰牛津襯衫＋炭灰西褲（龍橋夜景）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜7. 淺灰牛津襯衫＋炭灰西褲（龍橋夜景）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-08.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：白古巴領襯衫＋橄欖綠褲（會安花園）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜8. 白古巴領襯衫＋橄欖綠褲（會安花園）"
+          }
+        ],
+        "links": []
+      },
+      "lat": 15.8794,
+      "lng": 108.3282,
+      "region": "會安古城"
+    },
+    {
+      "id": "pl_flow",
+      "updatedAt": "2026-11-06T00:20:00+07:00",
+      "userEdited": false,
+      "name": "Flow Store",
+      "category": "購物",
+      "note": "268 Dương Đình Nghệ；週一至六 09:00–20:30、週日公休；11/6 18:15 去",
+      "url": "https://flowstore.com.vn",
+      "mapsUrl": "https://maps.app.goo.gl/ZPNgCgcLTqiotQy88",
+      "details": {
+        "title": "Vibram 五指鞋（KSO EVO）",
+        "summary": "主要目的：練足弓、健身。首選 KSO EVO（VND 3,599,000 ≈ NT$4,300），Flow Store（越南獨家經銷）正品；鞋底不到 5 mm，走路＋室內訓練都能穿。以重訓為主改選 Graspifier；重訓量大且預算夠可選 Groundsplay。",
+        "tips": [
+          "為什麼選走路也能穿的款：練足弓靠每天累積的穿著時間（走路、站著、在家），只在健身時穿太少；KSO EVO 兩種場合都能用",
+          "型號對照（官網價，男款 EU 40–46）：\nKSO EVO ⭐首選｜3,599,000｜走路、室內訓練、入門\nGraspifier｜3,499,000｜重訓、功能性訓練（分段鞋底）\nGroundsplay｜4,899,000｜深蹲硬舉高強度（2026 新款，4.5 mm、綁帶）\nV-Run／Spidr Walk／Trailope｜4,899,000–4,999,000｜跑步／戶外越野，現在不需要",
+          "試穿 1：先赤腳在店裡走 1–2 分鐘，讓腳放鬆（整體約 30–45 分鐘）",
+          "試穿 2：不穿襪子試（除非打算配五趾襪）",
+          "試穿 3：鬆開魔鬼氈／鞋帶，腳跟先放好，用手指把每根腳趾送進趾套；一格只放一趾，小趾最容易跑錯格",
+          "試穿 4 合腳標準：最長腳趾剛好碰到趾套前端或差一點；腳趾不彎不擠，像第二層皮膚。腳會滑動＝太大（起水泡）；趾套前還有空間＝小一號；腳趾被擠彎＝大一號",
+          "試穿 5 動作測試：硬地走 5 分鐘、深蹲 10 下、弓箭步、提踵、單腳站 30 秒（兩腳）、快速轉身；看後跟滑不滑、腳背綁帶壓不壓、縫線磨不磨",
+          "試穿 6：兩款都試；同款至少試兩個尺寸；不同款尺寸可能不同",
+          "試穿 7：問店家退換規則（官網收到 7 天內可換）、退稅、有沒有折扣",
+          "導入 第 1–2 週：每天 15–30 分鐘走路或在家穿；健身先做低重量動作",
+          "導入 第 3–4 週：每隔幾天增加 10–15 分鐘",
+          "導入 1 個月後：感覺穩定才短距離慢跑（從 1 km 開始）",
+          "11/1 剛跑完 29K：旅途中只穿短時間，不要穿去長時間逛街",
+          "清洗：冷水手洗或洗衣機輕柔模式，自然風乾；不要烘乾、不要曬太陽",
+          "店家 Flow Store：268 Dương Đình Nghệ, An Hải（離 Royal Lotus ~2.5 km，Grab 約 8 分）；週一至六 09:00–20:30、週日公休；電話 +84 878 268 468；先問現貨尺寸（有 45 號以上）；一雙超過 200 萬越盾可退稅，結帳前問「có hoàn thuế VAT không?」"
+        ],
+        "warnings": [
+          "腳背、腳跟或阿基里斯腱痛到隔天還在 → 退回上一階段；腳背持續痛要特別小心（可能是壓力性骨折警訊）",
+          "平常穿穩定鞋、扁平足或容易內倒 → 導入要更慢",
+          "週日公休；價格以店內為準；只買授權通路（Flow Store），慎防仿品"
+        ],
+        "images": [
+          {
+            "src": "assets/details/vibram-flow-mens-lineup.webp",
+            "alt": "Flow Store Vibram 男款選擇",
+            "caption": "Flow Store 男款選擇（官網價 2026/10）"
+          },
+          {
+            "src": "assets/details/vibram-kso-evo-product.webp",
+            "alt": "Vibram KSO EVO 產品圖",
+            "caption": "KSO EVO（首選）"
+          },
+          {
+            "src": "assets/details/vibram-alt-models.webp",
+            "alt": "Vibram 其他型號",
+            "caption": "其他型號"
+          },
+          {
+            "src": "assets/details/vibram-kso-evo.webp",
+            "alt": "Vibram FiveFingers KSO EVO 參考卡",
+            "caption": "參考卡（非實品照片）· Flow Store 峴港"
+          }
+        ],
+        "links": [
+          {
+            "label": "Flow Store 官網",
+            "url": "https://flowstore.com.vn"
+          },
+          {
+            "label": "Vibram 尺寸／試穿指南",
+            "url": "https://www.vibram.com/cn/en/sizing-guide-navigation/fitting-guide.html"
+          }
+        ]
+      },
+      "lat": 16.0531,
+      "lng": 108.2448,
+      "region": "美溪海灘區"
+    },
+    {
+      "id": "pl_luxury_barber",
+      "updatedAt": "2026-11-06T00:20:00+07:00",
+      "userEdited": false,
+      "name": "Luxury Barber（帝王洗頭）",
+      "category": "體驗",
+      "note": "408 Võ Nguyên Giáp；每天 08:00–22:00；11/6 10:00 去，帶折價券",
+      "url": "",
+      "mapsUrl": "https://maps.app.goo.gl/XoH4dztLvGPtaBQn7",
+      "lat": 16.0668,
+      "lng": 108.2225,
+      "region": "峴港市中心"
+    },
+    {
+      "id": "pl_long_chau",
+      "updatedAt": "2026-10-28T13:40:00+08:00",
+      "userEdited": false,
+      "name": "Long Châu 藥局",
+      "category": "購物",
+      "note": "65 Nguyễn Văn Thoại；除疤膏",
+      "url": "",
+      "mapsUrl": "",
+      "details": {
+        "title": "除疤膏（Dermatix Ultra／Contractubex）",
+        "summary": "首選 Dermatix Ultra 7g（約 VND 210,000／NT$250）；備案 Contractubex 10g（約 VND 164,500）。Long Châu 65 Nguyễn Văn Thoại（跟 Royal Lotus 同一條路）。",
+        "tips": [
+          "買哪一款：凸起偏硬癢痛 → Dermatix Ultra（矽膠）；新疤深紅/褐 → 兩款可、Contractubex 較便宜；不確定 → Dermatix Ultra 7g",
+          "哪裡買：Long Châu 65 Nguyễn Văn Thoại；連鎖藥局（Long Châu／Pharmacity／An Khang）較可靠；營業約 06:00–23:00（以現場為準）",
+          "驗貨：外盒封膜完整 → 管身鋁箔封口完好 → 盒上越南文標籤或登記號（Contractubex 10g：VN-23121-22）→ 批號效期與管身一致 → 要收據並拍盒子與批號",
+          "使用：傷口完全癒合才能擦；先手臂內側測試；疤痕怕曬白天防曬；Dermatix 至少約 2 個月才見效",
+          "台灣對照：倍舒痕 Dermatix 7g 約 NT$945（momo），越南約 NT$250 划算很多"
+        ],
+        "warnings": [
+          "不要買：會安古城、韓市場、夜市、Grab 代買（仿冒／保存風險）",
+          "痘疤凹洞型兩款效果有限",
+          "店內價格以現場為準"
+        ],
+        "images": [
+          {
+            "src": "assets/details/dermatix-ultra-7g.webp",
+            "alt": "Dermatix Ultra 7g 外盒與軟管",
+            "caption": "Dermatix Ultra 7g（來源：Long Châu 商品圖）"
+          },
+          {
+            "src": "assets/details/contractubex-10g.webp",
+            "alt": "Contractubex 10g 外盒",
+            "caption": "Contractubex 10g（來源：Long Châu 商品圖）"
+          }
+        ],
+        "links": [
+          {
+            "label": "Long Châu 比較文",
+            "url": "https://nhathuoclongchau.com.vn/bai-viet/so-sanh-kem-tri-seo-contractubex-va-dermatix-cai-nao-tot-hon-49098.html"
+          },
+          {
+            "label": "Pharmacity Dermatix Ultra 7g",
+            "url": "https://www.pharmacity.vn/gel-tri-seo-dermatix-ultra-7g.html"
+          },
+          {
+            "label": "Long Châu 店（65 Nguyễn Văn Thoại）",
+            "url": "https://nhathuoclongchau.com.vn/he-thong-cua-hang/65-nguyen-van-thoai-p-an-hai-dong-q-son-tra-tp-da-nang"
+          }
+        ]
+      },
+      "lat": 16.0556,
+      "lng": 108.2408,
+      "region": "美溪海灘區"
+    },
+    {
+      "id": "pl_blends",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "name": "BLENDS Social Bar",
+      "category": "夜生活",
+      "note": "An Thuong；演出表待查",
+      "url": "",
+      "mapsUrl": "",
+      "lat": 16.0518,
+      "lng": 108.2462,
+      "region": "美溪海灘區"
+    },
+    {
+      "id": "pl_waves",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "name": "Waves Rooftop",
+      "category": "夜生活",
+      "note": "An Thuong 頂樓；演出表待查",
+      "url": "",
+      "mapsUrl": "",
+      "lat": 16.0588,
+      "lng": 108.2455,
+      "region": "美溪海灘區"
+    },
+    {
+      "id": "pl_herbal_spa",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "name": "Herbal Spa",
+      "category": "體驗",
+      "note": "201 Dương Đình Nghệ；四手按摩",
+      "url": "",
+      "mapsUrl": "",
+      "lat": 16.0695,
+      "lng": 108.2392,
+      "region": "美溪海灘區"
+    },
+    {
+      "id": "pl_charm_spa",
+      "updatedAt": "2026-11-09T13:58:00+07:00",
+      "userEdited": false,
+      "name": "Charm Spa Grand",
+      "category": "體驗",
+      "note": "✅ 11/8 已去按摩（刷卡商家名顯示 YOKO LOUNGE 99，VND 1,208,000）。31 Nguyễn Văn Thoại；跟飯店同街",
+      "url": "",
+      "mapsUrl": "",
+      "lat": 16.0672,
+      "lng": 108.2238,
+      "region": "峴港市中心"
+    },
+    {
+      "id": "pl_moc_quan",
+      "updatedAt": "2026-11-06T00:15:00+07:00",
+      "userEdited": false,
+      "name": "Mộc Quán Seafood",
+      "category": "餐廳",
+      "note": "26 Tô Hiến Thành, An Hải；每天 10:30–22:30；海鮮秤重計價；KakaoTalk「다낭 목식당」可訂位；11/6 晚餐三選一",
+      "url": "",
+      "mapsUrl": "https://maps.app.goo.gl/gMHLsc3jd2WzUrBy5",
+      "lat": 16.0621,
+      "lng": 108.2432,
+      "region": "美溪海灘區"
+    },
+    {
+      "id": "pl_yen_yakiniku",
+      "updatedAt": "2026-11-07T22:01:22+07:00",
+      "userEdited": true,
+      "name": "Yen Yakiniku Nguyễn Văn Thoại店",
+      "category": "餐廳",
+      "note": "191 Nguyễn Văn Thoại，近Royal Lotus；週日11:00–15:30／17:00–23:00；11/8 18:00 1人暫排、未訂位。官網buffet299k/349k/399k/499k限2人起，單人例外待確認，可改單點。電話+84 903 559 447按1",
+      "url": "https://yenyakiniku.vn/en/reservations/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yen+Yakiniku+191+Nguyen+Van+Thoai+Da+Nang",
+      "lat": 16.0552,
+      "lng": 108.2395,
+      "region": "美溪海灘區"
+    },
+    {
+      "id": "pl_sushimaru",
+      "updatedAt": "2026-11-06T00:15:00+07:00",
+      "userEdited": false,
+      "name": "Sushimaru 鮨まる 壽司",
+      "category": "餐廳",
+      "note": "Thái Phiên, Hải Châu；每天 11:00–14:00、17:00–22:00；吧台只有 9 位，先打 +84 787 530 546；11/6 晚餐三選一",
+      "url": "",
+      "mapsUrl": "https://maps.app.goo.gl/Pn97dtGzXZ8XfKGJ6",
+      "lat": 16.0734,
+      "lng": 108.2229,
+      "region": "峴港市中心"
+    },
+    {
+      "id": "pl_bebi",
+      "updatedAt": "2026-11-06T00:30:00+07:00",
+      "userEdited": false,
+      "name": "Be Bi Leather（會安）",
+      "category": "購物",
+      "note": "104 Trần Phú（Be Bi II：4 Trần Quý Cáp）；照片照做、可議價，訂做約 50 美元；11/6 跟 Friendly 比價",
+      "url": "",
+      "mapsUrl": "",
+      "lat": 15.8782,
+      "lng": 108.3304,
+      "region": "會安古城"
+    },
+    {
+      "id": "pl_han_market",
+      "updatedAt": "2026-11-06T00:30:00+07:00",
+      "userEdited": false,
+      "name": "漢市場 Chợ Hàn",
+      "category": "購物",
+      "note": "119 Trần Phú, Hải Châu；每天 06:00–19:00；包包衣服在 2 樓；12–14 點攤商常午休；11/7 下午",
+      "url": "",
+      "mapsUrl": "",
+      "lat": 16.0681,
+      "lng": 108.2244,
+      "region": "峴港市中心"
+    },
+    {
+      "id": "pl_gold_daihoa",
+      "updatedAt": "2026-11-06T19:40:00+07:00",
+      "userEdited": false,
+      "name": "Tiệm Vàng Đại Hòa（金行換錢）",
+      "category": "換錢",
+      "note": "129 Trần Phú（漢市場隔壁）；帶平整 100 美元鈔；附近金行匯率差不多；11/7 13:15（11/6 已換好 USD 200 → VND 5,160,000）",
+      "url": "",
+      "mapsUrl": "",
+      "lat": 16.0677,
+      "lng": 108.2239,
+      "region": "峴港市中心"
+    },
+    {
+      "id": "pl_vincom",
+      "updatedAt": "2026-11-09T13:58:00+07:00",
+      "userEdited": false,
+      "name": "Vincom Plaza Da Nang",
+      "category": "購物",
+      "note": "✅ 11/7 已去。910A Ngô Quyền；週六日 09:30–22:00、平日 10:00–22:00；Guardian、Miniso、WinMart 超市、頂樓美食街；11/7 中午",
+      "url": "",
+      "mapsUrl": "https://maps.app.goo.gl/XzRFzLpHtgyEogkF7",
+      "lat": 16.0722,
+      "lng": 108.2301,
+      "region": "韓江東岸"
+    }
+  ],
+  "shopping": [
+    {
+      "id": "sh_scar",
+      "updatedAt": "2026-11-06T20:00:00+07:00",
+      "userEdited": false,
+      "text": "除疤膏 Dermatix Ultra／Contractubex",
+      "done": true,
+      "note": "11/6 已買 Dermatix Ultra 15g，310,000₫（約 NT$389）",
+      "details": {
+        "title": "除疤膏（Dermatix Ultra／Contractubex）",
+        "summary": "首選 Dermatix Ultra 7g（約 VND 210,000／NT$250）；備案 Contractubex 10g（約 VND 164,500）。Long Châu 65 Nguyễn Văn Thoại（跟 Royal Lotus 同一條路）。",
+        "tips": [
+          "買哪一款：凸起偏硬癢痛 → Dermatix Ultra（矽膠）；新疤深紅/褐 → 兩款可、Contractubex 較便宜；不確定 → Dermatix Ultra 7g",
+          "哪裡買：Long Châu 65 Nguyễn Văn Thoại；連鎖藥局（Long Châu／Pharmacity／An Khang）較可靠；營業約 06:00–23:00（以現場為準）",
+          "驗貨：外盒封膜完整 → 管身鋁箔封口完好 → 盒上越南文標籤或登記號（Contractubex 10g：VN-23121-22）→ 批號效期與管身一致 → 要收據並拍盒子與批號",
+          "使用：傷口完全癒合才能擦；先手臂內側測試；疤痕怕曬白天防曬；Dermatix 至少約 2 個月才見效",
+          "台灣對照：倍舒痕 Dermatix 7g 約 NT$945（momo），越南約 NT$250 划算很多"
+        ],
+        "warnings": [
+          "不要買：會安古城、韓市場、夜市、Grab 代買（仿冒／保存風險）",
+          "痘疤凹洞型兩款效果有限",
+          "店內價格以現場為準"
+        ],
+        "images": [
+          {
+            "src": "assets/details/dermatix-ultra-7g.webp",
+            "alt": "Dermatix Ultra 7g 外盒與軟管",
+            "caption": "Dermatix Ultra 7g（來源：Long Châu 商品圖）"
+          },
+          {
+            "src": "assets/details/contractubex-10g.webp",
+            "alt": "Contractubex 10g 外盒",
+            "caption": "Contractubex 10g（來源：Long Châu 商品圖）"
+          }
+        ],
+        "links": [
+          {
+            "label": "Long Châu 比較文",
+            "url": "https://nhathuoclongchau.com.vn/bai-viet/so-sanh-kem-tri-seo-contractubex-va-dermatix-cai-nao-tot-hon-49098.html"
+          },
+          {
+            "label": "Pharmacity Dermatix Ultra 7g",
+            "url": "https://www.pharmacity.vn/gel-tri-seo-dermatix-ultra-7g.html"
+          },
+          {
+            "label": "Long Châu 店（65 Nguyễn Văn Thoại）",
+            "url": "https://nhathuoclongchau.com.vn/he-thong-cua-hang/65-nguyen-van-thoai-p-an-hai-dong-q-son-tra-tp-da-nang"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sh_fivefinger",
+      "updatedAt": "2026-11-06T19:55:00+07:00",
+      "userEdited": false,
+      "text": "Vibram 五指鞋（KSO EVO 首選）",
+      "done": true,
+      "note": "11/6 已去 Flow Store 試穿，決定不買（目標達成）",
+      "details": {
+        "title": "Vibram 五指鞋（KSO EVO）",
+        "summary": "主要目的：練足弓、健身。首選 KSO EVO（VND 3,599,000 ≈ NT$4,300），Flow Store（越南獨家經銷）正品；鞋底不到 5 mm，走路＋室內訓練都能穿。以重訓為主改選 Graspifier；重訓量大且預算夠可選 Groundsplay。",
+        "tips": [
+          "為什麼選走路也能穿的款：練足弓靠每天累積的穿著時間（走路、站著、在家），只在健身時穿太少；KSO EVO 兩種場合都能用",
+          "型號對照（官網價，男款 EU 40–46）：\nKSO EVO ⭐首選｜3,599,000｜走路、室內訓練、入門\nGraspifier｜3,499,000｜重訓、功能性訓練（分段鞋底）\nGroundsplay｜4,899,000｜深蹲硬舉高強度（2026 新款，4.5 mm、綁帶）\nV-Run／Spidr Walk／Trailope｜4,899,000–4,999,000｜跑步／戶外越野，現在不需要",
+          "試穿 1：先赤腳在店裡走 1–2 分鐘，讓腳放鬆（整體約 30–45 分鐘）",
+          "試穿 2：不穿襪子試（除非打算配五趾襪）",
+          "試穿 3：鬆開魔鬼氈／鞋帶，腳跟先放好，用手指把每根腳趾送進趾套；一格只放一趾，小趾最容易跑錯格",
+          "試穿 4 合腳標準：最長腳趾剛好碰到趾套前端或差一點；腳趾不彎不擠，像第二層皮膚。腳會滑動＝太大（起水泡）；趾套前還有空間＝小一號；腳趾被擠彎＝大一號",
+          "試穿 5 動作測試：硬地走 5 分鐘、深蹲 10 下、弓箭步、提踵、單腳站 30 秒（兩腳）、快速轉身；看後跟滑不滑、腳背綁帶壓不壓、縫線磨不磨",
+          "試穿 6：兩款都試；同款至少試兩個尺寸；不同款尺寸可能不同",
+          "試穿 7：問店家退換規則（官網收到 7 天內可換）、退稅、有沒有折扣",
+          "導入 第 1–2 週：每天 15–30 分鐘走路或在家穿；健身先做低重量動作",
+          "導入 第 3–4 週：每隔幾天增加 10–15 分鐘",
+          "導入 1 個月後：感覺穩定才短距離慢跑（從 1 km 開始）",
+          "11/1 剛跑完 29K：旅途中只穿短時間，不要穿去長時間逛街",
+          "清洗：冷水手洗或洗衣機輕柔模式，自然風乾；不要烘乾、不要曬太陽",
+          "店家 Flow Store：268 Dương Đình Nghệ, An Hải（離 Royal Lotus ~2.5 km，Grab 約 8 分）；週一至六 09:00–20:30、週日公休；電話 +84 878 268 468；先問現貨尺寸（有 45 號以上）；一雙超過 200 萬越盾可退稅，結帳前問「có hoàn thuế VAT không?」"
+        ],
+        "warnings": [
+          "腳背、腳跟或阿基里斯腱痛到隔天還在 → 退回上一階段；腳背持續痛要特別小心（可能是壓力性骨折警訊）",
+          "平常穿穩定鞋、扁平足或容易內倒 → 導入要更慢",
+          "週日公休；價格以店內為準；只買授權通路（Flow Store），慎防仿品"
+        ],
+        "images": [
+          {
+            "src": "assets/details/vibram-flow-mens-lineup.webp",
+            "alt": "Flow Store Vibram 男款選擇",
+            "caption": "Flow Store 男款選擇（官網價 2026/10）"
+          },
+          {
+            "src": "assets/details/vibram-kso-evo-product.webp",
+            "alt": "Vibram KSO EVO 產品圖",
+            "caption": "KSO EVO（首選）"
+          },
+          {
+            "src": "assets/details/vibram-alt-models.webp",
+            "alt": "Vibram 其他型號",
+            "caption": "其他型號"
+          },
+          {
+            "src": "assets/details/vibram-kso-evo.webp",
+            "alt": "Vibram FiveFingers KSO EVO 參考卡",
+            "caption": "參考卡（非實品照片）· Flow Store 峴港"
+          }
+        ],
+        "links": [
+          {
+            "label": "Flow Store 官網",
+            "url": "https://flowstore.com.vn"
+          },
+          {
+            "label": "Vibram 尺寸／試穿指南",
+            "url": "https://www.vibram.com/cn/en/sizing-guide-navigation/fitting-guide.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sh_loafer",
+      "updatedAt": "2026-11-08T21:40:00+07:00",
+      "userEdited": false,
+      "text": "訂做樂福鞋（第一雙・休閒）",
+      "done": false,
+      "note": "11/6 已下單付款：2,470,000₫（原價 2,600,000，現金 95 折）≈ NT$3,099；11/8 14:00 飯店試鞋；11/8 試穿太長，11/9 14:00 修改後再試",
+      "details": {
+        "title": "會安訂做樂福鞋（第一雙・休閒）",
+        "summary": "Ryan 的第一雙樂福鞋，以日常休閒為主（牛仔褲、亞麻寬褲、短褲＋oversized 襯衫），要年輕乾淨、不要老派厚圓頭。Friendly／會安訂做通常可選皮底或橡膠底——請明確指定「薄型橡膠底／gum／city sole」（比厚膠底輕、仍防滑），並選中等修身、線條乾淨的深棕便士樂福。下單約 1–1.5 小時，旅期內試穿取鞋。",
+        "tips": [
+          "📋 店家確認圖卡（英文＋越南文、中文＋越南文各 2 張，見下方前四張）：最新規格＝深咖啡色光面小牛皮便士樂福＋薄雷根底（深咖啡或黑，不要厚底）、縫線鞋底、杏仁頭、全皮內裡、跟高 2–2.5 cm；當天直接給店家看",
+          "薄膠底：跟店家說要「薄型橡膠底／gum sole／city rubber」（低側緣、不要登山鞋那種厚 lug）；比全皮底更耐濕、比厚膠底更輕。若店內只有厚膠底，可問能否做薄一點或改 city sole／半膠組合底",
+          "雷根底（Vibram 類波紋厚膠底）＝休閒、美式復古、較年輕有份量；優點防滑耐走、適合峴港會安多走路與雨天；缺點較不正式、鞋型顯厚重；若要兼顧正式可選薄雷根底或與先前薄膠底版本比較（見下方雷根底示意圖）",
+          "休閒（非西裝）首推：深咖啡或黑色便士樂福（penny loafer）＋中等厚度雷根底，穿搭牛仔褲、卡其褲、短褲都好搭（見下方「休閒穿搭 10 款（AI 生成）」）",
+          "參考款（Ryan IG 參考圖）：黑色亮面 box-calf 便士樂福＋厚雷根底、對比車線、棕色內裡——休閒很適合；深藍色版本更柔和、配白／米／灰／淺牛仔／橄欖綠特別好看（見下方「黑色 8 款」「深藍色 8 款」）",
+          "會安訂做（含 Friendly）一般可選皮底、橡膠底或組合；下單前請店家拿出底樣確認厚度與車縫（優先車縫／縫底，避免只貼膠）",
+          "年輕不老氣：避免過圓、過厚、過長的「老派」鞋頭；選中等修身、略收尖但不尖頭的杏仁頭、apron 線條乾淨、車線少而整齊",
+          "顏色：深巧克力棕仍最百搭；可問有無再深一點、接近黑的巧克力／espresso；同色系皮帶更好搭",
+          "楦與內裡：第一雙休閒可選軟一點／輕內裡（或問有無較薄 lining），穿起來不要又硬又厚",
+          "穿搭參考：窄管牛仔褲＋隱形襪；亞麻寬褲＋樂福；oversized 襯衫＋短褲＋樂福（見下方年輕向示意圖）",
+          "跟師傅說清楚：深棕便士、薄橡膠底、中等修身休閒楦、日常走路——可秀手機裡「現代薄底」示意圖，並說不要老派厚圓頭",
+          "出發前：決定規格、量腳（雙腳）、剪趾甲、拍腳／現有鞋內底照片",
+          "新鞋磨合：先室內短時間穿、隱形襪／no-show socks；熱點貼防水膠布",
+          "Trần Phú 淹水時改其他分店；11/6 早上可查 Hội An ngập",
+          "留足試穿與修改時間；最晚 11/9 取鞋付尾款",
+          "訂鞋時順便問小皮件：識別證皮套（深色牛皮＋紅線）能否同店做"
+        ],
+        "warnings": [
+          "雨季可能改店／延誤，別拖到最後一天才下單",
+          "第一雙勿追過尖／過硬正裝楦，也不要默認厚膠登山底——明確說「薄」",
+          "圖為示意（非店內實品／無品牌授權），實際皮料、楦頭與底厚以店內為準"
+        ],
+        "images": [
+          {
+            "src": "assets/details/loafer-order-card-1.webp",
+            "alt": "訂做樂福鞋店家確認圖卡（英文＋越南文）第 1 張",
+            "caption": "店家確認圖卡 1/2（EN／VI）｜規格：深咖啡便士樂福＋薄雷根底"
+          },
+          {
+            "src": "assets/details/loafer-order-card-2.webp",
+            "alt": "訂做樂福鞋店家確認圖卡（英文＋越南文）第 2 張",
+            "caption": "店家確認圖卡 2/2（EN／VI）｜合腳、時程、付款、交貨檢查"
+          },
+          {
+            "src": "assets/details/loafer-order-card-1-zh.webp",
+            "alt": "訂做樂福鞋店家確認圖卡（繁體中文＋越南文）第 1 張",
+            "caption": "店家確認圖卡 1/2（中文／越南文）｜規格：深咖啡便士樂福＋薄雷根底"
+          },
+          {
+            "src": "assets/details/loafer-order-card-2-zh.webp",
+            "alt": "訂做樂福鞋店家確認圖卡（繁體中文＋越南文）第 2 張",
+            "caption": "店家確認圖卡 2/2（中文／越南文）｜合腳、時程、付款、交貨檢查"
+          },
+          {
+            "src": "assets/details/loafer-penny-brown-side.webp",
+            "alt": "深棕便士樂福側視示意",
+            "caption": "側視｜深棕便士樂福（示意圖・非實品）"
+          },
+          {
+            "src": "assets/details/loafer-penny-brown-top.webp",
+            "alt": "深棕便士樂福俯視示意",
+            "caption": "俯視｜中等圓頭、penny 帶（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-penny-brown-threequarter.webp",
+            "alt": "深棕便士樂福三分之四角度示意",
+            "caption": "3/4 角｜橡膠底側緣可見（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-rubber-sole.webp",
+            "alt": "樂福鞋橡膠大底示意",
+            "caption": "橡膠大底｜第一雙優先（好走、耐濕）示意圖"
+          },
+          {
+            "src": "assets/details/loafer-penny-strap-detail.webp",
+            "alt": "便士帶細節特寫示意",
+            "caption": "Penny 帶細節｜跟師傅對款用（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-jeans.webp",
+            "alt": "牛仔褲搭配深棕樂福鞋示意",
+            "caption": "休閒穿搭｜牛仔褲＋隱形襪（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-chinos.webp",
+            "alt": "卡其褲搭配深棕樂福鞋示意",
+            "caption": "休閒穿搭｜卡其／chino＋棉質襯衫（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-shorts.webp",
+            "alt": "亞麻短褲搭配深棕樂福鞋示意",
+            "caption": "夏日休閒｜亞麻短褲＋短袖（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-thin-sole-closeup.webp",
+            "alt": "薄型橡膠大底特寫示意",
+            "caption": "薄膠底特寫｜city／gum 大底（示意圖・跟店家對底樣）"
+          },
+          {
+            "src": "assets/details/loafer-thin-sole-edge.webp",
+            "alt": "薄型橡膠底側緣厚度示意",
+            "caption": "薄底側緣｜低側緣、不要厚 lug（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-thin-sole-profile.webp",
+            "alt": "薄底便士樂福側輪廓示意",
+            "caption": "側輪廓｜薄底＋便士樂福（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-modern-sleek-brown.webp",
+            "alt": "現代修身深棕便士樂福示意",
+            "caption": "現代款｜略收尖杏仁頭、線條乾淨（示意圖・較不老氣）"
+          },
+          {
+            "src": "assets/details/loafer-modern-soft-casual.webp",
+            "alt": "軟休閒感深棕便士樂福示意",
+            "caption": "軟休閒感｜輕內裡氛圍、日常好穿（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-young-jeans.webp",
+            "alt": "窄管牛仔褲搭配樂福鞋年輕穿搭示意",
+            "caption": "年輕穿搭｜窄管牛仔褲＋薄底樂福（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-young-linen.webp",
+            "alt": "亞麻寬褲搭配樂福鞋示意",
+            "caption": "年輕穿搭｜亞麻寬褲＋樂福（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-casual-young-shorts.webp",
+            "alt": "oversized襯衫短褲搭配樂福鞋示意",
+            "caption": "年輕穿搭｜oversized 襯衫＋短褲＋樂福（示意圖）"
+          },
+          {
+            "src": "assets/details/loafer-lug-sole-product.webp",
+            "alt": "深巧克力棕便士樂福＋黑色雷根厚膠底示意",
+            "caption": "雷根底樂福鞋示意（AI 生成）"
+          },
+          {
+            "src": "assets/details/loafer-lug-sole-outfit.webp",
+            "alt": "白亞麻襯衫、米色卡其褲搭配棕色雷根底樂福鞋，會安街景",
+            "caption": "雷根底穿搭示意（AI 生成）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-01.webp",
+            "alt": "樂福鞋休閒穿搭示意：白 T＋淺色牛仔褲",
+            "caption": "休閒穿搭 10 款（AI 生成）｜1. 白 T＋淺色牛仔褲"
+          },
+          {
+            "src": "assets/details/loafer-outfit-02.webp",
+            "alt": "樂福鞋休閒穿搭示意：Polo＋卡其短褲（海邊）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜2. Polo＋卡其短褲（海邊）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-03.webp",
+            "alt": "樂福鞋休閒穿搭示意：全黑＋白襪（黑鞋）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜3. 全黑＋白襪（黑鞋）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-04.webp",
+            "alt": "樂福鞋休閒穿搭示意：軍綠襯衫外套＋原色牛仔",
+            "caption": "休閒穿搭 10 款（AI 生成）｜4. 軍綠襯衫外套＋原色牛仔"
+          },
+          {
+            "src": "assets/details/loafer-outfit-05.webp",
+            "alt": "樂福鞋休閒穿搭示意：針織 Polo＋灰打褶褲（會安）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜5. 針織 Polo＋灰打褶褲（會安）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-06.webp",
+            "alt": "樂福鞋休閒穿搭示意：牛津襯衫＋白褲",
+            "caption": "休閒穿搭 10 款（AI 生成）｜6. 牛津襯衫＋白褲"
+          },
+          {
+            "src": "assets/details/loafer-outfit-07.webp",
+            "alt": "樂福鞋休閒穿搭示意：帽 T＋牛仔外套（雨天，黑鞋）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜7. 帽 T＋牛仔外套（雨天，黑鞋）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-08.webp",
+            "alt": "樂福鞋休閒穿搭示意：條紋上衣＋卡其褲",
+            "caption": "休閒穿搭 10 款（AI 生成）｜8. 條紋上衣＋卡其褲"
+          },
+          {
+            "src": "assets/details/loafer-outfit-09.webp",
+            "alt": "樂福鞋休閒穿搭示意：古巴領印花襯衫＋亞麻褲（度假）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜9. 古巴領印花襯衫＋亞麻褲（度假）"
+          },
+          {
+            "src": "assets/details/loafer-outfit-10.webp",
+            "alt": "樂福鞋休閒穿搭示意：黑毛衣＋深灰牛仔（夜晚）",
+            "caption": "休閒穿搭 10 款（AI 生成）｜10. 黑毛衣＋深灰牛仔（夜晚）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-01.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：白 T＋淺色牛仔褲（峴港海濱）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜1. 白 T＋淺色牛仔褲（峴港海濱）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-02.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：深藍 Polo＋卡其短褲（會安老街）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜2. 深藍 Polo＋卡其短褲（會安老街）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-03.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：淺藍牛津襯衫＋白褲（咖啡店）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜3. 淺藍牛津襯衫＋白褲（咖啡店）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-04.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：軍綠襯衫外套＋原色牛仔（龍橋）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜4. 軍綠襯衫外套＋原色牛仔（龍橋）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-05.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：灰帽 T＋牛仔外套＋黑褲（雨天）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜5. 灰帽 T＋牛仔外套＋黑褲（雨天）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-06.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：黑毛衣＋深灰牛仔（會安夜晚）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜6. 黑毛衣＋深灰牛仔（會安夜晚）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-07.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：古巴領印花襯衫＋亞麻褲（秋盆河黃昏）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜7. 古巴領印花襯衫＋亞麻褲（秋盆河黃昏）"
+          },
+          {
+            "src": "assets/details/loafer-ref-black-08.webp",
+            "alt": "黑色雷根底便士樂福穿搭示意：條紋長袖上衣＋卡其褲（峴港街頭）",
+            "caption": "黑色雷根底樂福 8 款（AI 生成）｜8. 條紋長袖上衣＋卡其褲（峴港街頭）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-01.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：白亞麻襯衫＋米色亞麻褲（海濱）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜1. 白亞麻襯衫＋米色亞麻褲（海濱）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-02.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：白 T＋淺色牛仔褲＋白襪（會安老街）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜2. 白 T＋淺色牛仔褲＋白襪（會安老街）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-03.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：灰針織 Polo＋灰打褶褲（咖啡店）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜3. 灰針織 Polo＋灰打褶褲（咖啡店）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-04.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：橄欖綠襯衫外套＋米色卡其褲（韓江邊）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜4. 橄欖綠襯衫外套＋米色卡其褲（韓江邊）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-05.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：白 Polo＋卡其短褲（海灘咖啡）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜5. 白 Polo＋卡其短褲（海灘咖啡）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-06.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：燕麥色毛衣＋淺色牛仔（會安雨天）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜6. 燕麥色毛衣＋淺色牛仔（會安雨天）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-07.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：淺灰牛津襯衫＋炭灰西褲（龍橋夜景）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜7. 淺灰牛津襯衫＋炭灰西褲（龍橋夜景）"
+          },
+          {
+            "src": "assets/details/loafer-ref-navy-08.webp",
+            "alt": "深藍色雷根底便士樂福穿搭示意：白古巴領襯衫＋橄欖綠褲（會安花園）",
+            "caption": "深藍色雷根底樂福 8 款（AI 生成）｜8. 白古巴領襯衫＋橄欖綠褲（會安花園）"
+          }
+        ],
+        "links": []
+      }
+    },
+    {
+      "id": "sh_id_badge",
+      "updatedAt": "2026-11-06T19:58:00+07:00",
+      "userEdited": false,
+      "text": "訂做識別證皮套（卡片套・多款紅黑示意）",
+      "done": true,
+      "note": "11/6 鞋店不做，沒下單；回台找 Pinkoi 手工皮件",
+      "details": {
+        "title": "訂做識別證皮套（卡片套・台積電紅黑配色）",
+        "summary": "官方主色只有紅 #E60012＋黑 #000000（不是藍）。配色致敬即可，勿做未授權 Logo。兩大皮料方向：①真黑／近黑牛皮＋紅點綴（最貼標準配色，見款式 D–H）②深巧克力棕＋紅（較休閒、好配樂福鞋，見款式 A–C）。建議一次訂 2–3 個。",
+        "tips": [
+          "【皮料方向① 標準配色】真黑／近黑全粒面牛皮＋紅 #E60012 點綴；金屬五金建議槍色或黑色",
+          "款式D 真黑直式＋頂部粗紅條＋槍色 D環（示意）",
+          "款式E 真黑直式＋全周紅邊油、黑車線（示意）",
+          "款式F 真黑橫式＋窗框紅對比車線（示意）",
+          "款式G 黑對開外皮＋開合可見紅 #E60012 內裡（示意）",
+          "款式H 真黑直式＋左側細紅直條（示意）",
+          "【皮料方向② 休閒向】深巧克力棕＋紅：較好配樂福鞋；見款式 A–C",
+          "款式A 直式雙面（最熱門）：深棕＋紅車線；正面透明窗、背面卡槽；頸繩 D環",
+          "款式B 橫式：頂部紅皮條＋槍色夾",
+          "款式C 對開皮夾式：近黑／深棕＋紅線＋掛繩；較厚但實用",
+          "壓印：建議只壓姓名縮寫（如 OU），不要擅自做未授權的公司商標",
+          "尺寸：先量員工證實際長寬（常見 CR80 約 85.6×54mm）；直式／橫式對應證件方向",
+          "會安詢問：跟 Friendly Shoe Shop 訂樂福鞋時順便問小皮件；若不做可回台找 Pinkoi 手工皮件",
+          "數量：建議 2 個同款直式＋可選 1 個橫式備援"
+        ],
+        "warnings": [
+          "勿在皮套上仿製未授權的台積電 Logo／字樣（商標風險）；僅用紅 #E60012＋黑 #000000 配色致敬",
+          "透明窗用耐磨 PVC／TPU，避免軟質易霧化材質",
+          "門禁卡若有特殊厚度／感應，確認背面槽位不會擋感應"
+        ],
+        "images": [
+          {
+            "src": "assets/details/id-badge-vertical-red-stitch.webp",
+            "alt": "款式A 直式雙面識別證皮套示意",
+            "caption": "款式A｜直式雙面：深棕牛皮＋台積電紅車線（示意圖）"
+          },
+          {
+            "src": "assets/details/id-badge-horizontal-red-bar.webp",
+            "alt": "款式B 橫式識別證皮套示意",
+            "caption": "款式B｜橫式：頂部紅皮條＋槍色夾（示意圖）"
+          },
+          {
+            "src": "assets/details/id-badge-bifold-minimal.webp",
+            "alt": "款式C 對開皮夾式識別證皮套示意",
+            "caption": "款式C｜對開皮夾式：近黑＋紅線＋掛繩（示意圖）"
+          },
+          {
+            "src": "assets/details/id-badge-d-black-red-topbar.webp",
+            "alt": "款式D 真黑直式頂部紅條示意",
+            "caption": "款式D｜標準配色：真黑＋頂部粗紅 #E60012＋槍色 D環（示意圖）"
+          },
+          {
+            "src": "assets/details/id-badge-e-black-red-edgepaint.webp",
+            "alt": "款式E 真黑全周紅邊油示意",
+            "caption": "款式E｜標準配色：真黑＋全周紅邊油、黑車線（示意圖）"
+          },
+          {
+            "src": "assets/details/id-badge-f-black-horizontal-red-stitch.webp",
+            "alt": "款式F 真黑橫式紅窗線示意",
+            "caption": "款式F｜標準配色：真黑橫式＋窗框紅對比車線（示意圖）"
+          },
+          {
+            "src": "assets/details/id-badge-g-black-bifold-red-lining.webp",
+            "alt": "款式G 黑對開紅內裡示意",
+            "caption": "款式G｜標準配色：黑對開外皮＋紅 #E60012 內裡外露（示意圖）"
+          },
+          {
+            "src": "assets/details/id-badge-h-black-side-red-stripe.webp",
+            "alt": "款式H 真黑側紅細條示意",
+            "caption": "款式H｜標準配色：真黑＋左側細紅直條（示意圖）"
+          }
+        ],
+        "links": [
+          {
+            "label": "Pinkoi SEANCHY 直式識別證皮套（備援）",
+            "url": "https://www.pinkoi.com/product/9uPZBCHX"
+          },
+          {
+            "label": "Pinkoi SEANCHY 扣環款識別證皮套",
+            "url": "https://www.pinkoi.com/product/mcbWArpj"
+          },
+          {
+            "label": "Pinkoi SEANCHY 店舖",
+            "url": "https://www.pinkoi.com/store/seanchy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sh_snacks",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "text": "伴手禮（咖啡、零食）",
+      "done": false,
+      "note": "韓市場／Lotte Mart；輕、好帶"
+    },
+    {
+      "id": "sh_boots_optional",
+      "updatedAt": "2026-11-08T11:10:00+07:00",
+      "userEdited": false,
+      "text": "高筒靴（已取消）",
+      "done": true,
+      "note": "這次不會買（11/8確認）"
+    }
+  ],
+  "packing": [
+    {
+      "id": "pk_docs",
+      "category": "證件與錢",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "items": [
+        {
+          "id": "pi_passport",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "護照",
+          "done": false
+        },
+        {
+          "id": "pi_evisa",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "e-Visa 列印／電子檔",
+          "done": false
+        },
+        {
+          "id": "pi_cards",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "長榮極致無限卡、旅人無限卡（實體卡）",
+          "done": false
+        },
+        {
+          "id": "pi_cash",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "美金／越南盾／台幣現金",
+          "done": false
+        },
+        {
+          "id": "pi_coupon",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "Luxury Barber 折價券",
+          "done": false
+        },
+        {
+          "id": "pi_insurance_info",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "保險與訂位資訊（截圖）",
+          "done": false
+        },
+        {
+          "id": "pi_lounge_qr",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "貴賓室 QR 截圖",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "pk_clothes",
+      "category": "衣物",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "items": [
+        {
+          "id": "pi_clothes_sets",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "輕便衣褲約 3 套（可丟）",
+          "done": false
+        },
+        {
+          "id": "pi_rain",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "輕便雨衣、薄外套",
+          "done": false
+        },
+        {
+          "id": "pi_sandals",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "止滑涼鞋／拖鞋、泳衣",
+          "done": false
+        },
+        {
+          "id": "pi_socks",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "隱形襪、五指襪",
+          "done": false
+        },
+        {
+          "id": "pi_towel",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "毛巾",
+          "done": false
+        },
+        {
+          "id": "pi_2002r",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "2002R（日常鞋）",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "pk_electronics",
+      "category": "電子與旅用品",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "items": [
+        {
+          "id": "pi_phone",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "手機＋充電線／耳機／Kindle",
+          "done": false
+        },
+        {
+          "id": "pi_powerbank",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "行動電源（只能手提）",
+          "done": false
+        },
+        {
+          "id": "pi_esim_pack",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "eSIM（出發前裝好）",
+          "done": false
+        },
+        {
+          "id": "pi_adapter",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "轉接頭（越南 A／C 型多半可用）",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "pk_meds",
+      "category": "藥品與個人",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "items": [
+        {
+          "id": "pi_meds",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "常備藥（腸胃／止痛／感冒）＋OK繃",
+          "done": false
+        },
+        {
+          "id": "pi_skincare",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "防曬、洗面乳、保濕、防蚊（液體≤100ml）",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "pk_shoespecial",
+      "category": "這趟特別要帶（鞋子）",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "items": [
+        {
+          "id": "pi_shoe_photos",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "樂福鞋款式照片＋規格備忘錄",
+          "done": false
+        },
+        {
+          "id": "pi_foot_measure",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "兩腳腳長紀錄（cm）",
+          "done": false
+        },
+        {
+          "id": "pi_bag",
+          "updatedAt": "2026-10-28T10:04:05+08:00",
+          "userEdited": false,
+          "text": "折疊購物袋；防塵袋裝鞋",
+          "done": false
+        }
+      ]
+    }
+  ],
+  "expenses": [
+    {
+      "id": "ex_hotel",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "date": "2026-10-13",
+      "item": "住宿 Royal Lotus 5 晚",
+      "merchant": "Booking.com",
+      "amount": 5890,
+      "currency": "TWD",
+      "twd": 5890,
+      "status": "paid",
+      "card": "滙豐旅人",
+      "note": "10/30 越南時間前可免費取消",
+      "estimateTwd": 5890,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_flights",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "date": "2026-10-16",
+      "item": "機票（虎航去回）",
+      "merchant": "Trip.com",
+      "amount": 6355,
+      "currency": "TWD",
+      "twd": 6355,
+      "status": "paid",
+      "card": "滙豐旅人",
+      "note": "訂單 1616334893071825；不含託運",
+      "estimateTwd": 6355,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_esim",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "date": "2026-10-18",
+      "item": "越南 eSIM",
+      "merchant": "KKday",
+      "amount": 248,
+      "currency": "TWD",
+      "twd": 248,
+      "status": "paid",
+      "card": "滙豐旅人",
+      "note": "26KK259044234",
+      "estimateTwd": 248,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_visa",
+      "updatedAt": "2026-11-07T13:20:00+07:00",
+      "userEdited": true,
+      "date": "2026-10-18",
+      "item": "越南 e-Visa",
+      "merchant": "EVISAVIETNAM",
+      "amount": 667461,
+      "currency": "VND",
+      "twd": 834,
+      "status": "paid",
+      "card": "滙豐旅人",
+      "note": "簽證費 642,500＋手續費 24,961；帳單入帳 NT$834",
+      "estimateTwd": 840,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_fx_fees",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "date": "2026-10-18",
+      "item": "滙豐國外交易手續費（4 筆）",
+      "merchant": "滙豐銀行",
+      "amount": 242,
+      "currency": "TWD",
+      "twd": 242,
+      "status": "paid",
+      "card": "滙豐旅人",
+      "note": "含已取消訂房手續費 46",
+      "estimateTwd": 242,
+      "excludeFromEstimate": false
+    },
+    {
+      "excludeFromEstimate": false,
+      "userEdited": true,
+      "updatedAt": "2026-11-10T11:20:00+07:00",
+      "id": "ex_fx_fees_cathay",
+      "date": "11/5–11/8",
+      "item": "手續費：國泰國外交易手續費（12 筆，預估）",
+      "merchant": "國泰世華銀行",
+      "amount": 60,
+      "currency": "TWD",
+      "twd": 0,
+      "estimateTwd": 60,
+      "status": "expected",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "預估 1.5%×（659＋393＋399＋125＋80＋14＋124＋210＋15＋667＋1,132＋205＝4,023）≈ 60；實際以帳單為準"
+    },
+    {
+      "id": "ex_lounge",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "date": "2026-10-22",
+      "item": "LoungeKey 貴賓室 2 組",
+      "merchant": "滙豐權益",
+      "amount": 0,
+      "currency": "TWD",
+      "twd": 0,
+      "status": "paid",
+      "card": "滙豐旅人權益",
+      "note": "QR 已寄達",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_insurance",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "date": "2026-10-28",
+      "item": "旅平險＋不便險 C方案",
+      "merchant": "富邦產險",
+      "amount": 985,
+      "currency": "TWD",
+      "twd": 985,
+      "status": "paid",
+      "card": "LINE Pay→滙豐旅人",
+      "note": "576109368868",
+      "estimateTwd": 985,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_transfer_out",
+      "updatedAt": "2026-10-28T10:04:05+08:00",
+      "userEdited": false,
+      "date": "2026-11-05",
+      "item": "台中→小港接送",
+      "merchant": "肯驛 U.First",
+      "amount": 0,
+      "currency": "TWD",
+      "twd": 0,
+      "status": "paid",
+      "card": "國泰長榮極致權益",
+      "note": "F15528953；免費",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_baggage",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-10",
+      "item": "機票加購：回程託運 15kg（取消）",
+      "merchant": "台灣虎航",
+      "amount": 0,
+      "currency": "TWD",
+      "twd": 0,
+      "status": "cancelled",
+      "card": "",
+      "note": "最後沒有加購（Ryan 11/11 確認），不計入合計（原預期 NT$1,000）",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_transfer_back",
+      "updatedAt": "2026-10-30T12:10:00+08:00",
+      "userEdited": false,
+      "date": "2026-10-29",
+      "item": "11/10 桃園 T1→台中西屯接機夜間加成",
+      "merchant": "全鋒",
+      "amount": 200,
+      "currency": "TWD",
+      "twd": 200,
+      "status": "paid",
+      "card": "匯豐••6401",
+      "note": "D3953684；ECPay 綠界（電子發票 FE99251618）；車資權益免費，只付夜間加成",
+      "estimateTwd": 200,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_grab_arrive",
+      "updatedAt": "2026-11-06T04:01:27.000Z",
+      "userEdited": false,
+      "date": "2026-11-05",
+      "item": "機場→飯店 Grab",
+      "merchant": "Grab",
+      "amount": 96720,
+      "currency": "VND",
+      "twd": 121,
+      "status": "paid",
+      "card": "滙豐旅人••6401（Grab 綁卡）",
+      "note": "Grab E-Receipt A-AXTMCWXWXX2TAV；實付 GrabCar VND 96,720，台幣以帳單為準",
+      "estimateTwd": 125,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_seafood",
+      "updatedAt": "2026-11-07T22:00:34+07:00",
+      "userEdited": true,
+      "date": "2026-11-05",
+      "item": "海鮮晚餐",
+      "merchant": "Năm Đảnh／Bé Mặn",
+      "amount": 0,
+      "currency": "VND",
+      "twd": 0,
+      "status": "cancelled",
+      "card": "現金或刷卡",
+      "note": "11/5 沒吃晚餐",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_massage",
+      "updatedAt": "2026-11-10T16:15:00+07:00",
+      "userEdited": true,
+      "date": "11/7–11/9",
+      "item": "活動：按摩預算（已全部用完）",
+      "merchant": "Herbal Spa、Charm Spa Grand 等",
+      "amount": 0,
+      "currency": "VND",
+      "twd": 0,
+      "status": "cancelled",
+      "card": "現金或刷卡",
+      "note": "原 4 次 VND 2,180,000；扣 Midu、YOKO、Chang 各 500k → 剩 680,000；11/10 最後 1 次已付（見 11/10 按摩列），預算歸零",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_scar",
+      "updatedAt": "2026-11-07T22:18:25+07:00",
+      "userEdited": true,
+      "date": "2026-11-06",
+      "item": "除疤膏 Dermatix Ultra 15g",
+      "merchant": "Pharmacity（DNPMC461）",
+      "amount": 310000,
+      "currency": "VND",
+      "twd": 399,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "使用者 11/6 提供 VND 310,000；國泰世華消費彙整通知（11/7 寄出，授權時間為台灣時間）：DNPMC461 NT$399（台灣 11/6 19:58＝越南 18:58，醫療類），不含國外交易手續費",
+      "estimateTwd": 399,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_marble",
+      "updatedAt": "2026-11-07T13:05:00+08:00",
+      "userEdited": true,
+      "date": "2026-11-07",
+      "item": "五行山門票",
+      "merchant": "五行山景區",
+      "amount": 75000,
+      "currency": "VND",
+      "twd": 94,
+      "status": "paid",
+      "card": "現金",
+      "note": "11/7 現金已付",
+      "estimateTwd": 94,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_hoian_ticket",
+      "updatedAt": "2026-11-07T13:20:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-06",
+      "item": "會安古城門票",
+      "merchant": "售票亭",
+      "amount": 0,
+      "currency": "VND",
+      "twd": 0,
+      "status": "cancelled",
+      "card": "—",
+      "note": "11/6 沒有收門票，未花費",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_grab_1106",
+      "updatedAt": "2026-11-07T12:02:00+08:00",
+      "userEdited": false,
+      "date": "2026-11-06",
+      "item": "11/6 交通：Royal Lotus→會安→回飯店等（Grab，6 趟）",
+      "merchant": "Grab",
+      "amount": 339040,
+      "currency": "VND",
+      "twd": 425,
+      "status": "paid",
+      "card": "滙豐旅人••6401（Grab 綁卡）",
+      "note": "實付 6 趟機車合計 VND 339,040；原預期含五行山（已改到 11/7）；台幣以帳單為準",
+      "estimateTwd": 916,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_loafer",
+      "updatedAt": "2026-11-07T07:05:00+08:00",
+      "userEdited": false,
+      "date": "2026-11-06",
+      "item": "會安訂做樂福鞋（第一雙）",
+      "merchant": "會安鞋店",
+      "amount": 2470000,
+      "currency": "VND",
+      "twd": 3099,
+      "status": "paid",
+      "card": "現金",
+      "note": "原價 2,600,000，現金 95 折（省 130,000）；1 TWD≈797 VND；11/8 14:00 飯店試鞋",
+      "estimateTwd": 3099,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_fivefinger",
+      "updatedAt": "2026-11-07T13:20:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-06",
+      "item": "Vibram 五指鞋 KSO EVO",
+      "merchant": "Flow Store",
+      "amount": 0,
+      "currency": "VND",
+      "twd": 0,
+      "status": "cancelled",
+      "card": "",
+      "note": "11/6 去試穿，決定不買（目標達成）；原幣別金額 —",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_barber",
+      "updatedAt": "2026-11-06T08:50:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-06",
+      "item": "Luxury Barber 帝王洗頭（用折價券）",
+      "merchant": "Luxury Barber",
+      "amount": 700000,
+      "currency": "VND",
+      "twd": 878,
+      "status": "paid",
+      "card": "現金",
+      "note": "原價 VND 1,100,000，折扣／coupon 400,000，實付 700,000",
+      "estimateTwd": 878,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_blackhead",
+      "updatedAt": "2026-11-10T16:25:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-08",
+      "item": "做臉／除黑頭",
+      "merchant": "Spa",
+      "amount": 0,
+      "currency": "VND",
+      "twd": 0,
+      "status": "cancelled",
+      "card": "現金或刷卡",
+      "note": "估算；11/10 Ryan 確認沒做，取消",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_dinner_1108",
+      "updatedAt": "2026-11-07T22:00:34+07:00",
+      "userEdited": true,
+      "date": "2026-11-08",
+      "item": "晚餐 omakase",
+      "merchant": "Sushi-Bê",
+      "amount": 0,
+      "currency": "VND",
+      "twd": 0,
+      "status": "cancelled",
+      "card": "刷卡",
+      "note": "不去",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_buffet",
+      "updatedAt": "2026-11-10T11:20:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-07",
+      "item": "All Seasons buffet",
+      "merchant": "All Seasons",
+      "amount": 882252,
+      "currency": "VND",
+      "twd": 1132,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/8）：TWD 1,132（11/7 22:38 授權）",
+      "estimateTwd": 1107,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_souvenirs",
+      "updatedAt": "2026-11-08T04:46:37.246607Z",
+      "userEdited": true,
+      "date": "2026-11-08",
+      "item": "伴手禮",
+      "merchant": "韓市場",
+      "amount": 1460000,
+      "currency": "VND",
+      "twd": 1832,
+      "status": "paid",
+      "card": "現金",
+      "note": "11/8 韓市場伴手禮，Ryan 回報實付 VND 1,460,000（約 NT$1,832，1 TWD≈797 VND）",
+      "estimateTwd": 627,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_meals_misc",
+      "updatedAt": "2026-11-09T17:15:00+07:00",
+      "userEdited": true,
+      "date": "11/6–11/10",
+      "item": "日常午晚餐＋咖啡",
+      "merchant": "在地餐廳",
+      "amount": 824200,
+      "currency": "VND",
+      "twd": 0,
+      "status": "expected",
+      "card": "現金",
+      "note": "原估 7 餐×150k＋6 杯×60k；已扣 11/6 McDonald's VND 150,800、11/6 Yamazaki 晚餐 1 餐 150k、11/6 KOI Thé 1 杯 60k（後兩筆見已付款列）",
+      "estimateTwd": 1034,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_grab_misc",
+      "updatedAt": "2026-11-07T13:20:00+07:00",
+      "userEdited": true,
+      "date": "",
+      "item": "其餘 Grab（Flow／Barber／機場等）",
+      "merchant": "Grab",
+      "amount": 0,
+      "currency": "VND",
+      "twd": 0,
+      "status": "cancelled",
+      "card": "",
+      "note": "已拆成 4 列（11/7 Flow／live bar、11/8 Barber／晚餐、11/9 韓市場、11/10 機場）",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_boots_opt",
+      "updatedAt": "2026-11-08T01:55:48.593695Z",
+      "userEdited": true,
+      "date": "11/6–11/9",
+      "item": "高筒靴（選配）",
+      "merchant": "Friendly Shoe Shop",
+      "amount": 0,
+      "currency": "USD",
+      "twd": 0,
+      "status": "cancelled",
+      "card": "未定",
+      "note": "不計入主合計；選配；已取消",
+      "estimateTwd": 0,
+      "excludeFromEstimate": true
+    },
+    {
+      "id": "ex_grab_night_1105",
+      "updatedAt": "2026-11-07T13:20:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-05",
+      "item": "晚間 Grab 機車 2 趟",
+      "merchant": "Grab",
+      "amount": 117520,
+      "currency": "VND",
+      "twd": 147,
+      "status": "paid",
+      "card": "滙豐旅人••6401",
+      "note": "Grab E-Receipt A-AXTR5S7GWHDAAV、A-AXUXKFFGX8IQAV；台幣以帳單為準",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_fullmarket_1106",
+      "updatedAt": "2026-11-07T13:20:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-06",
+      "item": "FULL - MARKET 14 消費",
+      "merchant": "FULL - MARKET 14",
+      "amount": 24000,
+      "currency": "VND",
+      "twd": 30,
+      "status": "paid",
+      "card": "滙豐旅人••6401",
+      "note": "品項不明（可能超市／便利商店），類別待確認；台幣以帳單為準",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_mcdonalds_1106",
+      "updatedAt": "2026-11-07T12:02:00+08:00",
+      "userEdited": false,
+      "date": "2026-11-06",
+      "item": "餐飲：McDonald's 外送（GrabFood）",
+      "merchant": "McDonald's - Nguyễn Văn Thoại",
+      "amount": 150800,
+      "currency": "VND",
+      "twd": 189,
+      "status": "paid",
+      "card": "滙豐旅人••6401（Grab 綁卡）",
+      "note": "Grab E-Receipt A-A226WINWWS56AV（11/6 20:57）；外送到 120A Nguyen；台幣以帳單為準",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "excludeFromEstimate": false,
+      "userEdited": true,
+      "updatedAt": "2026-11-07T22:23:28+07:00",
+      "id": "ex_massage_1105",
+      "date": "2026-11-05",
+      "item": "活動：按摩（11/5 晚）",
+      "merchant": "Midu Spa Body & Foot Massage（78 Đỗ Bá）",
+      "amount": 659,
+      "currency": "TWD",
+      "twd": 659,
+      "estimateTwd": 627,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/7 寄出，授權時間為台灣時間）：VNPAY*MIDUSPA NT$659（台灣 11/6 00:18＝越南 11/5 23:18）；Grab 11/5 21:09 送達 Midu Spa；越盾原幣金額通知沒寫，不含國外交易手續費；從按摩預算拆出；Ryan 已確認為一回按摩"
+    },
+    {
+      "excludeFromEstimate": false,
+      "userEdited": true,
+      "updatedAt": "2026-11-09T17:50:00+07:00",
+      "id": "ex_yamazaki_1106",
+      "date": "2026-11-06",
+      "item": "餐飲：Yamazaki 日本料理晚餐",
+      "merchant": "Yamazaki（Sala Danang Beach Hotel 25 樓，CTY PHU KIM）",
+      "amount": 305000,
+      "currency": "VND",
+      "twd": 393,
+      "estimateTwd": 188,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/7 寄出，授權時間為台灣時間）：CTY PHU KIM NT$393（台灣 18:51＝越南 17:51，類別飯店∕住宿）；Phú Kim 是 Sala 飯店集團公司，Grab 11/6 17:09 送達 Yamazaki；越盾金額依 VietinBank 收據 VND 305,000（11/6 17:51），不含國外交易手續費；從日常餐費預算拆出"
+    },
+    {
+      "excludeFromEstimate": false,
+      "userEdited": true,
+      "updatedAt": "2026-11-07T22:23:28+07:00",
+      "id": "ex_koi_1106",
+      "date": "2026-11-06",
+      "item": "餐飲：KOI Thé 飲料",
+      "merchant": "KOI Thé（PAYOO-KOI 06）",
+      "amount": 125,
+      "currency": "TWD",
+      "twd": 125,
+      "estimateTwd": 75,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/7 寄出，授權時間為台灣時間）：PAYOO-KOI 06 NT$125（台灣 20:22＝越南 19:22，餐飲）；KOI Thé 門市用 Payoo 刷卡機，飯店同條路 151 Nguyễn Văn Thoại 有分店；不含國外交易手續費；從日常餐費預算拆出；Ryan 已確認為 KOI Thé 飲料"
+    },
+    {
+      "id": "ex_grab_1107",
+      "updatedAt": "2026-11-07T22:23:28+07:00",
+      "userEdited": true,
+      "date": "2026-11-07",
+      "item": "交通：11/7 Grab（已核對 7 筆）",
+      "merchant": "Grab",
+      "amount": 196560,
+      "currency": "VND",
+      "twd": 247,
+      "status": "paid",
+      "card": "滙豐旅人",
+      "note": "來源：Gmail 滙豐11/7網路刷卡通知7筆：32,240＋35,360＋54,080＋15,600＋15,600＋23,920＋19,760＝VND196,560。信件未提供台幣；以1 TWD≈797 VND換算約NT$247，實際以帳單為準。先前8筆212,160尚無第8筆通知佐證，未重複加計。",
+      "estimateTwd": 247,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_livebar_1107",
+      "updatedAt": "2026-11-07T13:20:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-07",
+      "item": "餐飲：Live bar 飲料（An Thuong）",
+      "merchant": "BLENDS／Waves Rooftop 等",
+      "amount": 300000,
+      "currency": "VND",
+      "twd": 0,
+      "status": "expected",
+      "card": "現金或刷卡",
+      "note": "估算：2–3 杯",
+      "estimateTwd": 376,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_grab_1108",
+      "updatedAt": "2026-11-09T12:05:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-08",
+      "item": "交通：健身房→韓市場→飯店／做臉（Grab，5 趟機車）",
+      "merchant": "Grab",
+      "amount": 85280,
+      "currency": "VND",
+      "twd": 107,
+      "status": "paid",
+      "card": "滙豐旅人無限卡（末4碼 6401，Grab 綁卡）",
+      "note": "實付合計 VND 85,280（20,800＋17,680＋15,600＋15,600＋15,600）；Grab E-Receipt 5 筆（11/8）；台幣按 797 換算，以帳單為準；原預期 VND 250,000",
+      "estimateTwd": 314,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_grab_1109",
+      "updatedAt": "2026-11-10T11:20:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-09",
+      "item": "交通：韓市場來回（Grab，實付 1 趟）",
+      "merchant": "Grab",
+      "amount": 31200,
+      "currency": "VND",
+      "twd": 39,
+      "status": "paid",
+      "card": "滙豐旅人無限卡（末4碼 6401，Grab 綁卡）",
+      "note": "Grab E-Receipt A-A2DS66GWX2XAAV（11/9）；實付 VND 31,200",
+      "estimateTwd": 201,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_grab_airport_1110",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-10",
+      "item": "交通：Grab 3 趟（含 Royal Lotus→峴港機場）",
+      "merchant": "Grab",
+      "amount": 150800,
+      "currency": "VND",
+      "twd": 189,
+      "status": "paid",
+      "card": "滙豐旅人無限卡（末4碼 6401，Grab 綁卡）",
+      "note": "VND 31,200＋50,960＋68,640；Grab E-Receipt 11/10；台幣按 1 TWD≈797 換算，以帳單為準",
+      "estimateTwd": 125,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_lounge_khh",
+      "updatedAt": "2026-11-07T22:00:34+07:00",
+      "userEdited": true,
+      "date": "2026-11-05",
+      "item": "貴賓室：小港南苑＋Home Kitchen（已使用）",
+      "merchant": "南苑／Home Kitchen",
+      "amount": 0,
+      "currency": "TWD",
+      "twd": 0,
+      "status": "paid",
+      "card": "不同信用卡權益（國泰長榮／滙豐旅人，對應待確認）",
+      "note": "11/5 兩處均已使用，各用不同信用卡權益；不推定哪張對應哪間",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_lounge_dad",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-10",
+      "item": "貴賓室：峴港 Vanda（滙豐）＋ CIP Orchid（U.First）",
+      "merchant": "國泰／滙豐權益",
+      "amount": 0,
+      "currency": "TWD",
+      "twd": 0,
+      "status": "paid",
+      "card": "卡片權益",
+      "note": "兩間都有去；Vanda 用滙豐、Orchid 用 U.First；權益免費（Ryan 11/11 確認）",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_sneakers_opt",
+      "updatedAt": "2026-11-07T13:20:00+07:00",
+      "userEdited": true,
+      "date": "",
+      "item": "購物：運動鞋（HOKA 等，有打折才買）",
+      "merchant": "Supersports",
+      "amount": 0,
+      "currency": "VND",
+      "twd": 0,
+      "status": "expected",
+      "card": "未定",
+      "note": "選配，不計入合計；沒打折就不買",
+      "estimateTwd": 0,
+      "excludeFromEstimate": true
+    },
+    {
+      "id": "ex_gym_1108",
+      "date": "2026-11-08",
+      "item": "Mobifit360 健身單次（10:00）",
+      "merchant": "Mobifit360 Gym & Fitness",
+      "amount": 160000,
+      "currency": "VND",
+      "twd": 205,
+      "estimateTwd": 201,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/9）：MOBIFIT 360 TWD 205（11/8 15:16 授權）",
+      "excludeFromEstimate": false,
+      "userEdited": true,
+      "updatedAt": "2026-11-10T11:20:00+07:00"
+    },
+    {
+      "id": "ex_yen_1108",
+      "date": "2026-11-08",
+      "item": "Yen Yakiniku 晚餐（1人，待確認）",
+      "merchant": "Yen Yakiniku 191 Nguyễn Văn Thoại",
+      "amount": 0,
+      "currency": "VND",
+      "twd": 0,
+      "estimateTwd": 0,
+      "status": "cancelled",
+      "card": "現金或刷卡",
+      "note": "18:00行程暫排，未訂位；官網buffet299k/349k/399k/499k且限2人起，1人能否例外未確認；399k僅暫估餐費，可改單點，非已選套餐／報價；https://yenyakiniku.vn/menu/；已取消",
+      "excludeFromEstimate": true,
+      "userEdited": true,
+      "updatedAt": "2026-11-08T01:55:48.593695Z"
+    },
+    {
+      "id": "ex_grab_cash_1107",
+      "date": "2026-11-07",
+      "item": "交通：Grab 司機額外載送",
+      "merchant": "Grab 司機",
+      "amount": 45000,
+      "currency": "VND",
+      "twd": 56,
+      "estimateTwd": 56,
+      "status": "paid",
+      "card": "現金",
+      "note": "額外請司機載送付現金；Ryan 已確認；1 TWD≈797 VND換算",
+      "excludeFromEstimate": false,
+      "userEdited": true,
+      "updatedAt": "2026-11-07T22:23:28+07:00"
+    },
+    {
+      "id": "ex_figure_1108",
+      "updatedAt": "2026-11-08T04:46:37.246607Z",
+      "userEdited": true,
+      "date": "2026-11-08",
+      "item": "公仔",
+      "merchant": "",
+      "amount": 150000,
+      "currency": "VND",
+      "twd": 188,
+      "status": "paid",
+      "card": "現金",
+      "note": "Ryan 回報實付 VND 150,000（約 NT$188，1 TWD≈797 VND）",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_tip_hk_1108",
+      "updatedAt": "2026-11-08T04:36:00.483734Z",
+      "userEdited": true,
+      "date": "2026-11-08",
+      "item": "房務整理小費",
+      "merchant": "Royal Lotus",
+      "amount": 50000,
+      "currency": "VND",
+      "twd": 63,
+      "status": "paid",
+      "card": "現金",
+      "note": "Ryan 回報實付 VND 50,000（約 NT$63，1 TWD≈797 VND）",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_mango_1108",
+      "updatedAt": "2026-11-08T06:36:48.716411Z",
+      "userEdited": true,
+      "date": "2026-11-08",
+      "item": "芒果奶昔",
+      "merchant": "漢市場附近咖啡廳",
+      "amount": 55000,
+      "currency": "VND",
+      "twd": 69,
+      "status": "paid",
+      "card": "現金",
+      "note": "Ryan 回報實付 VND 55,000（約 NT$69，1 TWD≈797 VND）",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_onecoffee_1109",
+      "updatedAt": "2026-11-09T08:50:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-09",
+      "item": "餐飲：One Coffee 芒果奶昔＋黑咖啡",
+      "merchant": "One Coffee（01 Châu Thị Vĩnh Tế）",
+      "amount": 39000,
+      "currency": "VND",
+      "twd": 49,
+      "status": "paid",
+      "card": "現金",
+      "note": "芒果奶昔 25K＋黑咖啡 14K；冰茶免費附送；1 TWD≈797 VND",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_yoko_1108",
+      "updatedAt": "2026-11-09T13:58:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-08",
+      "item": "活動：按摩 Charm Spa Grand（11/8）",
+      "merchant": "Charm Spa Grand（刷卡顯示 YOKO LOUNGE 99）",
+      "amount": 1208000,
+      "currency": "VND",
+      "twd": 1516,
+      "status": "paid",
+      "card": "滙豐旅人無限卡（末4碼 6401）",
+      "note": "滙豐海外刷卡通知 11/8；Ryan 確認為按摩；從按摩預算拆出一次（預期欄為原 500k 預算）；台幣按 797 換算，以帳單為準",
+      "estimateTwd": 627,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_fullmarket_1108",
+      "updatedAt": "2026-11-09T12:05:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-08",
+      "item": "其他：FULL MARKET 32 消費",
+      "merchant": "FULL MARKET 32",
+      "amount": 6000,
+      "currency": "VND",
+      "twd": 8,
+      "status": "paid",
+      "card": "滙豐旅人無限卡（末4碼 6401）",
+      "note": "滙豐海外刷卡通知 11/8；品項不明（可能是便利商店）；台幣以帳單為準",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_bepcuon_1109",
+      "updatedAt": "2026-11-09T17:15:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-09",
+      "item": "餐飲：Bếp Cuốn Đà Nẵng 晚餐",
+      "merchant": "Bếp Cuốn Đà Nẵng（31-33 Trần Bạch Đằng, An Hải）",
+      "amount": 225000,
+      "currency": "VND",
+      "twd": 282,
+      "status": "paid",
+      "card": "現金",
+      "note": "https://maps.app.goo.gl/PxZP7CsLisiV9ybb6；從日常午晚餐預算扣除",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_backpack_1108",
+      "date": "2026-11-08",
+      "item": "購物：後背包",
+      "merchant": "漢市場 Chợ Hàn",
+      "amount": 250000,
+      "currency": "VND",
+      "twd": 314,
+      "status": "paid",
+      "card": "現金",
+      "note": "使用者 11/9 補記；1 TWD≈797 VND",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-09T20:12:00+07:00"
+    },
+    {
+      "id": "ex_1109_cash0",
+      "date": "2026-11-09",
+      "item": "餐飲：肯德基",
+      "merchant": "KFC",
+      "amount": 105000,
+      "currency": "VND",
+      "twd": 132,
+      "status": "paid",
+      "card": "現金",
+      "note": "使用者 11/9 回報；1 TWD≈797 VND",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-09T20:40:00+07:00"
+    },
+    {
+      "id": "ex_1109_cash1",
+      "date": "2026-11-09",
+      "item": "餐飲：珍珠奶茶",
+      "merchant": "手搖飲",
+      "amount": 28000,
+      "currency": "VND",
+      "twd": 35,
+      "status": "paid",
+      "card": "現金",
+      "note": "使用者 11/9 回報；1 TWD≈797 VND",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-09T20:40:00+07:00"
+    },
+    {
+      "id": "ex_logincoffee_1109",
+      "date": "2026-11-09",
+      "item": "餐飲：LOGIN COFFEE",
+      "merchant": "LOGIN COFFEE",
+      "amount": 50000,
+      "currency": "VND",
+      "twd": 63,
+      "status": "paid",
+      "card": "滙豐旅人無限卡（末4碼 6401）",
+      "note": "滙豐海外刷卡通知 11/9；台幣按 1 TWD≈797，以帳單為準",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-10T11:20:00+07:00"
+    },
+    {
+      "id": "ex_gopi_1109",
+      "date": "2026-11-09",
+      "item": "其他：GOPI MART 消費",
+      "merchant": "VNPAY*GOPI MART",
+      "amount": 16000,
+      "currency": "VND",
+      "twd": 20,
+      "status": "paid",
+      "card": "滙豐旅人無限卡（末4碼 6401）",
+      "note": "滙豐海外刷卡通知 11/9；品項不明（可能是便利商店）",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-10T11:20:00+07:00"
+    },
+    {
+      "id": "ex_powerhouse_1107",
+      "date": "2026-11-07",
+      "item": "餐飲：THE POWER HOUSE",
+      "merchant": "THE POWER HOUSE",
+      "amount": 80,
+      "currency": "TWD",
+      "twd": 80,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/8）；品項不明",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-10T11:20:00+07:00"
+    },
+    {
+      "id": "ex_hkdt_1107",
+      "date": "2026-11-07",
+      "item": "其他：HKD DT MARKET 超市消費",
+      "merchant": "HKD DT MARKET",
+      "amount": 14,
+      "currency": "TWD",
+      "twd": 14,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/8）；超市／量販",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-10T11:20:00+07:00"
+    },
+    {
+      "id": "ex_koi2_1108",
+      "date": "2026-11-08",
+      "item": "餐飲：KOI Thé 飲料（第二次）",
+      "merchant": "KOI Thé（PAYOO-KOI 06）",
+      "amount": 124,
+      "currency": "TWD",
+      "twd": 124,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/9）",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-10T11:20:00+07:00"
+    },
+    {
+      "id": "ex_am2pm_1108",
+      "date": "2026-11-08",
+      "item": "餐飲：AM2PM 1",
+      "merchant": "AM2PM 1",
+      "amount": 210,
+      "currency": "TWD",
+      "twd": 210,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/9）；餐飲類、品項不明",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-10T11:20:00+07:00"
+    },
+    {
+      "id": "ex_fullmarket2_1108",
+      "date": "2026-11-08",
+      "item": "其他：FULL - MARKET 14 消費（第二筆）",
+      "merchant": "FULL - MARKET 14",
+      "amount": 15,
+      "currency": "TWD",
+      "twd": 15,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/9）；超市／量販",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-10T11:20:00+07:00"
+    },
+    {
+      "id": "ex_chang_1108",
+      "date": "2026-11-08",
+      "item": "活動：按摩 Chang Massage",
+      "merchant": "VNPAY*CHANGMASSAGE",
+      "amount": 667,
+      "currency": "TWD",
+      "twd": 667,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/9）：VNPAY*CHANGMASSAGE（11/8 20:35 授權）",
+      "estimateTwd": 627,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-10T11:20:00+07:00"
+    },
+    {
+      "id": "ex_cham_1110",
+      "date": "2026-11-10",
+      "item": "門票：占婆雕刻博物館",
+      "merchant": "Da Nang Museum of Cham Sculpture",
+      "amount": 60000,
+      "currency": "VND",
+      "twd": 75,
+      "status": "paid",
+      "card": "現金",
+      "note": "使用者 11/10 回報；1 TWD≈797 VND",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false,
+      "updatedAt": "2026-11-10T12:40:00+07:00"
+    },
+    {
+      "id": "ex_massage_1110",
+      "updatedAt": "2026-11-10T16:15:00+07:00",
+      "userEdited": true,
+      "date": "2026-11-10",
+      "item": "活動：按摩（11/10，含小費）",
+      "merchant": "按摩店（11/10 下午）",
+      "amount": 465000,
+      "currency": "VND",
+      "twd": 583,
+      "status": "paid",
+      "card": "現金",
+      "note": "按摩 VND 415,000＋小費 VND 50,000；用掉最後 1 次按摩預算",
+      "estimateTwd": 853,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_tip_cash_0",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-05",
+      "item": "其他：Grab 司機小費 2 次",
+      "merchant": "Grab 司機",
+      "amount": 17000,
+      "currency": "VND",
+      "twd": 21,
+      "status": "paid",
+      "card": "現金",
+      "note": "Ryan 11/11 回報；1 TWD≈797 VND 換算",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_tip_cash_1",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-05",
+      "item": "其他：按摩小費（Midu Spa）",
+      "merchant": "Midu Spa",
+      "amount": 100000,
+      "currency": "VND",
+      "twd": 125,
+      "status": "paid",
+      "card": "現金",
+      "note": "Ryan 11/11 回報；1 TWD≈797 VND 換算",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_tip_cash_2",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-06",
+      "item": "其他：帝王洗頭小費",
+      "merchant": "Luxury Barber",
+      "amount": 100000,
+      "currency": "VND",
+      "twd": 125,
+      "status": "paid",
+      "card": "現金",
+      "note": "Ryan 11/11 回報；1 TWD≈797 VND 換算",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_tip_cash_3",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-07",
+      "item": "其他：Grab 司機小費",
+      "merchant": "Grab 司機",
+      "amount": 6000,
+      "currency": "VND",
+      "twd": 8,
+      "status": "paid",
+      "card": "現金",
+      "note": "Ryan 11/11 回報；1 TWD≈797 VND 換算",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_tip_cash_4",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-09",
+      "item": "其他：送鞋小弟小費",
+      "merchant": "會安鞋店",
+      "amount": 40000,
+      "currency": "VND",
+      "twd": 50,
+      "status": "paid",
+      "card": "現金",
+      "note": "Ryan 11/11 回報；1 TWD≈797 VND 換算",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    },
+    {
+      "id": "ex_hkdt2_1109",
+      "updatedAt": "2026-11-11T11:30:00+07:00",
+      "userEdited": false,
+      "date": "2026-11-09",
+      "item": "其他：HKD DT MARKET 超市消費（第二筆）",
+      "merchant": "HKD DT MARKET",
+      "amount": 192,
+      "currency": "TWD",
+      "twd": 192,
+      "status": "paid",
+      "card": "國泰長榮極致無限卡（末4碼 9689）",
+      "note": "國泰世華消費彙整通知（11/10）；11/9 15:47 授權；以帳單為準",
+      "estimateTwd": 0,
+      "excludeFromEstimate": false
+    }
+  ],
+  "notes": "峴港短假期（Notion 同步）：鞋、五行山、放鬆為主。11 月雨季，每件事都有雨天備案。\n\n已付款合計約 NT\\$30,148；預期尚未付款約 NT\\$1,470；全程預估約 NT\\$31,618（11/11 對齊 Notion：回程託運確認沒加購、11/10 Grab 3 趟、現金小費 5 筆、11/9 HKD DT MARKET 192 已入帳；高筒靴不買）。匯率參考：1 TWD ≈ 797 VND。11/6–11/7 更新：除疤膏已付 NT$389、樂福鞋已付 NT$3,099、11/6 Grab 6 趟約 NT$425、McDonald's 約 NT$189；Vibram 五指鞋取消不買；會安古城 11/6 沒收門票（未花費）；五行山門票 11/7 現金已付 VND 75,000（約 NT$94）。\n\n提醒：\n- 敏感個資（護照號、完整地址、手機、驗證碼）不要貼在此 App。\n- 本機編輯優先於 Notion 同步；換裝置前請先「匯出 JSON」。\n- 越南線上入境申報已完成（11/3），QR 截圖存相簿。\n- 回程託運 15kg：最後沒有加購（11/11 確認）。\n- 🌧️ 天氣（11/10 早上查）：11/9 晚到 11/10 清晨峴港大雨＋強陣風，部分街道有樹木、招牌倒塌擋路。官方預報 11/10 清晨到 11/11 晚峴港 150–280 mm（局部 >450 mm）。目前沒查到機場停飛或 IT552 異動的消息（不確定，出發前再查）。11/10 退房前打包秤重，15:50（越南）前決定要不要線上加購 15kg；占婆博物館可略過、改從飯店直接去機場，最晚 15:30 出發（請飯店叫 GrabCar），出發前查 IT552 動態；Trip.com 自動報到失敗 → 機場櫃台報到。\n- 行程已改（Notion 11/6 晚）：11/7 五行山 → Vincom Plaza（午餐／Guardian／Miniso／WinMart）→（選配）漢市場買包 → 按摩 → live bar；換錢已在 11/6 完成。\n- 11/8 行程更新（Notion 11/8 上午）：09:15 漢市場伴手禮 → 11:00 Mobifit360 健身 → 12:30 回飯店 → 14:00 飯店試鞋 → 15:30 按摩（考慮中）→ 18:00 晚餐未定（Yen 取消）→ 20:00 bar（考慮中）；做臉這次不排、21:00 按摩取消。\n- 11/6 完成：帝王洗頭、會安樂福鞋下單、Flow Store 試穿（不買）、Dermatix Ultra 15g。識別證皮套鞋店不做 → 回台 Pinkoi。\n- 回程 IT552；接送與託運記得出發前搞定。\n- 雨天：11/7 大雨則五行山改 11/8；11/8 試鞋時段固定 14:00；11/10 大雨提早 15:30–16:00 出發。\n\n旅程已結束（11/11 回程後第 1 天）；Notion 來源頁最後更新：2026-11-11 09:30（台北）。\n\n換匯備註（2026/11/5）：現金兌換 USD 200 → 實拿 VND 5,150,000（現場匯率 25,750 VND/USD；當日 Google／Morningstar 中間價約 5,136,503 VND／約 25,682.5 VND/USD，實拿約多 13,497 VND）。此為換匯備忘，不是旅遊花費。\n\n換匯備註（2026/11/6 下午）：金行 USD 200 → VND 5,160,000（1 USD = 25,800；Google 中間匯率 25,583，多換到約 43,500 越盾，約 +0.85%／NT$55）。金行匯率較好，之後換匯找金行，帶平整 100 美元鈔。\n\n11/6 下午：樂福鞋已下單（牛皮 cowhide，全粒面與皮料照片待確認）；11/8 14:00 Royal Lotus 大廳試鞋。\n11/7晚更新：All Seasons已吃，Ryan告知已付VND 882,252（約NT$1,107），付款方式待確認；11/7沒有按摩，剩餘3次按摩預算不變；11/5未吃晚餐，Sushi-Bê不去；小港南苑及Home Kitchen已用不同信用卡權益。eSIM、印e-Visa、去程報到、打包已完成。11/9午餐留白。\n11/7晚國泰卡核對：11/6 國泰長榮卡 4 筆都已入帳——Midu Spa 按摩 NT$659（11/5 晚）、Yamazaki 晚餐 NT$393、Pharmacity 除疤膏 NT$399（原記 389）、KOI Thé NT$125；按摩、日常餐費預算已相應扣減，另預估國泰國外交易手續費約 NT$24。\n\n換匯備註（2026/11/8）：USD 1,000 → VND 25,750,000（1 USD = 25,750）；Google 中間匯率約 25,582,514 VND，多換到約 167,486 越盾（約 +0.65%／NT$210）。此為換匯備忘，不是旅遊花費。\n",
+  "archived": false,
+  "createdAt": "2026-10-28T00:00:00+08:00",
+  "updatedAt": "2026-11-11T11:30:00+07:00",
+  "userEdited": true,
+  "routeMap": {
+    "title": "主要動線",
+    "note": "Grab／自駕估算；實際視路況與尖峰而異",
+    "points": [
+      {
+        "id": "hotel",
+        "label": "飯店",
+        "sublabel": "Royal Lotus Hotel Danang",
+        "lat": 16.0548,
+        "lng": 108.2435
+      },
+      {
+        "id": "marble",
+        "label": "五行山",
+        "sublabel": "Marble Mountains（Ngũ Hành Sơn）",
+        "lat": 16.0039,
+        "lng": 108.2635
+      },
+      {
+        "id": "hoian",
+        "label": "會安",
+        "sublabel": "古城／日本橋一帶",
+        "lat": 15.8777,
+        "lng": 108.3287
+      }
+    ],
+    "edges": [
+      {
+        "from": "hotel",
+        "to": "marble",
+        "distance": "約 8–10 km",
+        "time": "15–25 分"
+      },
+      {
+        "from": "marble",
+        "to": "hoian",
+        "distance": "約 18–20 km",
+        "time": "30–40 分"
+      },
+      {
+        "from": "hotel",
+        "to": "hoian",
+        "distance": "約 25–28 km",
+        "time": "40–55 分"
+      }
+    ]
+  },
+  "journal": [],
+  "memories": {
+    "highlights": [],
+    "wouldReturn": null,
+    "overallRating": null,
+    "postTripNote": ""
+  },
+  "coverEmoji": "🇻🇳",
+  "themeColor": "#0ea5e9",
+  "country": "越南",
+  "city": "峴港・會安",
+  "travelMode": "Grab 叫車 / 步行",
+  "baseCurrency": "TWD",
+  "foreignCurrency": "VND",
+  "fxRate": 0.00128,
+  "members": [
+    {
+      "id": "m_ryan",
+      "name": "Ryan",
+      "color": "#0ea5e9"
+    }
+  ]
+}

@@ -1,0 +1,1585 @@
+{
+  "id": "trip_okinawa_2027",
+  "title": "2027 4/2-4/10 沖繩情侶自駕",
+  "destination": "日本 · 沖繩本島＋慶良間諸島",
+  "coverEmoji": "🌺",
+  "themeColor": "#06b6d4",
+  "country": "日本",
+  "city": "沖繩（那霸・恩納・本部）",
+  "travelMode": "自駕 (Day 2–7) ＋ 單軌電車 / 高速船",
+  "startDate": "2027-04-02",
+  "endDate": "2027-04-10",
+  "baseCurrency": "TWD",
+  "foreignCurrency": "JPY",
+  "fxRate": 0.215,
+  "members": [
+    {
+      "id": "m_ryan",
+      "name": "Ryan",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": "m_gf",
+      "name": "女友",
+      "color": "#f43f5e"
+    }
+  ],
+  "goals": [
+    "🎢 玩透 2025 新開幕 JUNGLIA 沖繩叢林樂園＋泡森林無邊際溫泉",
+    "🏯 朝聖 2026 秋全新重建完工的「首里城正殿」",
+    "🤿 青之洞窟雙人浮潛＋渡嘉敷島看世界級「慶良間藍」找海龜",
+    "🏖️ 住一晚恩納村私人海灘渡假村看夕陽放空",
+    "🥩 吃到琉球之牛燒肉、百年古家大家阿古豬、古宇利蝦蝦飯、幸福鬆餅"
+  ],
+  "deadlines": [
+    {
+      "id": "ok_dl_flight",
+      "label": "搶清明連假來回機票（早鳥）",
+      "date": "2026-11-15",
+      "note": "4/2–4/5 適逢台灣清明連假，建議提前 5 個月鎖定票價"
+    },
+    {
+      "id": "ok_dl_hotels",
+      "label": "預訂 8 晚分區飯店（免費取消方案）",
+      "date": "2026-12-15",
+      "note": "那霸 2+2 晚、北谷 1 晚、恩納渡假村 1 晚、北部連住 2 晚"
+    },
+    {
+      "id": "ok_dl_car",
+      "label": "預訂 Day 2–7 租車（含 ETC＋NOC 全險）",
+      "date": "2027-01-15",
+      "note": "推薦 OTS / ORIX / Times 那霸市區取還車"
+    },
+    {
+      "id": "ok_dl_junglia",
+      "label": "官網預訂 JUNGLIA 門票＋SPA＋園區停車位",
+      "date": "2027-02-08",
+      "note": "確認官網開放預售日（通常提前 2 個月）"
+    },
+    {
+      "id": "ok_dl_dining",
+      "label": "預約人氣餐廳：琉球之牛、百年古家大家、幸福鬆餅",
+      "date": "2027-03-05",
+      "note": "幸福鬆餅為 2 週前（3/20）開放"
+    },
+    {
+      "id": "ok_dl_ferry",
+      "label": "線上預訂渡嘉敷島高速船來回票",
+      "date": "2027-03-09",
+      "note": "乘船日 1 個月前開放預約"
+    },
+    {
+      "id": "ok_dl_docs",
+      "label": "辦理台灣駕照日文譯本 ＋ 填寫 Visit Japan Web",
+      "date": "2027-03-26",
+      "note": "駕照正本與日文譯本兩張都要帶上飛機！"
+    }
+  ],
+  "todoGroups": [
+    {
+      "id": "tg_now",
+      "name": "出發前還要做",
+      "items": [
+        {
+          "id": "ok_td_1",
+          "text": "預訂 2027/4/2–4/10 沖繩來回機票（雙人）",
+          "done": false,
+          "due": "2026/11",
+          "note": "清明連假熱門時段",
+          "priority": "high"
+        },
+        {
+          "id": "ok_td_2",
+          "text": "預訂四區住宿：那霸(4/2-4, 4/8-10)、北谷(4/4-5)、恩納(4/5-6)、本部/名護(4/6-8)",
+          "done": false,
+          "due": "2026/12",
+          "note": "先訂可免費取消房型卡位",
+          "priority": "high"
+        },
+        {
+          "id": "ok_td_3",
+          "text": "預訂 Day 2–7 自駕租車（4/3 09:00 那霸取 ～ 4/8 19:30 那霸還）",
+          "done": false,
+          "due": "2027/01",
+          "note": "加購 ETC 卡借用＋NOC 免責險",
+          "priority": "high",
+          "details": {
+            "title": "初次沖繩右駕＆租車必看重點",
+            "summary": "必帶三寶：① 台灣駕照正本（不能過期）② 監理站核發「日文譯本」（NT$100）③ 護照。注意不是國際駕照喔！",
+            "tips": [
+              "右駕口訣：「左轉彎小、右轉彎大」，雨刷在左、方向燈在右",
+              "沖繩自動車道若有租 ETC 卡可直接走紫色 ETC 車道；沒租則走綠色「一般」車道抽票、下交流道付現",
+              "車機導航輸入 MapCode 最準確，同時手機架開 Google Maps 看即時塞車路況"
+            ],
+            "warnings": [
+              "平日 07:30–09:00 與 17:30–19:30 那霸市區與國道58號極易塞車，還車請多留 20 分鐘緩衝",
+              "日本嚴格零酒駕（連隔夜宿醉也抓），晚上想小酌那天請步行回飯店或叫計程車"
+            ]
+          }
+        },
+        {
+          "id": "ok_td_4",
+          "text": "預訂 Day 7「JUNGLIA 沖繩叢林樂園」1日票＋SPA 套票＋停車券",
+          "done": false,
+          "due": "2027/02",
+          "note": "4/8 入園",
+          "priority": "high"
+        },
+        {
+          "id": "ok_td_5",
+          "text": "預約 Day 4 青之洞窟雙人船潛浮潛（含免費水下拍照）",
+          "done": false,
+          "due": "2027/02",
+          "note": "4/5 上午 09:00 場次"
+        },
+        {
+          "id": "ok_td_6",
+          "text": "線上訂位：琉球之牛(4/5晚)、百年古家大家(4/7晚)、瀨長島幸福鬆餅(4/3早)",
+          "done": false,
+          "due": "2027/03",
+          "note": "三大排隊名店先訂好完全免排隊"
+        },
+        {
+          "id": "ok_td_7",
+          "text": "預訂 Day 8 泊港↔渡嘉敷島 Marine Liner 高速船票",
+          "done": false,
+          "due": "2027/03/09",
+          "note": "09:00 去 / 16:00 回"
+        },
+        {
+          "id": "ok_td_8",
+          "text": "監理站申請「台灣駕照日文譯本」＋確認兩人護照效期滿 6 個月",
+          "done": false,
+          "due": "2027/03",
+          "note": "規費 NT$100，亦可線上監理服務網申辦"
+        },
+        {
+          "id": "ok_td_9",
+          "text": "購買日本 eSIM 雙人份、投保旅平險＋不便險、填寫 Visit Japan Web",
+          "done": false,
+          "due": "出發前 1 週",
+          "note": "VJW 截圖存相簿"
+        }
+      ]
+    },
+    {
+      "id": "tg_onsite",
+      "name": "旅途中提醒",
+      "items": [
+        {
+          "id": "ok_td_10",
+          "text": "Day 5 經過「許田休息站」先買隔天美麗海水族館優惠門票",
+          "done": false,
+          "due": "4/6 上午",
+          "note": "比現場原價省約 10%"
+        },
+        {
+          "id": "ok_td_11",
+          "text": "Day 7 還車前加滿 Regular（紅色油槍）汽油並保留收據給店員看",
+          "done": false,
+          "due": "4/8 傍晚",
+          "note": "セルフ = 自助加油"
+        },
+        {
+          "id": "ok_td_12",
+          "text": "隨手把現金小吃與共同花費記進 App 分帳",
+          "done": false,
+          "due": "每日",
+          "note": "支援日幣自動換算台幣與雙人分帳"
+        }
+      ]
+    },
+    {
+      "id": "tg_done",
+      "name": "已完成",
+      "items": [
+        {
+          "id": "ok_td_done_1",
+          "text": "敲定 2027/4/2–4/10 九天八夜情侶自駕大方向與 JUNGLIA 行程",
+          "done": true,
+          "due": "2026/11",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "ok_bk_flight",
+      "type": "flight",
+      "title": "台北/高雄 ↔ 那霸 (OKA) 雙人來回機票",
+      "detail": "2027/04/02 去程 → 2027/04/10 回程（航程僅約 1.5 小時）",
+      "ref": "待訂",
+      "status": "todo",
+      "note": "華航 / 長榮 / 星宇 / 虎航 / 樂桃比價"
+    },
+    {
+      "id": "ok_bk_h1",
+      "type": "hotel",
+      "title": "Day 1–2 那霸市區飯店（2晚：4/2–4/4）",
+      "detail": "推薦：Southwest Grand Hotel / Hotel Collective / JAL City Naha",
+      "ref": "待訂",
+      "status": "todo",
+      "note": "國際通周邊，免付過夜停車費（4/3 晚停附近上限投幣車位或飯店車位）"
+    },
+    {
+      "id": "ok_bk_h2",
+      "type": "hotel",
+      "title": "Day 3 北谷美國村海景飯店（1晚：4/4–4/5）",
+      "detail": "推薦：Vessel Hotel Campana Okinawa 或 Hilton Okinawa Chatan",
+      "ref": "待訂",
+      "status": "todo",
+      "note": "免費停車、下樓看日落海灘（若想少搬行李可與 Day 4 合併連住 2 晚）"
+    },
+    {
+      "id": "ok_bk_h3",
+      "type": "hotel",
+      "title": "Day 4 恩納村私人海灘渡假村（1晚：4/5–4/6）",
+      "detail": "推薦：Halekulani Okinawa / 瀨良垣島凱悅 / Hotel Monterey",
+      "ref": "待訂",
+      "status": "todo",
+      "note": "情侶重頭戲海景房！"
+    },
+    {
+      "id": "ok_bk_h4",
+      "type": "hotel",
+      "title": "Day 5–6 北部本部町/名護海景飯店（連住2晚：4/6–4/8）",
+      "detail": "推薦：Hotel Orion Motobu Resort & Spa 或 Ala MAHAINA Condo Hotel",
+      "ref": "待訂",
+      "status": "todo",
+      "note": "近水族館，且 Day 7 早上開園衝 JUNGLIA 只要 20 分鐘"
+    },
+    {
+      "id": "ok_bk_h5",
+      "type": "hotel",
+      "title": "Day 7–8 那霸美榮橋/泊港周邊飯店（2晚：4/8–4/10）",
+      "detail": "推薦：OMO5 沖繩那霸 by 星野集團 或 那霸凱悅",
+      "ref": "待訂",
+      "status": "todo",
+      "note": "走路 8 分鐘到泊港搭船去渡嘉敷島，回程單軌直達機場"
+    },
+    {
+      "id": "ok_bk_car",
+      "type": "transfer",
+      "title": "沖繩自駕租車 6 天（4/3 09:00 ～ 4/8 19:30）",
+      "detail": "小型車 / 油電車（Yaris / Fit / Aqua 等級兩人放兩大箱剛好），含 ETC 卡＋NOC 免責險",
+      "ref": "待訂",
+      "status": "todo",
+      "note": "那霸市區營業所取還"
+    },
+    {
+      "id": "ok_bk_junglia",
+      "type": "other",
+      "title": "JUNGLIA 沖繩叢林樂園 1日票＋SPA 套票＋停車預約",
+      "detail": "2027/04/08（四）雙人門票",
+      "ref": "待訂",
+      "status": "todo",
+      "note": "https://junglia.jp/tc"
+    }
+  ],
+  "days": [
+    {
+      "id": "ok_day_1",
+      "date": "2027-04-02",
+      "title": "抵達那霸・國際通與屋台村微醺夜（免租車）",
+      "blocks": [
+        {
+          "id": "ok_b1_1",
+          "time": "下午",
+          "text": "抵達那霸機場 (OKA) → 信用卡感應或 Suica 搭 Yui Rail 單軌電車進那霸市區（約 15 分）",
+          "place": "那霸機場",
+          "placeId": "ok_naha_airport"
+        },
+        {
+          "id": "ok_b1_2",
+          "time": "16:30",
+          "text": "那霸飯店 Check-in 放行李（推薦縣廳前／牧志／美榮橋站周邊）",
+          "place": "國際通周邊",
+          "placeId": "ok_kokusai"
+        },
+        {
+          "id": "ok_b1_3",
+          "time": "18:00",
+          "text": "第一牧志公設市場吃現煮龍蝦海鮮 → 逛國際通伴手禮 → 國際通屋台村喝 Orion 生啤配串燒",
+          "place": "國際通・屋台村",
+          "placeId": "ok_kokusai"
+        }
+      ]
+    },
+    {
+      "id": "ok_day_2",
+      "date": "2027-04-03",
+      "title": "取車出發！瀨長島幸福鬆餅 → 玉泉洞 → 浜邊茶屋海景夕陽",
+      "blocks": [
+        {
+          "id": "ok_b2_1",
+          "time": "09:00",
+          "text": "那霸市區營業所取車（確認台灣駕照正本＋日文譯本、ETC 卡、NOC 保險、拍環車照）",
+          "place": "那霸市區",
+          "placeId": "ok_kokusai"
+        },
+        {
+          "id": "ok_b2_2",
+          "time": "09:45",
+          "text": "瀨長島 Umikaji Terrace（近距離看飛機起降、吃預約好的 32 號幸福鬆餅）",
+          "place": "瀨長島",
+          "placeId": "ok_senaga"
+        },
+        {
+          "id": "ok_b2_3",
+          "time": "12:30",
+          "text": "沖繩世界文化王國：走訪 30 萬年鐘乳石「玉泉洞」＋看熱血超級太鼓舞表演",
+          "place": "沖繩世界・玉泉洞",
+          "placeId": "ok_gyokusendo"
+        },
+        {
+          "id": "ok_b2_4",
+          "time": "15:15",
+          "text": "知念岬公園拍 270° 太平洋海景 → 順路彎進奧武島買中本鮮魚店現炸天婦羅",
+          "place": "知念岬・奧武島",
+          "placeId": "ok_chinen"
+        },
+        {
+          "id": "ok_b2_5",
+          "time": "16:45",
+          "text": "情侶必去「浜邊茶屋」坐木窗席看海喝咖啡 → 傍晚開回那霸飯店休息與晚餐",
+          "place": "浜邊茶屋",
+          "placeId": "ok_hamabe"
+        }
+      ]
+    },
+    {
+      "id": "ok_day_3",
+      "date": "2027-04-04",
+      "title": "首里城全新正殿 → 港川文青甜點街 → 北谷美國村日落",
+      "blocks": [
+        {
+          "id": "ok_b3_1",
+          "time": "09:00",
+          "text": "退房出發 → 首里城公園（朝聖 2026 秋全新重建完工的朱紅正殿與守禮門！）",
+          "place": "首里城公園",
+          "placeId": "ok_shuri"
+        },
+        {
+          "id": "ok_b3_2",
+          "time": "11:45",
+          "text": "港川外人住宅街（吃 oHacorte 水果塔、Houki Boshi 黑糖可麗露）＋浦添 PARCO CITY 吹冷氣逛街",
+          "place": "港川外人住宅・PARCO CITY",
+          "placeId": "ok_minatogawa"
+        },
+        {
+          "id": "ok_b3_3",
+          "time": "16:30",
+          "text": "入住北谷海景飯店 → 散步美國村 Depot Island → 18:15 日落海灘看西海岸夕陽與浪漫夜景晚餐",
+          "place": "北谷美國村",
+          "placeId": "ok_american_village"
+        }
+      ]
+    },
+    {
+      "id": "ok_day_4",
+      "date": "2027-04-05",
+      "title": "青之洞窟雙人浮潛 → 星野 Banta Cafe → 恩納海景渡假村＆琉球之牛",
+      "blocks": [
+        {
+          "id": "ok_b4_1",
+          "time": "09:00",
+          "text": "真榮田岬「青之洞窟」雙人船潛浮潛（中文教練帶隊＋免費水下情侶合照）",
+          "place": "真榮田岬・青之洞窟",
+          "placeId": "ok_maeda"
+        },
+        {
+          "id": "ok_b4_2",
+          "time": "12:30",
+          "text": "星野集團 Banta Cafe 懸崖海景午茶午餐 ＋ 順遊殘波岬純白燈塔",
+          "place": "星野 Banta Cafe・殘波岬",
+          "placeId": "ok_banta"
+        },
+        {
+          "id": "ok_b4_3",
+          "time": "15:15",
+          "text": "萬座毛拍象鼻岩珊瑚斷崖 → 16:00 提早入住恩納海景渡假村享受私人沙灘與無邊際泳池",
+          "place": "萬座毛・恩納渡假區",
+          "placeId": "ok_manzamo"
+        },
+        {
+          "id": "ok_b4_4",
+          "time": "19:00",
+          "text": "晚餐：燒肉「琉球之牛」恩納店享用頂級沖繩和牛饗宴（必提前線上訂位）",
+          "place": "琉球之牛（恩納）",
+          "placeId": "ok_ryukyu_no_ushi"
+        }
+      ]
+    },
+    {
+      "id": "ok_day_5",
+      "date": "2027-04-06",
+      "title": "北上果凍海！「戀之島」古宇利大橋・蝦蝦飯・備瀨福木林道夕陽",
+      "blocks": [
+        {
+          "id": "ok_b5_1",
+          "time": "10:15",
+          "text": "渡假村悠閒早餐後北上 → 停靠「許田休息站」買隔天美麗海水族館優惠票＆現炸黑糖開口笑",
+          "place": "許田休息站",
+          "placeId": "ok_kyoda"
+        },
+        {
+          "id": "ok_b5_2",
+          "time": "11:30",
+          "text": "開車馳騁古宇利大橋 → KOURI SHRIMP 蒜香奶油蝦蝦飯午餐 → Tinu 海灘拍情侶必訪「心形岩」",
+          "place": "古宇利島",
+          "placeId": "ok_kouri"
+        },
+        {
+          "id": "ok_b5_3",
+          "time": "15:45",
+          "text": "備瀨福木林道租電動單車穿梭綠色隧道看海邊夕陽 → 入住北部本部町／名護海景飯店（連住兩晚）",
+          "place": "備瀨福木林道・本部町",
+          "placeId": "ok_churaumi"
+        }
+      ]
+    },
+    {
+      "id": "ok_day_6",
+      "date": "2027-04-07",
+      "title": "沖繩美麗海水族館 → 今歸仁城跡 → 百年古家大家阿古豬晚餐",
+      "blocks": [
+        {
+          "id": "ok_b6_1",
+          "time": "09:00",
+          "text": "美麗海水族館早場入園：搶訂 Ocean Blue 大水槽旁咖啡座、看黑潮之海鯨鯊餵食秀、免費海豚劇場與翡翠海灘",
+          "place": "沖繩美麗海水族館",
+          "placeId": "ok_churaumi"
+        },
+        {
+          "id": "ok_b6_2",
+          "time": "14:45",
+          "text": "世界遺產「今歸仁城跡」散步古石牆俯瞰漸層東海（距水族館僅 13 分鐘）",
+          "place": "今歸仁城跡",
+          "placeId": "ok_nakijin"
+        },
+        {
+          "id": "ok_b6_3",
+          "time": "18:00",
+          "text": "晚餐：名護「百年古家 大家」在夜間點燈瀑布庭園享用極品阿古豬涮涮鍋（續住北部同飯店）",
+          "place": "百年古家 大家",
+          "placeId": "ok_ufuya"
+        }
+      ]
+    },
+    {
+      "id": "ok_day_7",
+      "date": "2027-04-08",
+      "title": "★ 重頭戲！JUNGLIA 沖繩叢林樂園＋森林溫泉 → 南下返那霸還車",
+      "blocks": [
+        {
+          "id": "ok_b7_1",
+          "time": "09:00",
+          "text": "開園衝「JUNGLIA 沖繩叢林樂園」（飯店出發僅 20 分）：玩暴龍裝甲車、叢林飛索、360° 山原熱氣球！",
+          "place": "JUNGLIA 沖繩叢林樂園",
+          "placeId": "ok_junglia"
+        },
+        {
+          "id": "ok_b7_2",
+          "time": "14:00",
+          "text": "園區景觀午餐後，去「SPA JUNGLIA」泡無邊際森林露天溫泉放鬆身心",
+          "place": "SPA JUNGLIA",
+          "placeId": "ok_junglia"
+        },
+        {
+          "id": "ok_b7_3",
+          "time": "16:30",
+          "text": "走沖繩自動車道南下：可順停「永旺夢樂城來客夢」採買晚餐（或樂園玩到 17:00 直返那霸）",
+          "place": "永旺來客夢 AEON Mall",
+          "placeId": "ok_rycom"
+        },
+        {
+          "id": "ok_b7_4",
+          "time": "19:30",
+          "text": "返回那霸市區加滿 Regular 汽油還車 → 入住那霸飯店（近美榮橋／國際通）",
+          "place": "那霸市區",
+          "placeId": "ok_kokusai"
+        }
+      ]
+    },
+    {
+      "id": "ok_day_8",
+      "date": "2027-04-09",
+      "title": "慶良間跳島「渡嘉敷島」看海龜（或那霸波上宮・陶器街慢遊）",
+      "blocks": [
+        {
+          "id": "ok_b8_1",
+          "time": "08:30",
+          "text": "泊港集合搭乘 09:00 Marine Liner 高速船（35 分鐘抵渡嘉敷島）",
+          "place": "泊港碼頭",
+          "placeId": "ok_tomari"
+        },
+        {
+          "id": "ok_b8_2",
+          "time": "09:45",
+          "text": "阿波連海灘／渡嘉志久海灘享受世界級「慶良間藍」與海龜共游，搭 16:00 高速船回那霸（備案：泊港魚市場＋波上宮＋壺屋通對杯＋DFS免稅店）",
+          "place": "渡嘉敷島",
+          "placeId": "ok_tokashiki"
+        },
+        {
+          "id": "ok_b8_3",
+          "time": "18:00",
+          "text": "那霸最後一晚慶功晚餐（傑克牛排或沖繩居酒屋）＋國際通唐吉訶德最後補貨",
+          "place": "國際通",
+          "placeId": "ok_kokusai"
+        }
+      ]
+    },
+    {
+      "id": "ok_day_9",
+      "date": "2027-04-10",
+      "title": "那霸機場國內線最後採買・滿載而歸",
+      "blocks": [
+        {
+          "id": "ok_b9_1",
+          "time": "上午",
+          "text": "退房後搭單軌電車 15 分鐘直達那霸機場（免擔心市區塞車）",
+          "place": "國際通 → 機場",
+          "placeId": "ok_kokusai"
+        },
+        {
+          "id": "ok_b9_2",
+          "time": "起飛前 2.5h",
+          "text": "先逛那霸機場「國內線 2F」買齊紅芋塔、雪鹽甜點、吃豬肉蛋飯糰 → 國際線報到返台",
+          "place": "那霸機場",
+          "placeId": "ok_naha_airport"
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "ok_naha_airport",
+      "name": "那霸機場 (OKA)",
+      "category": "交通樞紐",
+      "region": "南部",
+      "lat": 26.1958,
+      "lng": 127.6458,
+      "mapcode": "33 123 279*00",
+      "stay": "1.5–2.5 小時",
+      "note": "單軌電車直達市區；回程必逛國內線航廈 2F 伴手禮大街與豬肉蛋飯糰",
+      "url": "https://www.naha-airport.co.jp/zh-hant/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.1958,127.6458",
+      "details": {
+        "title": "那霸機場攻略（國內線比國際線好逛 10 倍！）",
+        "summary": "抵達後從國際線步行約 4 分鐘連通道至國內線端搭乘單軌電車（Yui Rail），直接刷 Visa/JCB/Mastercard 感應卡或手機 Suica 即可進站。",
+        "tips": [
+          "回程建議起飛前 2.5–3 小時抵達機場，先去「國內線航廈 2F」採買伴手禮再回國際線報到",
+          "必吃：Pork Tamago Onigiri 豬肉蛋飯糰（國內線 1F 抵達大廳／國際線美食街）",
+          "必買：御菓子御殿紅芋塔、雪鹽夾心餅、Calbee+ 現炸紫薯薯條、Royce 石垣島鹽巧克力"
+        ],
+        "warnings": [
+          "國際線管制區內免稅店較少，伴手禮務必在國內線大廳先買齊"
+        ]
+      }
+    },
+    {
+      "id": "ok_kokusai",
+      "name": "國際通・牧志公設市場・屋台村",
+      "category": "購物美食",
+      "region": "南部",
+      "lat": 26.2144,
+      "lng": 127.6845,
+      "mapcode": "33 157 382*44",
+      "stay": "3–4 小時",
+      "note": "那霸最熱鬧 1.6km 大街；第一牧志公設市場吃海鮮、國際通屋台村小酌",
+      "url": "",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.2144,127.6845",
+      "details": {
+        "title": "國際通＆周邊住宿推薦（Day 1–2、Day 7–8）",
+        "summary": "Day 1 與 Day 7–8 住這帶最省事，免開車、下樓就能吃宵夜逛街。",
+        "tips": [
+          "住宿首選 1：Southwest Grand Hotel（2023 新開幕、頂樓泳池＋免費 Lounge 飲品，情侶超推）",
+          "住宿首選 2：OMO5 沖繩那霸 by 星野（近美榮橋站，走路 8 分到泊港，Day 8 跳島超方便）",
+          "住宿首選 3：Hotel Collective 嘉新酒店（國際通正中央五星、房間寬敞附三溫暖）",
+          "美食：牧志公設市場 1F 挑龍蝦夜光貝、2F 代客料理（加工費約 ¥550/人）；晚上去屋台村喝 Orion 生啤"
+        ],
+        "warnings": [
+          "那霸市區過夜停車費約 ¥1,200–¥1,800/晚，因此安排 Day 2 早上才取車、Day 7 傍晚還車最划算"
+        ]
+      }
+    },
+    {
+      "id": "ok_senaga",
+      "name": "瀨長島 Umikaji Terrace",
+      "category": "海景咖啡",
+      "region": "南部",
+      "lat": 26.1758,
+      "lng": 127.6425,
+      "mapcode": "33 002 602*06",
+      "stay": "1.5–2 小時",
+      "note": "沖繩小希臘純白階梯聚落，近距離看飛機起降＋幸福鬆餅（店號 32）",
+      "url": "https://www.umikajiterrace.com/zh/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.1758,127.6425",
+      "details": {
+        "title": "瀨長島幸福鬆餅＆停車攻略",
+        "summary": "離那霸僅 15–20 分鐘車程，純白愛琴海風格露台正對慶良間海景與那霸機場跑道。",
+        "tips": [
+          "幸福鬆餅（幸せのパンケーキ）：出發前 2 週凌晨 00:00（日本時間）開放線上預約，沒預約現場常排 1–1.5 小時",
+          "島頂公園與下方海岸步道都能免費停車，假日建議 10:00 前抵達最順暢"
+        ]
+      }
+    },
+    {
+      "id": "ok_gyokusendo",
+      "name": "沖繩世界文化王國・玉泉洞",
+      "category": "景點",
+      "region": "南部",
+      "lat": 26.1394,
+      "lng": 127.7503,
+      "mapcode": "232 495 330*28",
+      "stay": "2–2.5 小時",
+      "note": "日本第二大 30 萬年鐘乳石洞（開放 890m）、琉球古民家聚落與太鼓舞表演",
+      "url": "https://www.gyokusendo.co.jp/okinawaworld/tc/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.1394,127.7503",
+      "details": {
+        "title": "玉泉洞參觀動線提醒",
+        "summary": "洞內恆溫約 21°C 涼爽潮濕，青之泉與槍天井燈光非常壯觀。",
+        "tips": [
+          "先查好當日 Eisa 超級太鼓舞場次（通常 10:30 / 12:30 / 14:30），進園先走玉泉洞約 35 分鐘剛好接表演",
+          "出口有南都造酒所，可試喝沖繩精釀啤酒與毒蛇酒（開車請女友喝！）"
+        ],
+        "warnings": [
+          "鐘乳石洞地板微濕，建議穿好走防滑的鞋子"
+        ]
+      }
+    },
+    {
+      "id": "ok_chinen",
+      "name": "知念岬公園＆奧武島天婦羅",
+      "category": "景點",
+      "region": "南部",
+      "lat": 26.1695,
+      "lng": 127.8325,
+      "mapcode": "232 594 503*22",
+      "stay": "1–1.5 小時",
+      "note": "270 度太平洋無敵海景岬角；順遊貓咪小島「奧武島」吃中本鮮魚天婦羅",
+      "url": "",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.1695,127.8325"
+    },
+    {
+      "id": "ok_hamabe",
+      "name": "浜邊茶屋（浜辺の茶屋）",
+      "category": "海景咖啡",
+      "region": "南部",
+      "lat": 26.1297,
+      "lng": 127.7878,
+      "mapcode": "232 469 491*03",
+      "stay": "1–1.5 小時",
+      "note": "情侶必訪！依傍沙灘而建的木造小屋，坐在木窗吧台看潮汐與大海",
+      "url": "https://hamabenochaya.com/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.1297,127.7878",
+      "details": {
+        "title": "浜邊茶屋窗邊座位小撇步",
+        "summary": "沖繩南部最浪漫的秘境海景咖啡廳，滿潮時海水就在窗戶正下方拍打。",
+        "tips": [
+          "進店登記候位時勾選「窓側席（窗邊席）」，等待期間可先走木階梯下到新原海灘散步拍照",
+          "若候位太久，旁邊同體系的「山の茶屋・楽水」視野更高更開闊"
+        ]
+      }
+    },
+    {
+      "id": "ok_shuri",
+      "name": "首里城公園（2026秋完工新正殿）",
+      "category": "景點",
+      "region": "南部",
+      "lat": 26.217,
+      "lng": 127.7195,
+      "mapcode": "33 161 526*66",
+      "stay": "1.5–2 小時",
+      "note": "琉球王國世界遺產！正殿於 2026 年秋季重建完成，2027 春季造訪正逢全新亮相",
+      "url": "https://oki-park.jp/shurijo/tc/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.2170,127.7195"
+    },
+    {
+      "id": "ok_minatogawa",
+      "name": "港川外人住宅街＆浦添 PARCO CITY",
+      "category": "購物美食",
+      "region": "中部",
+      "lat": 26.2652,
+      "lng": 127.7128,
+      "mapcode": "33 341 002*55",
+      "stay": "2.5–3 小時",
+      "note": "美軍宿舍改建文青甜點街（oHacorte 水果塔、黑糖可麗露）＋臨海大型購物中心",
+      "url": "",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.2652,127.7128"
+    },
+    {
+      "id": "ok_american_village",
+      "name": "北谷美國村・日落海灘",
+      "category": "購物美食",
+      "region": "中部",
+      "lat": 26.3168,
+      "lng": 127.7575,
+      "mapcode": "33 526 450*63",
+      "stay": "3–4 小時（含晚餐）",
+      "note": "異國海濱彩色街區，傍晚看西海岸絕美夕陽、逛美式選物店、海景晚餐",
+      "url": "https://www.okinawa-americanvillage.com/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.3168,127.7575",
+      "details": {
+        "title": "北谷美國村約會＆住宿推薦（Day 3）",
+        "summary": "4 月初日落時間約 18:45，建議 16:30 抵達先逛 Depot Island 拍照，18:15 到海岸步道看夕陽。",
+        "tips": [
+          "住宿推薦 1：Vessel Hotel Campana Okinawa（下樓就是日落海灘、有海景展望大浴場、免費停車）",
+          "住宿推薦 2：Hilton Okinawa Chatan Resort / DoubleTree by Hilton（海景陽台＋多座渡假泳池）",
+          "每週六 20:00 美國村海邊常有約 3 分鐘驚喜煙火（可留意官網公告）"
+        ]
+      }
+    },
+    {
+      "id": "ok_maeda",
+      "name": "真榮田岬（青之洞窟浮潛）",
+      "category": "海灘浮潛",
+      "region": "中部",
+      "lat": 26.4436,
+      "lng": 127.7717,
+      "mapcode": "206 062 685*85",
+      "stay": "2–2.5 小時",
+      "note": "陽光折射夢幻藍光海蝕洞！4月初開海季，預約中文教練雙人專團＋水下攝影",
+      "url": "",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.4436,127.7717",
+      "details": {
+        "title": "青之洞窟雙人浮潛攻略",
+        "summary": "沖繩人氣第一的水上體驗，不會游泳也能由教練拉浮板輕鬆參加。",
+        "tips": [
+          "挑選「船潛出發（從港邊搭船 5 分鐘直達洞口）」比走百階樓梯輕鬆非常多，海況通過率也更高",
+          "選擇「一組客人專屬教練＋免費 GoPro 水下合照」店家（如 Pink Mermaid / 凪 Nagi 等），情侶體驗最好",
+          "4月初水溫約 22–23°C，店家提供的防寒衣穿上去就不冷；泳衣先穿在衣服裡面最省時"
+        ]
+      }
+    },
+    {
+      "id": "ok_banta",
+      "name": "星野集團 Banta Cafe＆殘波岬燈塔",
+      "category": "海景咖啡",
+      "region": "中部",
+      "lat": 26.4408,
+      "lng": 127.7122,
+      "mapcode": "1005 685 296*33",
+      "stay": "1.5–2 小時",
+      "note": "日本最大級懸崖海景咖啡廳（榻榻米海景亭超chill）＋30公尺斷崖純白燈塔",
+      "url": "https://banta-cafe.com/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.4408,127.7122"
+    },
+    {
+      "id": "ok_manzamo",
+      "name": "萬座毛＆恩納村海景渡假區",
+      "category": "景點",
+      "region": "中部",
+      "lat": 26.5048,
+      "lng": 127.8501,
+      "mapcode": "206 312 039*17",
+      "stay": "1 小時＋渡假村放空",
+      "note": "象鼻岩珊瑚斷崖（全新觀景步道大樓好逛好停）；恩納村集結頂級海景渡假村",
+      "url": "",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.5048,127.8501",
+      "details": {
+        "title": "恩納村海景渡假飯店推薦（Day 4 情侶重頭戲）",
+        "summary": "恩納村是沖繩海灘渡假村一級戰區，建議這天 15:30–16:00 就入住享受私人沙灘與無邊際泳池！",
+        "tips": [
+          "夢幻頂規：Halekulani Okinawa 海麗客蘭尼（全房海景＋夏威夷奢華服務，紀念日等級首選）",
+          "浪漫獨島：Hyatt Regency Seragaki Island 瀨良垣島凱悅（獨占整座小島，距萬座毛僅 5 分鐘）",
+          "經典人氣：Hotel Monterey Okinawa 蒙特利（英倫風全海景＋下樓老虎海灘，走路可到琉球之牛恩納店）"
+        ]
+      }
+    },
+    {
+      "id": "ok_ryukyu_no_ushi",
+      "name": "燒肉 琉球之牛（恩納店 / 北谷店）",
+      "category": "購物美食",
+      "region": "中部",
+      "lat": 26.4395,
+      "lng": 127.8012,
+      "mapcode": "206 127 598*85",
+      "stay": "1.5–2 小時",
+      "note": "沖繩最難訂頂級和牛燒肉，入口即化炙燒握壽司與厚切牛舌，務必提前線上訂位",
+      "url": "https://www.u-shi.net/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.4395,127.8012"
+    },
+    {
+      "id": "ok_kyoda",
+      "name": "許田休息站（道の駅 許田）",
+      "category": "購物美食",
+      "region": "北部",
+      "lat": 26.5542,
+      "lng": 127.9712,
+      "mapcode": "206 476 708*28",
+      "stay": "40 分鐘",
+      "note": "沖繩自動車道終點旁！可買美麗海水族館優惠門票、吃三矢本舖現炸黑糖開口笑",
+      "url": "",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.5542,127.9712"
+    },
+    {
+      "id": "ok_kouri",
+      "name": "古宇利大橋・蝦蝦飯・心形岩",
+      "category": "景點",
+      "region": "北部",
+      "lat": 26.7055,
+      "lng": 128.0185,
+      "mapcode": "485 692 174*01",
+      "stay": "2.5 小時",
+      "note": "馳騁 1,960m 跨海大橋看果凍海！「戀之島」Tinu 海灘拍心形岩、吃 KOURI SHRIMP",
+      "url": "",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.7055,128.0185",
+      "details": {
+        "title": "古宇利島順遊動線",
+        "summary": "過橋前可先停橋頭南端展望台拍照，過橋後先衝 KOURI SHRIMP 再順時針環島去北端心形岩。",
+        "tips": [
+          "KOURI SHRIMP（蝦蝦飯）：MapCode 485 692 168*22，現有專屬觀景大樓與免費停車場，點餐機可刷卡",
+          "心形岩（Tinu 海灘）：MapCode 485 751 179*50，礁石步道略陡，建議穿球鞋或包覆涼鞋"
+        ]
+      }
+    },
+    {
+      "id": "ok_churaumi",
+      "name": "沖繩美麗海水族館＆備瀨福木林道",
+      "category": "景點",
+      "region": "北部",
+      "lat": 26.6943,
+      "lng": 127.8779,
+      "mapcode": "553 075 797*74",
+      "stay": "4–5 小時",
+      "note": "巨型鯨鯊「黑潮之海」、Ocean Blue 水槽咖啡座、免費海豚秀；旁有備瀨綠色隧道",
+      "url": "https://churaumi.okinawa/tc/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.6943,127.8779",
+      "details": {
+        "title": "美麗海水族館＆北部連住飯店推薦（Day 5–6）",
+        "summary": "停「P7 立體停車場」離水族館入口最近！08:30–09:00 早場入館人最少。",
+        "tips": [
+          "進館直衝「黑潮之海」旁的 Ocean Blue 咖啡廳抽號碼牌訂付費水槽座位（¥500/桌限 40 分鐘，超好拍！）",
+          "北部連住推薦 1：Hotel Orion Motobu Resort & Spa（走路 7 分到水族館、全海景房＋天然溫泉）",
+          "北部連住推薦 2：Ala MAHAINA Condo Hotel（全海景大套房、無邊際泳池、樓下星巴克，去 JUNGLIA 約 20 分）",
+          "備瀨福木林道：MapCode 553 105 654*72，租電動輔助單車穿梭數千棵福木隧道看夕陽超浪漫"
+        ]
+      }
+    },
+    {
+      "id": "ok_nakijin",
+      "name": "今歸仁城跡",
+      "category": "景點",
+      "region": "北部",
+      "lat": 26.6911,
+      "lng": 127.9295,
+      "mapcode": "553 081 587*71",
+      "stay": "1 小時",
+      "note": "世界文化遺產，蜿蜒古石城牆俯瞰漸層東海，距水族館僅 13 分鐘車程",
+      "url": "https://www.nakijinjoseki-official.jp/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.6911,127.9295"
+    },
+    {
+      "id": "ok_ufuya",
+      "name": "百年古家 大家（Ufuya）",
+      "category": "購物美食",
+      "region": "北部",
+      "lat": 26.6212,
+      "lng": 127.9648,
+      "mapcode": "206 745 056*82",
+      "stay": "1.5–2 小時",
+      "note": "百年琉球古民家與瀑布庭園，夜間點燈享用頂級阿古豬涮涮鍋（晚餐必預約！）",
+      "url": "https://ufuya.com/zh-hant/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.6212,127.9648"
+    },
+    {
+      "id": "ok_junglia",
+      "name": "JUNGLIA 沖繩叢林樂園＋SPA JUNGLIA",
+      "category": "主題樂園",
+      "region": "北部",
+      "lat": 26.647,
+      "lng": 127.968,
+      "mapcode": "485 572 190*00",
+      "stay": "6–7 小時（全日）",
+      "note": "2025 開幕話題新地標！恐龍裝甲車探險、叢林高空滑索、熱氣球與無邊際森林溫泉",
+      "url": "https://junglia.jp/tc",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.6470,127.9680",
+      "details": {
+        "title": "JUNGLIA 沖繩叢林樂園必玩攻略（Day 7 重頭戲）",
+        "summary": "座落於世界自然遺產「山原（Yanbaru）」門戶，結合刺激叢林體驗與奢華森林溫泉。",
+        "tips": [
+          "門票＋SPA 套票＋園區付費停車場務必提前在官網預約（現場車位採取預約制優先）",
+          "必玩設施：DINOSAUR SAFARI（暴龍追逐裝甲車）、HORIZON BALLOON（360° 俯瞰山原與海景熱氣球）、SKY PHOENIX（飛越叢林滑索）",
+          "下午留 1.5–2 小時去「SPA JUNGLIA」泡金氏世界紀錄級無邊際森林露天風呂，洗去疲勞再開車南下！",
+          "從本部町／名護飯店出發僅 15–20 分鐘車程，開園衝第一批最過癮"
+        ],
+        "warnings": [
+          "滑索與戶外探險設施禁止穿拖鞋／高跟鞋，這天請穿包覆運動鞋，並攜帶泳衣（部分 SPA 區域使用）"
+        ]
+      }
+    },
+    {
+      "id": "ok_rycom",
+      "name": "永旺夢樂城沖繩來客夢 (AEON Mall Rycom)",
+      "category": "購物美食",
+      "region": "中部",
+      "lat": 26.3142,
+      "lng": 127.7962,
+      "mapcode": "33 530 406*45",
+      "stay": "2.5–3 小時",
+      "note": "沖繩最大購物中心！寶可夢中心、服飾、電器藥妝退稅一站搞定，免費停車",
+      "url": "https://tw.aeonmall.global/mall/okinawarycom-aeonmall/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.3142,127.7962"
+    },
+    {
+      "id": "ok_tomari",
+      "name": "泊港碼頭＆泊港魚市場",
+      "category": "交通樞紐",
+      "region": "南部",
+      "lat": 26.2248,
+      "lng": 127.6815,
+      "mapcode": "33 186 244*11",
+      "stay": "搭船出發 / 魚市場 1 小時",
+      "note": "前往慶良間諸島高速船碼頭；旁邊魚市場早午餐吃平價海膽鮪魚生魚片",
+      "url": "",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.2248,127.6815"
+    },
+    {
+      "id": "ok_tokashiki",
+      "name": "慶良間諸島・渡嘉敷島（阿波連海灘）",
+      "category": "海灘浮潛",
+      "region": "慶良間離島",
+      "lat": 26.1725,
+      "lng": 127.3442,
+      "mapcode": "泊港搭高速船 35 分鐘",
+      "stay": "6–7 小時（一日跳島）",
+      "note": "世界級透明「慶良間藍」國立公園！白沙灘放空、渡嘉志久海灘高機率與海龜共游",
+      "url": "http://www.vill.tokashiki.okinawa.jp/",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=26.1725,127.3442",
+      "details": {
+        "title": "渡嘉敷島一日跳島船班＆交通",
+        "summary": "不用過夜也能當天來回體驗比沖繩本島更透澈兩倍的果凍海！",
+        "tips": [
+          "船班：Marine Liner 高速船 09:00 泊港發 → 09:35 抵渡嘉敷港；回程 16:00（或旺季 17:30）發船",
+          "出發前 1 個月於渡嘉敷村官網線上預訂來回船票（高速船成人來回約 ¥4,810＋環境稅 ¥100）",
+          "怕暈船或當天風浪大停航，可無痛切換為「那霸質感慢遊（波上宮＋壺屋通陶器街＋DFS 免稅店）」備案"
+        ]
+      }
+    }
+  ],
+  "routeSegments": [
+    {
+      "from": "ok_naha_airport",
+      "to": "ok_kokusai",
+      "km": 5.5,
+      "expMin": 15,
+      "locMin": 15,
+      "toll": 0,
+      "mode": "單軌 15 分 / 計程車 15 分",
+      "note": "搭單軌電車至縣廳前或牧志站約 13–16 分鐘（¥270–¥300），完全不怕塞車。"
+    },
+    {
+      "from": "ok_kokusai",
+      "to": "ok_senaga",
+      "km": 8.5,
+      "expMin": 20,
+      "locMin": 20,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "那霸往南經國道 331 號，島上免費停車。"
+    },
+    {
+      "from": "ok_naha_airport",
+      "to": "ok_senaga",
+      "km": 5.5,
+      "expMin": 15,
+      "locMin": 15,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "離機場最近的海景聚落，看飛機超震撼。"
+    },
+    {
+      "from": "ok_senaga",
+      "to": "ok_gyokusendo",
+      "km": 14.0,
+      "expMin": 25,
+      "locMin": 25,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "南部鄉間道路寬敞好開，很適合第一天熟悉右駕。"
+    },
+    {
+      "from": "ok_gyokusendo",
+      "to": "ok_chinen",
+      "km": 10.5,
+      "expMin": 20,
+      "locMin": 20,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "順路可先彎過小橋進「奧武島」買現炸天婦羅（僅多 5 分鐘）。"
+    },
+    {
+      "from": "ok_chinen",
+      "to": "ok_hamabe",
+      "km": 7.2,
+      "expMin": 14,
+      "locMin": 14,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "沿南城海岸線開往新原海灘，巷口有專屬停車場。"
+    },
+    {
+      "from": "ok_hamabe",
+      "to": "ok_kokusai",
+      "km": 17.5,
+      "expMin": 35,
+      "locMin": 35,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "傍晚返回那霸市區車流稍多，預留 35–40 分鐘。"
+    },
+    {
+      "from": "ok_kokusai",
+      "to": "ok_shuri",
+      "km": 4.5,
+      "expMin": 15,
+      "locMin": 15,
+      "toll": 0,
+      "mode": "自駕 / 單軌",
+      "note": "停首里城地下停車場（首里杜館）最方便。"
+    },
+    {
+      "from": "ok_shuri",
+      "to": "ok_minatogawa",
+      "km": 9.0,
+      "expMin": 22,
+      "locMin": 22,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "港川外人住宅巷內有投幣停車場；PARCO CITY 就在隔壁 5 分鐘且免費停車。"
+    },
+    {
+      "from": "ok_minatogawa",
+      "to": "ok_american_village",
+      "km": 10.0,
+      "expMin": 22,
+      "locMin": 22,
+      "toll": 0,
+      "mode": "自駕西海岸線",
+      "note": "沿臨海道路北上風景超棒，美國村有大型免費立體停車場。"
+    },
+    {
+      "from": "ok_american_village",
+      "to": "ok_maeda",
+      "km": 17.0,
+      "expMin": 30,
+      "locMin": 30,
+      "toll": 0,
+      "mode": "自駕國道58號",
+      "note": "早上沿國道 58 號北上車流順暢。"
+    },
+    {
+      "from": "ok_maeda",
+      "to": "ok_banta",
+      "km": 8.0,
+      "expMin": 15,
+      "locMin": 15,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "讀谷村海岸線極美，Banta Cafe 與殘波岬相距僅 4 分鐘。"
+    },
+    {
+      "from": "ok_banta",
+      "to": "ok_manzamo",
+      "km": 18.5,
+      "expMin": 28,
+      "locMin": 28,
+      "toll": 0,
+      "mode": "自駕恩納海景線",
+      "note": "沿途盡是果凍海景與恩納渡假飯店。"
+    },
+    {
+      "from": "ok_manzamo",
+      "to": "ok_ryukyu_no_ushi",
+      "km": 8.5,
+      "expMin": 14,
+      "locMin": 14,
+      "toll": 0,
+      "mode": "自駕國道58號",
+      "note": "恩納村內移動很近；若喝酒可請飯店叫計程車或代駕。"
+    },
+    {
+      "from": "ok_manzamo",
+      "to": "ok_kyoda",
+      "km": 16.5,
+      "expMin": 24,
+      "locMin": 24,
+      "toll": 0,
+      "mode": "自駕國道58號",
+      "note": "沿名護灣看海北上，免費道路就很順！"
+    },
+    {
+      "from": "ok_kyoda",
+      "to": "ok_kouri",
+      "km": 22.5,
+      "expMin": 30,
+      "locMin": 30,
+      "toll": 0,
+      "mode": "自駕經屋我地島",
+      "note": "跨越古宇利大橋時記得請副駕錄影！"
+    },
+    {
+      "from": "ok_kouri",
+      "to": "ok_churaumi",
+      "km": 21.0,
+      "expMin": 30,
+      "locMin": 30,
+      "toll": 0,
+      "mode": "自駕北部海岸",
+      "note": "沿本部半島北側行駛，順路經過備瀨福木林道。"
+    },
+    {
+      "from": "ok_churaumi",
+      "to": "ok_nakijin",
+      "km": 7.5,
+      "expMin": 13,
+      "locMin": 13,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "距離超近，排在水族館後最順路。"
+    },
+    {
+      "from": "ok_nakijin",
+      "to": "ok_ufuya",
+      "km": 11.5,
+      "expMin": 20,
+      "locMin": 20,
+      "toll": 0,
+      "mode": "自駕山原道路",
+      "note": "山間小路入夜較暗，跟著導航慢慢開即可。"
+    },
+    {
+      "from": "ok_churaumi",
+      "to": "ok_junglia",
+      "km": 13.5,
+      "expMin": 22,
+      "locMin": 22,
+      "toll": 0,
+      "mode": "自駕平面道路",
+      "note": "住本部町或名護飯店早上過去只要 15–22 分鐘！"
+    },
+    {
+      "from": "ok_junglia",
+      "to": "ok_rycom",
+      "km": 52.0,
+      "expMin": 58,
+      "locMin": 82,
+      "toll": 680,
+      "mode": "沖繩自動車道 (許田→北中城)",
+      "note": "走高速公路省超過 24 分鐘！"
+    },
+    {
+      "from": "ok_rycom",
+      "to": "ok_kokusai",
+      "km": 21.0,
+      "expMin": 32,
+      "locMin": 44,
+      "toll": 460,
+      "mode": "沖繩自動車道 (北中城→那霸)",
+      "note": "還車前先在市區外圍加油站把油加滿（Regular 油種）並留收據。"
+    },
+    {
+      "from": "ok_junglia",
+      "to": "ok_kokusai",
+      "km": 82.0,
+      "expMin": 85,
+      "locMin": 125,
+      "toll": 1040,
+      "mode": "沖繩自動車道全線 (許田→那霸)",
+      "note": "許田 IC 上高速直達那霸 IC，全線普通車過路費 ¥1,040。"
+    },
+    {
+      "from": "ok_naha_airport",
+      "to": "ok_churaumi",
+      "km": 95.0,
+      "expMin": 105,
+      "locMin": 148,
+      "toll": 1040,
+      "mode": "沖繩自動車道全線",
+      "note": "沖繩南北縱貫基準：走高速公路約 1 小時 45 分，平面道路需 2.5 小時。"
+    },
+    {
+      "from": "ok_tomari",
+      "to": "ok_tokashiki",
+      "km": 32.0,
+      "expMin": 35,
+      "locMin": 70,
+      "toll": 0,
+      "isFerry": true,
+      "mode": "高速船 35 分 / 渡輪 70 分",
+      "note": "泊港北岸搭乘 Marine Liner 高速船 35 分鐘即達渡嘉敷島。"
+    }
+  ],
+  "routeMap": {
+    "title": "沖繩本島南→中→北黃金自駕動線",
+    "note": "Day 1 & 8–9 搭單軌／高速船；Day 2–7 自駕由南玩到北不走回頭路，回程走沖繩自動車道 85 分直返那霸。",
+    "points": [
+      {
+        "id": "naha",
+        "label": "那霸・南部",
+        "sublabel": "國際通 / 瀨長島 / 玉泉洞 / 浜邊茶屋",
+        "lat": 26.2144,
+        "lng": 127.6845
+      },
+      {
+        "id": "chatan",
+        "label": "北谷・美國村",
+        "sublabel": "首里城 / 港川甜點 / 日落海灘",
+        "lat": 26.3168,
+        "lng": 127.7575
+      },
+      {
+        "id": "onna",
+        "label": "恩納・讀谷",
+        "sublabel": "青之洞窟 / 星野咖啡 / 萬座毛渡假村",
+        "lat": 26.5048,
+        "lng": 127.8501
+      },
+      {
+        "id": "motobu",
+        "label": "本部・古宇利",
+        "sublabel": "古宇利大橋 / 美麗海水族館 / 大家阿古豬",
+        "lat": 26.6943,
+        "lng": 127.8779
+      },
+      {
+        "id": "junglia",
+        "label": "JUNGLIA 樂園",
+        "sublabel": "叢林探險＋森林溫泉 → 高速回那霸",
+        "lat": 26.647,
+        "lng": 127.968
+      }
+    ],
+    "edges": [
+      {
+        "from": "naha",
+        "to": "chatan",
+        "distance": "17 km",
+        "time": "約 35 分"
+      },
+      {
+        "from": "chatan",
+        "to": "onna",
+        "distance": "28 km",
+        "time": "約 40 分"
+      },
+      {
+        "from": "onna",
+        "to": "motobu",
+        "distance": "42 km",
+        "time": "約 55 分"
+      },
+      {
+        "from": "motobu",
+        "to": "junglia",
+        "distance": "13.5 km",
+        "time": "約 22 分"
+      },
+      {
+        "from": "junglia",
+        "to": "naha",
+        "distance": "82 km (高速)",
+        "time": "約 85 分"
+      }
+    ]
+  },
+  "shopping": [
+    {
+      "id": "ok_sh_1",
+      "text": "御菓子御殿 元祖紅芋塔",
+      "done": false,
+      "note": "國際通或那霸機場國內線 2F 買最新鮮"
+    },
+    {
+      "id": "ok_sh_2",
+      "text": "宮古島雪鹽夾心餅 / 生雪鹽甜點",
+      "done": false,
+      "note": "鹹甜奶香超適合分送同事"
+    },
+    {
+      "id": "ok_sh_3",
+      "text": "Orion 啤酒限定 T-shirt ＆ 情侶玻璃杯",
+      "done": false,
+      "note": "國際通官方專賣店或美國村"
+    },
+    {
+      "id": "ok_sh_4",
+      "text": "壺屋通陶器街（Yachimun）手作情侶對杯／風獅爺",
+      "done": false,
+      "note": "Day 1 或 Day 8 可逛"
+    },
+    {
+      "id": "ok_sh_5",
+      "text": "古宇利蝦蝦飯蒜香奶油醬 / 沖繩石垣島辣油",
+      "done": false,
+      "note": "料理神器伴手禮"
+    },
+    {
+      "id": "ok_sh_6",
+      "text": "日本藥妝＆電器採買（永旺來客夢 / 唐吉訶德）",
+      "done": false,
+      "note": "滿 ¥5,500 憑護照免稅"
+    }
+  ],
+  "packing": [
+    {
+      "id": "ok_pk_docs",
+      "category": "證件與自駕三寶（最重要！）",
+      "items": [
+        {
+          "id": "ok_pi_1",
+          "text": "兩人護照正本（效期 6 個月以上）",
+          "done": false
+        },
+        {
+          "id": "ok_pi_2",
+          "text": "台灣汽車駕照「正本」（檢查有效期限！）",
+          "done": false
+        },
+        {
+          "id": "ok_pi_3",
+          "text": "監理站核發「駕照日文譯本」紙本",
+          "done": false
+        },
+        {
+          "id": "ok_pi_4",
+          "text": "Visit Japan Web 入境 QR 截圖",
+          "done": false
+        },
+        {
+          "id": "ok_pi_5",
+          "text": "海外高回饋信用卡 2–3 張 ＋ 日幣現金約 ¥50,000",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ok_pk_water",
+      "category": "浮潛・海灘・SPA 溫泉",
+      "items": [
+        {
+          "id": "ok_pi_6",
+          "text": "泳衣／泳褲 2 套（青之洞窟＋SPA JUNGLIA／渡假村泳池）",
+          "done": false
+        },
+        {
+          "id": "ok_pi_7",
+          "text": "防磨衣／水母衣（4月初下水防風保暖又防曬）",
+          "done": false
+        },
+        {
+          "id": "ok_pi_8",
+          "text": "海洋友善防曬乳、太陽眼鏡、遮陽帽",
+          "done": false
+        },
+        {
+          "id": "ok_pi_9",
+          "text": "手機防水袋、海灘夾腳拖＋好走的包覆運動鞋（JUNGLIA 必穿）",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ok_pk_clothes",
+      "category": "4月初春季穿搭（20–24°C）",
+      "items": [
+        {
+          "id": "ok_pi_10",
+          "text": "短袖上衣、渡假洋裝／襯衫（拍古宇利與海景咖啡超好看）",
+          "done": false
+        },
+        {
+          "id": "ok_pi_11",
+          "text": "防風薄外套／針織衫（早晚海風與冷氣房必備）",
+          "done": false
+        },
+        {
+          "id": "ok_pi_12",
+          "text": "晴雨兩用摺疊傘",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ok_pk_tech",
+      "category": "自駕車用＆3C藥品",
+      "items": [
+        {
+          "id": "ok_pi_13",
+          "text": "車用冷氣口手機架 ＋ 車充線（USB-A 與 USB-C 各備一條）",
+          "done": false
+        },
+        {
+          "id": "ok_pi_14",
+          "text": "行動電源（放隨身包，不可託運）、日本 eSIM",
+          "done": false
+        },
+        {
+          "id": "ok_pi_15",
+          "text": "暈船藥（Day 8 渡嘉敷島高速船前 30 分吃）、腸胃止痛常備藥",
+          "done": false
+        }
+      ]
+    }
+  ],
+  "expenses": [
+    {
+      "id": "ok_ex_1",
+      "date": "2027-04-02",
+      "item": "沖繩雙人來回機票（清明連假預估）",
+      "merchant": "航空公司",
+      "amount": 28000,
+      "currency": "TWD",
+      "twd": 0,
+      "estimateTwd": 28000,
+      "status": "expected",
+      "paidBy": "m_ryan",
+      "splitWith": [
+        "m_ryan",
+        "m_gf"
+      ],
+      "category": "交通",
+      "note": "一人約 NT$14,000 抓預算"
+    },
+    {
+      "id": "ok_ex_2",
+      "date": "2027-04-02",
+      "item": "那霸＋北谷＋北部飯店（共 7 晚雙人房）",
+      "merchant": "訂房網/官網",
+      "amount": 145000,
+      "currency": "JPY",
+      "twd": 0,
+      "estimateTwd": 31175,
+      "status": "expected",
+      "paidBy": "m_ryan",
+      "splitWith": [
+        "m_ryan",
+        "m_gf"
+      ],
+      "category": "住宿",
+      "note": "平均約 ¥20,700/晚"
+    },
+    {
+      "id": "ok_ex_3",
+      "date": "2027-04-05",
+      "item": "恩納村海景渡假村（1 晚圓夢房型）",
+      "merchant": "恩納渡假村",
+      "amount": 55000,
+      "currency": "JPY",
+      "twd": 0,
+      "estimateTwd": 11825,
+      "status": "expected",
+      "paidBy": "m_ryan",
+      "splitWith": [
+        "m_ryan",
+        "m_gf"
+      ],
+      "category": "住宿",
+      "note": "含海景早餐與私人沙灘"
+    },
+    {
+      "id": "ok_ex_4",
+      "date": "2027-04-03",
+      "item": "自駕租車 6 天（含 NOC 全險＋油資＋高速過路費）",
+      "merchant": "OTS / ORIX",
+      "amount": 52000,
+      "currency": "JPY",
+      "twd": 0,
+      "estimateTwd": 11180,
+      "status": "expected",
+      "paidBy": "m_ryan",
+      "splitWith": [
+        "m_ryan",
+        "m_gf"
+      ],
+      "category": "交通",
+      "note": "租車約 ¥42,000＋油資過路費 ¥10,000"
+    },
+    {
+      "id": "ok_ex_5",
+      "date": "2027-04-08",
+      "item": "JUNGLIA 沖繩叢林樂園＋SPA 雙人套票＋停車",
+      "merchant": "JUNGLIA 官網",
+      "amount": 22000,
+      "currency": "JPY",
+      "twd": 0,
+      "estimateTwd": 4730,
+      "status": "expected",
+      "paidBy": "m_gf",
+      "splitWith": [
+        "m_ryan",
+        "m_gf"
+      ],
+      "category": "門票體驗",
+      "note": "雙人 1 日票＋森林溫泉"
+    },
+    {
+      "id": "ok_ex_6",
+      "date": "2027-04-05",
+      "item": "青之洞窟雙人浮潛＋美麗海水族館＋玉泉洞＋首里城門票",
+      "merchant": "各景點",
+      "amount": 24000,
+      "currency": "JPY",
+      "twd": 0,
+      "estimateTwd": 5160,
+      "status": "expected",
+      "paidBy": "m_gf",
+      "splitWith": [
+        "m_ryan",
+        "m_gf"
+      ],
+      "category": "門票體驗",
+      "note": "含雙人浮潛約 ¥12,000"
+    },
+    {
+      "id": "ok_ex_7",
+      "date": "2027-04-09",
+      "item": "渡嘉敷島高速船雙人來回票",
+      "merchant": "渡嘉敷村官網",
+      "amount": 9820,
+      "currency": "JPY",
+      "twd": 0,
+      "estimateTwd": 2110,
+      "status": "expected",
+      "paidBy": "m_gf",
+      "splitWith": [
+        "m_ryan",
+        "m_gf"
+      ],
+      "category": "交通",
+      "note": "Marine Liner 來回"
+    },
+    {
+      "id": "ok_ex_8",
+      "date": "2027-04-05",
+      "item": "9 天餐飲美食預算（含琉球之牛、百年古家大家、蝦蝦飯、咖啡甜點）",
+      "merchant": "當地餐廳",
+      "amount": 110000,
+      "currency": "JPY",
+      "twd": 0,
+      "estimateTwd": 23650,
+      "status": "expected",
+      "paidBy": "m_ryan",
+      "splitWith": [
+        "m_ryan",
+        "m_gf"
+      ],
+      "category": "餐飲",
+      "note": "雙人 9 天寬裕美食預算"
+    }
+  ],
+  "journal": [],
+  "memories": {
+    "highlights": [],
+    "wouldReturn": null,
+    "overallRating": null,
+    "postTripNote": ""
+  },
+  "notes": "🌺 2027/4/2–4/10 沖繩情侶自駕 9天8夜 隨身小抄\n\n【4月初氣候與海況】\n• 氣溫約 20°C–24°C，白天短袖舒服、早晚海風涼需薄外套。\n• 3月底～4月初正是沖繩「海開き（開海季）」，水溫約 22–23°C，青之洞窟穿店家防寒衣即可舒服下水。\n• 留意 2027「琉球海炎祭（日本最早萬發花火大會）」公告日期，常落在 4 月中旬週六！\n\n【MapCode 快速備忘】\n• 瀨長島：33 002 602*06\n• 玉泉洞：232 495 330*28\n• 知念岬：232 594 503*22\n• 浜邊茶屋：232 469 491*03\n• 首里城：33 161 526*66\n• 港川外人住宅：33 341 002*55\n• 美國村：33 526 450*63\n• 真榮田岬（青之洞窟）：206 062 685*85\n• 星野 Banta Cafe / 殘波岬：1005 685 296*33\n• 萬座毛：206 312 039*17\n• 許田休息站：206 476 708*28\n• 古宇利蝦蝦飯：485 692 168*22 / 心形岩：485 751 179*50\n• 美麗海水族館（P7停車場）：553 075 797*74\n• 今歸仁城跡：553 081 587*71\n• 百年古家 大家：206 745 056*82\n• JUNGLIA 沖繩叢林樂園：485 572 190*00\n• 永旺夢樂城來客夢：33 530 406*45",
+  "archived": false,
+  "createdAt": "2026-11-24T23:30:00+08:00",
+  "updatedAt": "2026-11-24T23:30:00+08:00",
+  "userEdited": false
+}
